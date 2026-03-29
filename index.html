@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northstar Atelier</title>
+  <meta
+    name="description"
+    content="Northstar Atelier is a fashion storefront with a fast search engine and an upgrade path toward AI-powered product discovery."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand-lockup">
+          <span class="brand-mark">N</span>
+          <div>
+            <p class="eyebrow">Modern Clothing Search</p>
+            <h1>Northstar Atelier</h1>
+          </div>
+        </div>
+        <div class="topbar-links">
+          <a href="#catalog">Shop</a>
+          <a href="#search-lab">Search Lab</a>
+          <a href="#roadmap">Roadmap</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Studio Drop 03</p>
+          <h2>Clothes built for movement, styled for discovery.</h2>
+          <p class="hero-text">
+            Browse a curated fashion catalog with a flexible search engine today,
+            then evolve it into semantic, AI-powered search backed by HPC workflows later.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalog">Explore Collection</a>
+            <a class="button secondary" href="#search-lab">See Search Vision</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <strong id="heroSkuCount">0</strong>
+              <span>Searchable SKUs</span>
+            </div>
+            <div>
+              <strong id="heroCategoryCount">0</strong>
+              <span>Catalog categories</span>
+            </div>
+            <div>
+              <strong>AI-ready</strong>
+              <span>Metadata model</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-kicker">Featured Capsule</p>
+          <h3>Urban Layering System</h3>
+          <p>
+            Lightweight tailoring, textured knitwear, and weather-ready outerwear
+            arranged around discoverable product attributes.
+          </p>
+          <ul class="panel-list">
+            <li>Natural language friendly tags</li>
+            <li>Facet filters for instant narrowing</li>
+            <li>Embeddings-ready schema for future retrieval</li>
+          </ul>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="story-strip" aria-label="Store highlights">
+        <article>
+          <p class="eyebrow">Women</p>
+          <h3>Sharp silhouettes</h3>
+          <p>Structured coats, fluid trousers, and breathable essentials.</p>
+        </article>
+        <article>
+          <p class="eyebrow">Men</p>
+          <h3>Utility refined</h3>
+          <p>Layer-ready staples in technical textures and earthy palettes.</p>
+        </article>
+        <article>
+          <p class="eyebrow">Accessories</p>
+          <h3>Complete the look</h3>
+          <p>Bags, caps, scarves, and detail pieces with searchable style intent.</p>
+        </article>
+      </section>
+
+      <section class="catalog-section" id="catalog">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Live Search Catalog</p>
+            <h2>Find by style, fabric, mood, or function.</h2>
+          </div>
+          <p class="section-copy">
+            The current engine now handles both demo products and imported database records,
+            ranking across names, translated text, categories, materials, functional attributes, and tags.
+          </p>
+        </div>
+
+        <div class="search-panel">
+          <label class="search-input">
+            <span class="visually-hidden">Search products</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Search for rain jacket, commuting, waterproof, oversized anorak..."
+              autocomplete="off"
+            >
+          </label>
+
+          <div class="controls-row">
+            <div class="filter-group" id="categoryFilters" aria-label="Category filters"></div>
+            <label class="sort-select">
+              <span>Sort</span>
+              <select id="sortSelect">
+                <option value="relevance">Best match</option>
+                <option value="price-low">Price: low to high</option>
+                <option value="price-high">Price: high to low</option>
+                <option value="newest">Newest drop</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="search-meta">
+            <p id="resultsCount">Loading products...</p>
+            <button id="clearFilters" class="text-button" type="button">Clear search</button>
+          </div>
+        </div>
+
+        <div class="active-query" id="activeQuery" hidden></div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="search-lab" id="search-lab">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">Search Lab</p>
+            <h2>Built now for an HPC-powered AI upgrade later.</h2>
+          </div>
+        </div>
+
+        <div class="lab-grid">
+          <article class="lab-card">
+            <h3>Today</h3>
+            <p>
+              Client-side ranking scores products by multiple attributes including title,
+              category, color, materials, and rich style tags.
+            </p>
+          </article>
+          <article class="lab-card accent">
+            <h3>Next</h3>
+            <p>
+              Add vector embeddings for each product and query so users can search concepts like
+              "soft winter commute look" or "elevated monochrome outfit."
+            </p>
+          </article>
+          <article class="lab-card">
+            <h3>Later with HPC</h3>
+            <p>
+              Use HPC infrastructure for large-scale embedding generation, re-ranking models,
+              personalization, and fast retrieval across growing catalogs.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="roadmap-section" id="roadmap">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">Implementation Roadmap</p>
+            <h2>How this front end can grow into AI search.</h2>
+          </div>
+        </div>
+
+        <div class="roadmap">
+          <article>
+            <span>01</span>
+            <h3>Structured Product Data</h3>
+            <p>Keep consistent metadata for fit, season, material, occasion, and descriptive tags.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Search API Layer</h3>
+            <p>Move the ranking logic into an API so the front end can swap search backends without redesign.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Semantic Retrieval</h3>
+            <p>Generate embeddings, query vectors, and blend semantic results with keyword ranking.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>HPC Acceleration</h3>
+            <p>Batch-index large catalogs, retrain ranking models, and support near-real-time recommendation updates.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <template id="productCardTemplate">
+    <article class="product-card">
+      <div class="product-art">
+        <div class="product-gradient"></div>
+        <img class="product-image" alt="" hidden>
+        <p class="product-category"></p>
+      </div>
+      <div class="product-body">
+        <div class="product-header">
+          <div>
+            <h3 class="product-name"></h3>
+            <p class="product-subtitle"></p>
+          </div>
+          <p class="product-price"></p>
+        </div>
+        <div class="product-labels">
+          <span class="product-badge"></span>
+          <span class="product-source"></span>
+        </div>
+        <p class="product-description"></p>
+        <div class="product-meta"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
