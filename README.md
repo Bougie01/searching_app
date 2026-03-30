@@ -1,29 +1,38 @@
-# Northstar Atelier
+# 66 Northur Categorization Lab
 
-A stylish clothing store landing page with a built-in client-side search engine and a clear upgrade path toward AI-powered discovery.
+A category suggestion dashboard for reviewing product categorization, similarity, and data quality signals across a real product catalog.
 
 ## What is included
 
-- Responsive storefront UI for fashion products
-- Search across product name, subtitle, category, description, colors, materials, and tags
-- Category filters and sort controls
-- Product metadata shaped for future semantic search and HPC-backed ranking
+- Category review dashboard driven by imported product records
+- Suggested category signals based on product text and structured attributes
+- Flags for likely mismatches, generic categories, and incomplete records
+- Similar-product suggestions to support human review
+- Local API endpoint at `/api/category-suggestions`
+- Python pipeline scaffolding in [pipeline/README.md](./pipeline/README.md)
 
 ## Run locally
 
-This project now loads product data from `data/catalog.json`, so it should be run from a local web server.
-
-One simple option is:
+Start the local server:
 
 ```powershell
-python -m http.server 8000
+node server.js
 ```
 
 Then visit `http://localhost:8000`.
 
-## Suggested next step for AI + HPC
+## Project direction
 
-1. Move product data into a backend or database.
-2. Expose search through an API instead of only in the browser.
-3. Generate embeddings for products and user queries.
-4. Use HPC resources for batch embedding generation, model training, and re-ranking at scale.
+This repository now targets the "Product category suggestions" project:
+
+1. Clean product titles, descriptions, and structured attributes
+2. Suggest categories automatically
+3. Flag unusual or misclassified products
+4. Prepare for HPC-scale embedding, clustering, and classification runs
+
+## Next implementation steps
+
+1. Run the Sprint 2 pipeline in [pipeline/README.md](./pipeline/README.md)
+2. Replace hashed fallback embeddings with a real open-source embedding model
+3. Train category suggestion models using text plus structured fields
+4. Benchmark clustering, nearest-neighbor retrieval, and anomaly detection at scale

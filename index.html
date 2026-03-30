@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Northstar Atelier</title>
+  <title>66 Northur Categorization Lab</title>
   <meta
     name="description"
-    content="Northstar Atelier is a fashion storefront with a fast search engine and an upgrade path toward AI-powered product discovery."
+    content="66 Northur category suggestion dashboard for reviewing product categorization, similarity, and data quality signals."
   >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,156 +21,154 @@
     <header class="hero">
       <nav class="topbar">
         <div class="brand-lockup">
-          <span class="brand-mark">N</span>
+          <span class="brand-mark">66</span>
           <div>
-            <p class="eyebrow">Modern Clothing Search</p>
-            <h1>Northstar Atelier</h1>
+            <p class="eyebrow">Synia HPC AI Project 03</p>
+            <h1>Product Category Suggestions</h1>
           </div>
         </div>
         <div class="topbar-links">
-          <a href="#catalog">Shop</a>
-          <a href="#search-lab">Search Lab</a>
-          <a href="#roadmap">Roadmap</a>
+          <a href="#review">Review</a>
+          <a href="#pipeline">Pipeline</a>
+          <a href="#roadmap">Sprints</a>
         </div>
       </nav>
 
       <section class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Studio Drop 03</p>
-          <h2>Clothes built for movement, styled for discovery.</h2>
+          <p class="eyebrow">Category Review Dashboard</p>
+          <h2>Suggest categories, surface anomalies, and group similar products.</h2>
           <p class="hero-text">
-            Browse a curated fashion catalog with a flexible search engine today,
-            then evolve it into semantic, AI-powered search backed by HPC workflows later.
+            This project now focuses on AI-assisted categorization: combining structured product attributes
+            with descriptive text to suggest cleaner categories, flag suspicious records, and prepare for
+            HPC-scale embedding and clustering workflows.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#catalog">Explore Collection</a>
-            <a class="button secondary" href="#search-lab">See Search Vision</a>
+            <a class="button primary" href="#review">Open Review Queue</a>
+            <a class="button secondary" href="#pipeline">See Pipeline Design</a>
           </div>
           <div class="hero-metrics">
             <div>
               <strong id="heroSkuCount">0</strong>
-              <span>Searchable SKUs</span>
+              <span>Products analyzed</span>
             </div>
             <div>
               <strong id="heroCategoryCount">0</strong>
-              <span>Catalog categories</span>
+              <span>Observed categories</span>
             </div>
             <div>
-              <strong>AI-ready</strong>
-              <span>Metadata model</span>
+              <strong id="mismatchCount">0</strong>
+              <span>Likely mismatches</span>
+            </div>
+            <div>
+              <strong id="flaggedCount">0</strong>
+              <span>Flagged records</span>
             </div>
           </div>
         </div>
 
         <aside class="hero-panel">
-          <p class="panel-kicker">Featured Capsule</p>
-          <h3>Urban Layering System</h3>
-          <p>
-            Lightweight tailoring, textured knitwear, and weather-ready outerwear
-            arranged around discoverable product attributes.
-          </p>
+          <p class="panel-kicker">Project Brief</p>
+          <h3>Products with structured and unstructured data</h3>
           <ul class="panel-list">
-            <li>Natural language friendly tags</li>
-            <li>Facet filters for instant narrowing</li>
-            <li>Embeddings-ready schema for future retrieval</li>
+            <li>Combine descriptions with structured attributes</li>
+            <li>Suggest cleaner product categories automatically</li>
+            <li>Find unusual or misclassified records</li>
+            <li>Prepare for HPC-scale embedding and clustering runs</li>
           </ul>
         </aside>
       </section>
     </header>
 
     <main>
-      <section class="story-strip" aria-label="Store highlights">
+      <section class="story-strip" aria-label="Project pillars">
         <article>
-          <p class="eyebrow">Women</p>
-          <h3>Sharp silhouettes</h3>
-          <p>Structured coats, fluid trousers, and breathable essentials.</p>
+          <p class="eyebrow">Text</p>
+          <h3>Descriptions and titles</h3>
+          <p>Clean and normalize product language for embedding, retrieval, and classification.</p>
         </article>
         <article>
-          <p class="eyebrow">Men</p>
-          <h3>Utility refined</h3>
-          <p>Layer-ready staples in technical textures and earthy palettes.</p>
+          <p class="eyebrow">Structure</p>
+          <h3>Attributes and specs</h3>
+          <p>Use categories, fit, materials, and product metadata to strengthen suggestions.</p>
         </article>
         <article>
-          <p class="eyebrow">Accessories</p>
-          <h3>Complete the look</h3>
-          <p>Bags, caps, scarves, and detail pieces with searchable style intent.</p>
+          <p class="eyebrow">Review</p>
+          <h3>Human-in-the-loop</h3>
+          <p>Surface mismatches, confidence, and similar products for fast editorial validation.</p>
         </article>
       </section>
 
-      <section class="catalog-section" id="catalog">
+      <section class="catalog-section" id="review">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Live Search Catalog</p>
-            <h2>Find by style, fabric, mood, or function.</h2>
+            <p class="eyebrow">Review Queue</p>
+            <h2>Current category versus suggested category.</h2>
           </div>
           <p class="section-copy">
-            The current engine now handles both demo products and imported database records,
-            ranking across names, translated text, categories, materials, functional attributes, and tags.
+            The dashboard highlights high-confidence recategorizations, generic categories like "Catalog",
+            missing media/composition, and nearby similar products that can help explain each suggestion.
           </p>
         </div>
 
         <div class="search-panel">
-          <label class="search-input">
-            <span class="visually-hidden">Search products</span>
-            <input
-              id="searchInput"
-              type="search"
-              placeholder="Search for rain jacket, commuting, waterproof, oversized anorak..."
-              autocomplete="off"
-            >
-          </label>
-
-          <div class="controls-row">
-            <div class="filter-group" id="categoryFilters" aria-label="Category filters"></div>
-            <label class="sort-select">
-              <span>Sort</span>
-              <select id="sortSelect">
-                <option value="relevance">Best match</option>
-                <option value="price-low">Price: low to high</option>
-                <option value="price-high">Price: high to low</option>
-                <option value="newest">Newest drop</option>
-              </select>
+          <form id="searchForm" class="search-form">
+            <label class="search-input">
+              <span class="visually-hidden">Search products in review</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Search by product name, category, tag, or anomaly..."
+                autocomplete="off"
+              >
             </label>
-          </div>
+            <button class="search-submit" type="submit">Filter</button>
+          </form>
+
+          <div class="review-toolbar" id="reviewFilters" aria-label="Review filters"></div>
+          <div class="filter-group" id="categoryFilters" aria-label="Category filters"></div>
 
           <div class="search-meta">
-            <p id="resultsCount">Loading products...</p>
-            <button id="clearFilters" class="text-button" type="button">Clear search</button>
+            <p id="resultsCount">Loading category review...</p>
+            <button id="clearFilters" class="text-button" type="button">Clear filters</button>
           </div>
         </div>
 
         <div class="active-query" id="activeQuery" hidden></div>
-        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="review-grid" id="reviewGrid" aria-live="polite"></div>
+        <div class="load-more-wrap">
+          <button id="loadMoreButton" class="load-more-button" type="button" hidden>Load 10 more</button>
+        </div>
       </section>
 
-      <section class="search-lab" id="search-lab">
+      <section class="search-lab" id="pipeline">
         <div class="section-heading compact">
           <div>
-            <p class="eyebrow">Search Lab</p>
-            <h2>Built now for an HPC-powered AI upgrade later.</h2>
+            <p class="eyebrow">Pipeline Design</p>
+            <h2>From cleaned records to category suggestions.</h2>
           </div>
         </div>
 
         <div class="lab-grid">
           <article class="lab-card">
-            <h3>Today</h3>
+            <h3>Structured schema</h3>
             <p>
-              Client-side ranking scores products by multiple attributes including title,
-              category, color, materials, and rich style tags.
+              Extract titles, descriptions, categories, materials, and product traits into a consistent
+              feature layer that can be reused across review, clustering, and supervised models.
             </p>
           </article>
           <article class="lab-card accent">
-            <h3>Next</h3>
+            <h3>Embeddings + attributes</h3>
             <p>
-              Add vector embeddings for each product and query so users can search concepts like
-              "soft winter commute look" or "elevated monochrome outfit."
+              Blend text embeddings with structured fields such as category, fit, and key specs to
+              outperform text-only grouping on noisy catalog data.
             </p>
           </article>
           <article class="lab-card">
-            <h3>Later with HPC</h3>
+            <h3>Outliers and quality</h3>
             <p>
-              Use HPC infrastructure for large-scale embedding generation, re-ranking models,
-              personalization, and fast retrieval across growing catalogs.
+              Detect suspicious or emerging product types by comparing predicted categories, nearest
+              neighbors, and generic or incomplete metadata.
             </p>
           </article>
         </div>
@@ -179,62 +177,83 @@
       <section class="roadmap-section" id="roadmap">
         <div class="section-heading compact">
           <div>
-            <p class="eyebrow">Implementation Roadmap</p>
-            <h2>How this front end can grow into AI search.</h2>
+            <p class="eyebrow">Sprint Outline</p>
+            <h2>Implementation path for the categorization project.</h2>
           </div>
         </div>
 
         <div class="roadmap">
           <article>
             <span>01</span>
-            <h3>Structured Product Data</h3>
-            <p>Keep consistent metadata for fit, season, material, occasion, and descriptive tags.</p>
+            <h3>Data & Foundations</h3>
+            <p>Define schema, clean text fields, standardize attributes, and prepare batch processing inputs.</p>
           </article>
           <article>
             <span>02</span>
-            <h3>Search API Layer</h3>
-            <p>Move the ranking logic into an API so the front end can swap search backends without redesign.</p>
+            <h3>Embeddings & Baselines</h3>
+            <p>Generate text embeddings and establish nearest-neighbor and clustering baselines.</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Semantic Retrieval</h3>
-            <p>Generate embeddings, query vectors, and blend semantic results with keyword ranking.</p>
+            <h3>Attribute-aware Grouping</h3>
+            <p>Combine structured features with text signals and measure improvements over text-only grouping.</p>
           </article>
           <article>
             <span>04</span>
-            <h3>HPC Acceleration</h3>
-            <p>Batch-index large catalogs, retrain ranking models, and support near-real-time recommendation updates.</p>
+            <h3>Classification & Quality</h3>
+            <p>Predict categories, flag anomalies, benchmark at scale, and prepare HPC-ready artifacts.</p>
           </article>
         </div>
       </section>
     </main>
   </div>
 
-  <template id="productCardTemplate">
-    <article class="product-card">
-      <div class="product-art">
-        <div class="product-gradient"></div>
-        <img class="product-image" alt="" hidden>
-        <p class="product-category"></p>
+  <template id="reviewCardTemplate">
+    <article class="review-card">
+      <div class="review-art">
+        <img class="review-image" alt="" hidden>
       </div>
-      <div class="product-body">
-        <div class="product-header">
+      <div class="review-body">
+        <div class="review-header">
           <div>
-            <h3 class="product-name"></h3>
-            <p class="product-subtitle"></p>
+            <h3 class="review-name"></h3>
+            <p class="review-source"></p>
           </div>
-          <p class="product-price"></p>
+          <p class="confidence-score"></p>
         </div>
-        <div class="product-labels">
-          <span class="product-badge"></span>
-          <span class="product-source"></span>
+        <div class="category-comparison">
+          <div>
+            <span class="comparison-label">Current</span>
+            <strong class="current-category"></strong>
+          </div>
+          <div>
+            <span class="comparison-label">Suggested</span>
+            <strong class="suggested-category"></strong>
+          </div>
         </div>
-        <p class="product-description"></p>
-        <div class="product-meta"></div>
+        <p class="review-description"></p>
+        <button class="translation-toggle" type="button">Show EN + IS</button>
+        <div class="translation-panel" hidden>
+          <div class="translation-block">
+            <span class="comparison-label">English</span>
+            <strong class="translation-name-en"></strong>
+            <p class="translation-subtitle-en"></p>
+            <p class="translation-description-en"></p>
+          </div>
+          <div class="translation-block">
+            <span class="comparison-label">Icelandic</span>
+            <strong class="translation-name-is"></strong>
+            <p class="translation-subtitle-is"></p>
+            <p class="translation-description-is"></p>
+          </div>
+        </div>
+        <div class="review-flags"></div>
+        <div class="review-tags"></div>
+        <div class="review-similar"></div>
       </div>
     </article>
   </template>
 
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

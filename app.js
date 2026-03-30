@@ -1,377 +1,235 @@
 const state = {
-  query: "",
+  records: [],
+  categories: ["All"],
+  filter: "all",
   category: "All",
-  sort: "relevance",
-  products: [],
-  categories: ["All"]
+  query: "",
+  visibleCount: 10
 };
 
-const productGrid = document.getElementById("productGrid");
-const productTemplate = document.getElementById("productCardTemplate");
+const heroSkuCount = document.getElementById("heroSkuCount");
+const heroCategoryCount = document.getElementById("heroCategoryCount");
+const mismatchCount = document.getElementById("mismatchCount");
+const flaggedCount = document.getElementById("flaggedCount");
+const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 const categoryFilters = document.getElementById("categoryFilters");
-const sortSelect = document.getElementById("sortSelect");
+const reviewFilters = document.getElementById("reviewFilters");
 const resultsCount = document.getElementById("resultsCount");
 const activeQuery = document.getElementById("activeQuery");
 const clearFilters = document.getElementById("clearFilters");
-const heroSkuCount = document.getElementById("heroSkuCount");
-const heroCategoryCount = document.getElementById("heroCategoryCount");
+const reviewGrid = document.getElementById("reviewGrid");
+const reviewTemplate = document.getElementById("reviewCardTemplate");
+const loadMoreButton = document.getElementById("loadMoreButton");
 
-function titleCase(value) {
-  return String(value || "")
-    .replace(/[-_]/g, " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase())
-    .trim();
+function buildChip(label, className = "tag") {
+  const chip = document.createElement("span");
+  chip.className = className;
+  chip.textContent = label;
+  return chip;
 }
 
-function getAttribute(record, code) {
-  return record.attributes?.find((attribute) => attribute.attributeCode === code);
+function buildButton(label, active, onClick) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = `filter-chip${active ? " active" : ""}`;
+  button.textContent = label;
+  button.addEventListener("click", onClick);
+  return button;
 }
 
-function getAttributeText(record, code) {
-  const attribute = getAttribute(record, code);
-  if (!attribute) {
-    return "";
-  }
-
-  if (attribute.valueTranslations?.["en-US"]) {
-    return attribute.valueTranslations["en-US"];
-  }
-
-  if (attribute.value && typeof attribute.value.text === "string") {
-    return attribute.value.text;
-  }
-
-  return "";
-}
-
-function getAttributeList(record, code) {
-  const attribute = getAttribute(record, code);
-  if (!attribute || !Array.isArray(attribute.values)) {
-    return [];
-  }
-
-  return attribute.values
-    .map((item) => item.displayTranslations?.["en-US"] || item.displayValue || item.code)
-    .filter(Boolean);
-}
-
-function normalizeCategory(rawCategory) {
-  if (!rawCategory) {
-    return "Catalog";
-  }
-
-  const parts = rawCategory.split("-");
-  return titleCase(parts[parts.length - 1]);
-}
-
-function pickHeroImage(record) {
-  const primaryImage = record.images?.find((item) => item.isPrimary)?.image?.fileUrl;
-  const firstImage = record.images?.[0]?.image?.fileUrl;
-  const importedImage = getAttributeList(record, "imageUrl")[0];
-  return primaryImage || firstImage || importedImage || "";
-}
-
-function normalizeDatabaseProduct(record) {
-  const marketingName = getAttributeText(record, "MarketingName");
-  const marketingShort = getAttributeText(record, "MarketingShort") || getAttributeText(record, "Marketing_short_EN");
-  const marketingLong = getAttributeText(record, "MarketingLong") || getAttributeText(record, "Marketing_long_EN");
-  const listingDescription = getAttributeText(record, "ListingDescription");
-  const productDescription = getAttributeText(record, "ProductDescription");
-  const designNotes = getAttributeText(record, "DesignNotes");
-  const summaryComposition = getAttributeText(record, "SummaryComposition");
-  const shortComposition = getAttributeText(record, "ShortComposition");
-  const fullComposition = getAttributeText(record, "Composition");
-  const sizeFit = getAttributeText(record, "SizeFit");
-  const productType = getAttributeText(record, "ProductType");
-
-  const categoryValues = getAttributeList(record, "Categories");
-  const normalizedCategories = [...new Set(categoryValues.map(normalizeCategory).filter(Boolean))];
-  const styleValues = getAttributeList(record, "Style");
-  const fitValues = getAttributeList(record, "Fit");
-  const functionalityValues = getAttributeList(record, "Functionality");
-  const garmentTypeValues = getAttributeList(record, "GarmentType");
-  const garmentSubtypeValues = getAttributeList(record, "GarmentSubtype");
-  const suitableForValues = getAttributeList(record, "SuitableFor");
-  const lengthValues = getAttributeList(record, "Length");
-  const fabricConstructionValues = getAttributeList(record, "FabricConstruction");
-  const complianceValues = getAttributeList(record, "Compliance");
-
-  const materials = [summaryComposition, shortComposition, fullComposition].filter(Boolean);
-  const tags = [
-    ...styleValues,
-    ...fitValues,
-    ...functionalityValues,
-    ...garmentTypeValues,
-    ...garmentSubtypeValues,
-    ...suitableForValues,
-    ...lengthValues,
-    ...fabricConstructionValues,
-    ...complianceValues
-  ].filter(Boolean);
-
-  const description = productDescription || marketingLong || designNotes || marketingShort || listingDescription || record.product?.productName || "Imported product";
-  const subtitle = marketingShort || listingDescription || productType || "Imported from product database";
-  const category = normalizedCategories[0] || styleValues[0] || titleCase(productType) || "Catalog";
-
-  const searchFields = [
-    record.id,
-    record.product?.productName,
-    record.product?.canonicalName,
-    record.product?.mainGroup,
-    record.product?.externalProductId,
-    record.product?.sourceSystem,
-    marketingName,
-    marketingShort,
-    marketingLong,
-    listingDescription,
-    productDescription,
-    designNotes,
-    summaryComposition,
-    shortComposition,
-    fullComposition,
-    sizeFit,
-    productType,
-    ...normalizedCategories,
-    ...styleValues,
-    ...fitValues,
-    ...functionalityValues,
-    ...garmentTypeValues,
-    ...garmentSubtypeValues,
-    ...suitableForValues,
-    ...lengthValues,
-    ...fabricConstructionValues,
-    ...complianceValues
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-
-  return {
-    id: record.id,
-    name: marketingName || titleCase(record.product?.productName),
-    subtitle,
-    category,
-    categories: normalizedCategories.length > 0 ? normalizedCategories : [category],
-    price: null,
-    materials: materials.length > 0 ? materials : ["Composition pending"],
-    tags: [...new Set(tags)].slice(0, 8),
-    description: description.replace(/\s+/g, " ").trim(),
-    imageUrl: pickHeroImage(record),
-    gradient: "linear-gradient(135deg, #95aab4, #204658)",
-    badge: record.product?.status || "Imported",
-    source: `${record.product?.sourceSystem || "DB"} ${record.product?.externalProductId || ""}`.trim(),
-    dropDate: String(record.product?.updatedAt || record.product?.createdAt || "2026-01-01").slice(0, 10),
-    searchText
-  };
-}
-
-function formatPrice(price) {
-  if (typeof price !== "number") {
-    return "Price pending";
-  }
-
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-    maximumFractionDigits: 0
-  }).format(price);
-}
-
-function tokenize(text) {
-  return text
-    .toLowerCase()
-    .split(/[\s,]+/)
-    .map((token) => token.trim())
-    .filter(Boolean);
-}
-
-function scoreProduct(product, queryTokens) {
-  if (queryTokens.length === 0) {
-    return 1;
-  }
-
-  return queryTokens.reduce((score, token) => {
-    let tokenScore = 0;
-
-    if (product.name.toLowerCase().includes(token)) {
-      tokenScore += 8;
-    }
-
-    if (product.subtitle.toLowerCase().includes(token)) {
-      tokenScore += 5;
-    }
-
-    if (product.category.toLowerCase().includes(token)) {
-      tokenScore += 6;
-    }
-
-    if (product.searchText.includes(token)) {
-      tokenScore += 4;
-    }
-
-    if (product.name.toLowerCase().startsWith(token)) {
-      tokenScore += 2;
-    }
-
-    return score + tokenScore;
-  }, 0);
-}
-
-function buildTag(label) {
-  const tag = document.createElement("span");
-  tag.className = "tag";
-  tag.textContent = label;
-  return tag;
-}
-
-function buildImage(product, container) {
-  const image = container.querySelector(".product-image");
-
-  if (product.imageUrl) {
-    image.src = product.imageUrl;
-    image.alt = product.name;
-    image.hidden = false;
-  } else {
-    image.removeAttribute("src");
-    image.alt = "";
-    image.hidden = true;
-  }
-}
-
-function renderHeroMetrics() {
-  heroSkuCount.textContent = String(state.products.length);
+function updateSummary(summary) {
+  heroSkuCount.textContent = String(summary.productCount);
   heroCategoryCount.textContent = String(Math.max(state.categories.length - 1, 0));
+  mismatchCount.textContent = String(summary.mismatchCount);
+  flaggedCount.textContent = String(summary.flaggedCount);
 }
 
 function renderCategoryFilters() {
   categoryFilters.innerHTML = "";
 
   state.categories.forEach((category) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = `filter-chip${state.category === category ? " active" : ""}`;
-    button.textContent = category;
-    button.addEventListener("click", () => {
-      state.category = category;
-      renderCategoryFilters();
-      renderProducts();
-    });
-    categoryFilters.appendChild(button);
+    categoryFilters.appendChild(
+      buildButton(category, state.category === category, () => {
+        state.category = category;
+        state.visibleCount = 10;
+        renderCategoryFilters();
+        renderReviewCards();
+      })
+    );
   });
 }
 
-function renderProducts() {
-  const queryTokens = tokenize(state.query);
+function renderReviewFilters() {
+  const filterOptions = [
+    { id: "all", label: "All products" },
+    { id: "mismatches", label: "Likely mismatches" },
+    { id: "flagged", label: "Flagged records" },
+    { id: "high-confidence", label: "High confidence" }
+  ];
 
-  let visibleProducts = state.products
-    .map((product) => ({
-      ...product,
-      relevance: scoreProduct(product, queryTokens)
-    }))
-    .filter((product) => {
-      const matchesCategory = state.category === "All" || product.categories.includes(state.category);
-      const matchesQuery = queryTokens.length === 0 || product.relevance > 0;
-      return matchesCategory && matchesQuery;
-    });
-
-  visibleProducts.sort((a, b) => {
-    if (state.sort === "price-low") {
-      return (a.price ?? Number.POSITIVE_INFINITY) - (b.price ?? Number.POSITIVE_INFINITY);
-    }
-
-    if (state.sort === "price-high") {
-      return (b.price ?? Number.NEGATIVE_INFINITY) - (a.price ?? Number.NEGATIVE_INFINITY);
-    }
-
-    if (state.sort === "newest") {
-      return new Date(b.dropDate) - new Date(a.dropDate);
-    }
-
-    return b.relevance - a.relevance || new Date(b.dropDate) - new Date(a.dropDate);
+  reviewFilters.innerHTML = "";
+  filterOptions.forEach((option) => {
+    reviewFilters.appendChild(
+      buildButton(option.label, state.filter === option.id, () => {
+        state.filter = option.id;
+        state.visibleCount = 10;
+        renderReviewFilters();
+        renderReviewCards();
+      })
+    );
   });
+}
 
-  productGrid.innerHTML = "";
+function matchesFilters(record) {
+  const matchesCategory = state.category === "All" || record.allCategories.includes(state.category) || record.currentCategory === state.category || record.suggestedCategory === state.category;
+  const translationSearchText = [
+    record.translations?.en?.name,
+    record.translations?.en?.subtitle,
+    record.translations?.en?.description,
+    record.translations?.is?.name,
+    record.translations?.is?.subtitle,
+    record.translations?.is?.description
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const matchesQuery =
+    !state.query ||
+    `${record.name} ${record.description} ${record.currentCategory} ${record.suggestedCategory} ${record.tags.join(" ")} ${record.flags.join(" ")} ${translationSearchText}`
+      .toLowerCase()
+      .includes(state.query);
 
-  if (visibleProducts.length === 0) {
-    productGrid.innerHTML = `
-      <article class="product-card">
-        <div class="product-body">
-          <h3 class="product-name">No matches yet</h3>
-          <p class="product-description">
-            Try a broader phrase like "rain jacket", "commuting", "wool", or "waterproof".
-          </p>
+  let matchesReviewFilter = true;
+  if (state.filter === "mismatches") {
+    matchesReviewFilter = record.currentCategory !== record.suggestedCategory && record.confidence >= 0.68;
+  } else if (state.filter === "flagged") {
+    matchesReviewFilter = record.flags.length > 0;
+  } else if (state.filter === "high-confidence") {
+    matchesReviewFilter = record.confidence >= 0.8;
+  }
+
+  return matchesCategory && matchesQuery && matchesReviewFilter;
+}
+
+function renderReviewCards() {
+  const filteredRecords = state.records.filter(matchesFilters);
+  const visibleRecords = filteredRecords.slice(0, state.visibleCount);
+  reviewGrid.innerHTML = "";
+
+  if (visibleRecords.length === 0) {
+    reviewGrid.innerHTML = `
+      <article class="review-card">
+        <div class="review-body">
+          <h3 class="review-name">No matching products</h3>
+          <p class="review-description">Try a broader filter or search term.</p>
         </div>
       </article>
     `;
   } else {
-    visibleProducts.forEach((product) => {
-      const fragment = productTemplate.content.cloneNode(true);
-      const art = fragment.querySelector(".product-art");
+    visibleRecords.forEach((record) => {
+      const fragment = reviewTemplate.content.cloneNode(true);
+      const image = fragment.querySelector(".review-image");
 
-      fragment.querySelector(".product-category").textContent = product.category;
-      fragment.querySelector(".product-gradient").style.background = product.gradient;
-      fragment.querySelector(".product-name").textContent = product.name;
-      fragment.querySelector(".product-subtitle").textContent = product.subtitle;
-      fragment.querySelector(".product-price").textContent = formatPrice(product.price);
-      fragment.querySelector(".product-description").textContent = product.description;
-      fragment.querySelector(".product-badge").textContent = product.badge;
-      fragment.querySelector(".product-source").textContent = product.source;
-      buildImage(product, art);
+      fragment.querySelector(".review-name").textContent = record.name;
+      fragment.querySelector(".review-source").textContent = record.source;
+      fragment.querySelector(".current-category").textContent = record.currentCategory;
+      fragment.querySelector(".suggested-category").textContent = record.suggestedCategory;
+      fragment.querySelector(".confidence-score").textContent = `${Math.round(record.confidence * 100)}% confidence`;
+      fragment.querySelector(".review-description").textContent = record.description;
 
-      const meta = fragment.querySelector(".product-meta");
-      [...product.materials, ...product.tags].slice(0, 5).forEach((item) => {
-        meta.appendChild(buildTag(item));
+      const translationPanel = fragment.querySelector(".translation-panel");
+      const translationToggle = fragment.querySelector(".translation-toggle");
+      const translationEn = record.translations?.en || {};
+      const translationIs = record.translations?.is || {};
+
+      fragment.querySelector(".translation-name-en").textContent = translationEn.name || "No English title available";
+      fragment.querySelector(".translation-subtitle-en").textContent = translationEn.subtitle || "No English subtitle available";
+      fragment.querySelector(".translation-description-en").textContent = translationEn.description || "No English description available";
+      fragment.querySelector(".translation-name-is").textContent = translationIs.name || "No Icelandic title available";
+      fragment.querySelector(".translation-subtitle-is").textContent = translationIs.subtitle || "No Icelandic subtitle available";
+      fragment.querySelector(".translation-description-is").textContent = translationIs.description || "No Icelandic description available";
+      translationToggle.setAttribute("aria-expanded", "false");
+
+      translationToggle.addEventListener("click", () => {
+        const isHidden = translationPanel.hidden;
+        translationPanel.hidden = !isHidden;
+        translationToggle.textContent = isHidden ? "Hide EN + IS" : "Show EN + IS";
+        translationToggle.setAttribute("aria-expanded", String(isHidden));
       });
 
-      productGrid.appendChild(fragment);
+      if (record.imageUrl) {
+        image.src = record.imageUrl;
+        image.alt = record.name;
+        image.hidden = false;
+      } else {
+        image.hidden = true;
+      }
+
+      const flags = fragment.querySelector(".review-flags");
+      if (record.flags.length === 0) {
+        flags.appendChild(buildChip("No issues detected", "status-chip"));
+      } else {
+        record.flags.forEach((flag) => flags.appendChild(buildChip(flag, "status-chip warning")));
+      }
+
+      const tags = fragment.querySelector(".review-tags");
+      [...record.tags, ...record.materials].slice(0, 5).forEach((item) => tags.appendChild(buildChip(item)));
+
+      const similar = fragment.querySelector(".review-similar");
+      record.similarProducts.forEach((item) => {
+        similar.appendChild(buildChip(`${item.name} (${Math.round(item.similarity * 100)}%)`, "similar-chip"));
+      });
+
+      reviewGrid.appendChild(fragment);
     });
   }
 
-  resultsCount.textContent = `${visibleProducts.length} products found`;
+  resultsCount.textContent = `${visibleRecords.length} of ${filteredRecords.length} products in review`;
 
-  const queryParts = [];
-  if (state.query.trim()) {
-    queryParts.push(`Query: "${state.query.trim()}"`);
+  const remainingCount = filteredRecords.length - visibleRecords.length;
+  loadMoreButton.hidden = remainingCount <= 0;
+  loadMoreButton.textContent = remainingCount > 10 ? "Load 10 more" : `Load remaining ${remainingCount}`;
+
+  const activeParts = [];
+  if (state.query) {
+    activeParts.push(`Search: "${state.query}"`);
   }
   if (state.category !== "All") {
-    queryParts.push(`Category: ${state.category}`);
+    activeParts.push(`Category: ${state.category}`);
+  }
+  if (state.filter !== "all") {
+    activeParts.push(`Review filter: ${state.filter}`);
   }
 
-  activeQuery.hidden = queryParts.length === 0;
-  activeQuery.textContent = queryParts.join(" | ");
+  activeQuery.hidden = activeParts.length === 0;
+  activeQuery.textContent = activeParts.join(" | ");
 }
 
-function setLoadingState(message) {
-  resultsCount.textContent = message;
-  productGrid.innerHTML = "";
-}
-
-async function loadCatalog() {
-  setLoadingState("Loading imported catalog...");
+async function loadReviewData() {
+  resultsCount.textContent = "Loading category review...";
 
   try {
-    const response = await fetch("./data/catalog.json");
+    const response = await fetch("/api/category-suggestions");
     if (!response.ok) {
-      throw new Error(`Failed to load catalog: ${response.status}`);
+      throw new Error(`Failed to load review data: ${response.status}`);
     }
 
-    const rawItems = await response.json();
-    state.products = rawItems.map(normalizeDatabaseProduct);
-    state.categories = ["All", ...new Set(state.products.flatMap((product) => product.categories))];
+    const payload = await response.json();
+    state.records = payload.records;
+    state.categories = payload.categories;
 
-    renderHeroMetrics();
+    updateSummary(payload.summary);
     renderCategoryFilters();
-    renderProducts();
+    renderReviewFilters();
+    state.visibleCount = 10;
+    renderReviewCards();
   } catch (error) {
-    resultsCount.textContent = "Could not load catalog";
-    productGrid.innerHTML = `
-      <article class="product-card">
-        <div class="product-body">
-          <h3 class="product-name">Catalog load failed</h3>
-          <p class="product-description">
-            Start the site from a local web server so the browser can fetch data/catalog.json.
-          </p>
+    resultsCount.textContent = "Review data unavailable";
+    reviewGrid.innerHTML = `
+      <article class="review-card">
+        <div class="review-body">
+          <h3 class="review-name">Category review unavailable</h3>
+          <p class="review-description">Start the local server with node server.js and open http://localhost:8000.</p>
         </div>
       </article>
     `;
@@ -379,24 +237,27 @@ async function loadCatalog() {
   }
 }
 
-searchInput.addEventListener("input", (event) => {
-  state.query = event.target.value;
-  renderProducts();
-});
-
-sortSelect.addEventListener("change", (event) => {
-  state.sort = event.target.value;
-  renderProducts();
+searchForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  state.query = searchInput.value.trim().toLowerCase();
+  state.visibleCount = 10;
+  renderReviewCards();
 });
 
 clearFilters.addEventListener("click", () => {
   state.query = "";
   state.category = "All";
-  state.sort = "relevance";
+  state.filter = "all";
+  state.visibleCount = 10;
   searchInput.value = "";
-  sortSelect.value = "relevance";
   renderCategoryFilters();
-  renderProducts();
+  renderReviewFilters();
+  renderReviewCards();
 });
 
-loadCatalog();
+loadMoreButton.addEventListener("click", () => {
+  state.visibleCount += 10;
+  renderReviewCards();
+});
+
+loadReviewData();
