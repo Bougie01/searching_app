@@ -10,18 +10,18 @@ This folder is the Sprint 2 starting point for the HPC-oriented product categori
 py pipeline/prepare_dataset.py
 ```
 
-2. Generate embeddings
+2. Train the hybrid category model
 
-Auto mode will try `sentence-transformers` first and fall back to a hashed baseline if the package is unavailable.
+This trains a reusable classifier from text plus structured attributes, writes a model artifact, and generates cross-validated review suggestions for the dashboard.
 
 ```powershell
-py pipeline/embed_products.py --mode auto
+py pipeline/train_category_model.py
 ```
 
-3. Build nearest-neighbor baseline artifacts
+3. Apply the trained model to another prepared dataset
 
 ```powershell
-py pipeline/build_similarity_baseline.py
+py pipeline/apply_category_model.py --input data/prepared_products.json
 ```
 
 4. Review results in the dashboard
@@ -36,6 +36,12 @@ Then open `http://localhost:8000`.
 
 - `prepare_dataset.py`
   Exports cleaned, embedding-ready product rows from the raw catalog.
+- `category_model.py`
+  Shared hybrid classifier logic that blends sparse text features, structured attributes, and prototype similarity.
+- `train_category_model.py`
+  Trains the reusable category model, writes evaluation metrics, and creates dashboard review artifacts.
+- `apply_category_model.py`
+  Applies a saved model to a new prepared product set and emits predictions plus dashboard-compatible artifacts.
 - `embed_products.py`
   Produces text embeddings for titles and descriptions.
 - `build_similarity_baseline.py`
@@ -49,3 +55,4 @@ Then open `http://localhost:8000`.
 - Run embedding generation on GPU/HPC infrastructure
 - Scale nearest-neighbor search to 100k to 1M+ products
 - Benchmark text-only versus text-plus-attributes grouping quality
+- Swap the hashed prototype encoder in `category_model.py` for HPC-generated embeddings while keeping the same train/apply flow

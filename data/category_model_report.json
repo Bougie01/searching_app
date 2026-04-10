@@ -1,0 +1,19 @@
+{
+  "foldCount": 5,
+  "rowCount": 100,
+  "top1Accuracy": 0.64,
+  "top3Accuracy": 0.9,
+  "macroRecall": 0.3441,
+  "perCategoryRecall": {
+    "Accessories": 0.0,
+    "Bottoms": 0.75,
+    "Catalog": 0.6667,
+    "Clothes": 0.6667,
+    "Gifts": 0.0,
+    "Infants": 0.0,
+    "Outerlayers": 0.55,
+    "Sale": 0.0,
+    "Season": 0.0,
+    "Tops": 0.8077
+  }
+}

@@ -10,6 +10,7 @@ A category suggestion dashboard for reviewing product categorization, similarity
 - Similar-product suggestions to support human review
 - Local API endpoint at `/api/category-suggestions`
 - Python pipeline scaffolding in [pipeline/README.md](./pipeline/README.md)
+- A reusable train/apply category model pipeline for running on future product sets
 
 ## Run locally
 
@@ -32,7 +33,7 @@ This repository now targets the "Product category suggestions" project:
 
 ## Next implementation steps
 
-1. Run the Sprint 2 pipeline in [pipeline/README.md](./pipeline/README.md)
-2. Replace hashed fallback embeddings with a real open-source embedding model
-3. Train category suggestion models using text plus structured fields
-4. Benchmark clustering, nearest-neighbor retrieval, and anomaly detection at scale
+1. Run `py pipeline/prepare_dataset.py`
+2. Train the hybrid classifier with `py pipeline/train_category_model.py`
+3. Apply the saved model to another prepared dataset with `py pipeline/apply_category_model.py --input ...`
+4. Replace the hashed prototype encoder with HPC-generated embeddings and benchmark on larger catalogs

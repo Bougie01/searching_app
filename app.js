@@ -134,7 +134,7 @@ function renderReviewCards() {
       fragment.querySelector(".review-source").textContent = record.source;
       fragment.querySelector(".current-category").textContent = record.currentCategory;
       fragment.querySelector(".suggested-category").textContent = record.suggestedCategory;
-      fragment.querySelector(".confidence-score").textContent = `${Math.round(record.confidence * 100)}% confidence`;
+      fragment.querySelector(".confidence-score").textContent = `${Math.round(record.confidence * 100)}% confidence in ${record.suggestedCategory}`;
       fragment.querySelector(".review-description").textContent = record.description;
 
       const translationPanel = fragment.querySelector(".translation-panel");
