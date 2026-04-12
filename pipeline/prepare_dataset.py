@@ -2,10 +2,13 @@ import json
 import re
 from pathlib import Path
 
+from taxonomy_mapping import load_mapping_config, map_apparel_record
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "data" / "catalog.json"
 OUTPUT_PATH = ROOT / "data" / "prepared_products.json"
+MAPPING_CONFIG = load_mapping_config()
 
 NON_TAXONOMY_CATEGORIES = {"Constantinou", "Capsule"}
 
@@ -74,6 +77,7 @@ def normalize_record(record):
     all_categories = sorted({normalize_category(value) for value in category_values if value})
     taxonomy_categories = [category for category in all_categories if category not in NON_TAXONOMY_CATEGORIES]
     collection_tags = [category for category in all_categories if category in NON_TAXONOMY_CATEGORIES]
+    mapped_taxonomy = map_apparel_record(taxonomy_categories, MAPPING_CONFIG)
 
     title = get_attribute_text(record, "MarketingName") or product.get("productName") or ""
     subtitle = get_attribute_text(record, "MarketingShort") or get_attribute_text(record, "ListingDescription")
@@ -120,6 +124,11 @@ def normalize_record(record):
         "current_main_group": product.get("mainGroup"),
         "current_category": taxonomy_categories[0] if taxonomy_categories else "Catalog",
         "all_categories": taxonomy_categories,
+        "taxonomy_paths": mapped_taxonomy["raw_paths"],
+        "canonical_domain": mapped_taxonomy["domain"],
+        "canonical_category": mapped_taxonomy["category"],
+        "canonical_label": mapped_taxonomy["label"],
+        "taxonomy_mapping_matched": mapped_taxonomy["matched"],
         "collection_tags": collection_tags,
         "materials": materials,
         "tags": sorted({clean_text(tag) for tag in tags if tag}),

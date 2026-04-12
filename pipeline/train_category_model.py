@@ -4,7 +4,7 @@ import random
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from category_model import predict_row, train_model
+from category_model import get_label_value, predict_row, train_model
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,10 +18,10 @@ def load_rows(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def assign_folds(rows, fold_count, seed):
+def assign_folds(rows, fold_count, seed, label_field):
     grouped = defaultdict(list)
     for row in rows:
-        grouped[row["current_category"]].append(row)
+        grouped[get_label_value(row, label_field)].append(row)
 
     randomizer = random.Random(seed)
     folds = [[] for _ in range(fold_count)]
@@ -35,8 +35,8 @@ def assign_folds(rows, fold_count, seed):
     return folds
 
 
-def evaluate_with_folds(rows, fold_count, alpha, embedding_dimensions, seed):
-    folds = assign_folds(rows, fold_count=fold_count, seed=seed)
+def evaluate_with_folds(rows, fold_count, alpha, embedding_dimensions, seed, label_field):
+    folds = assign_folds(rows, fold_count=fold_count, seed=seed, label_field=label_field)
     predictions = {}
     top1_correct = 0
     top3_correct = 0
@@ -46,7 +46,7 @@ def evaluate_with_folds(rows, fold_count, alpha, embedding_dimensions, seed):
     for fold_index in range(fold_count):
         validation_rows = folds[fold_index]
         training_rows = [row for index, fold in enumerate(folds) if index != fold_index for row in fold]
-        model = train_model(training_rows, alpha=alpha, embedding_dimensions=embedding_dimensions)
+        model = train_model(training_rows, alpha=alpha, embedding_dimensions=embedding_dimensions, label_field=label_field)
 
         for row in validation_rows:
             prediction = predict_row(model, row)
@@ -57,7 +57,7 @@ def evaluate_with_folds(rows, fold_count, alpha, embedding_dimensions, seed):
                 "baselineSource": "hybrid-model-crossval",
             }
 
-            label = row["current_category"]
+            label = get_label_value(row, label_field)
             label_totals[label] += 1
 
             if prediction["suggestedCategory"] == label:
@@ -83,6 +83,7 @@ def evaluate_with_folds(rows, fold_count, alpha, embedding_dimensions, seed):
             category: round(label_correct[category] / total, 4)
             for category, total in sorted(label_totals.items())
         },
+        "labelField": label_field,
     }
 
     return report, predictions
@@ -98,6 +99,7 @@ def main():
     parser.add_argument("--alpha", type=float, default=0.8)
     parser.add_argument("--embedding-dimensions", type=int, default=384)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--label-field", default="current_category")
     args = parser.parse_args()
 
     rows = load_rows(args.input)
@@ -107,9 +109,10 @@ def main():
         alpha=args.alpha,
         embedding_dimensions=args.embedding_dimensions,
         seed=args.seed,
+        label_field=args.label_field,
     )
 
-    model = train_model(rows, alpha=args.alpha, embedding_dimensions=args.embedding_dimensions)
+    model = train_model(rows, alpha=args.alpha, embedding_dimensions=args.embedding_dimensions, label_field=args.label_field)
     model["trainingSummary"] = report
 
     args.model_output.write_text(json.dumps(model, ensure_ascii=False), encoding="utf-8")

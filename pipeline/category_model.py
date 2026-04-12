@@ -8,6 +8,11 @@ DEFAULT_EMBEDDING_DIMENSIONS = 384
 TOKEN_PATTERN = re.compile(r"[0-9a-zA-Z\u00C0-\u024F]+")
 
 
+def get_label_value(row, label_field="current_category"):
+    value = row.get(label_field) or row.get("canonical_label") or row.get("current_category") or "Unknown"
+    return str(value)
+
+
 def normalize_text(value):
     return re.sub(r"\s+", " ", str(value or "")).strip().lower()
 
@@ -124,8 +129,8 @@ def softmax(values):
     return [value / total for value in exponents]
 
 
-def train_model(rows, alpha=0.8, embedding_dimensions=DEFAULT_EMBEDDING_DIMENSIONS):
-    categories = sorted({row["current_category"] for row in rows if row.get("current_category")})
+def train_model(rows, alpha=0.8, embedding_dimensions=DEFAULT_EMBEDDING_DIMENSIONS, label_field="current_category"):
+    categories = sorted({get_label_value(row, label_field) for row in rows if get_label_value(row, label_field)})
     class_doc_counts = Counter()
     class_feature_counts = defaultdict(Counter)
     class_feature_totals = Counter()
@@ -135,7 +140,7 @@ def train_model(rows, alpha=0.8, embedding_dimensions=DEFAULT_EMBEDDING_DIMENSIO
     training_examples = []
 
     for row in rows:
-        category = row["current_category"]
+        category = get_label_value(row, label_field)
         if category not in class_centroid_sums:
             continue
 
@@ -182,6 +187,7 @@ def train_model(rows, alpha=0.8, embedding_dimensions=DEFAULT_EMBEDDING_DIMENSIO
         "feature_vocabulary_size": len(feature_vocabulary),
         "class_centroids": centroids,
         "training_examples": training_examples,
+        "label_field": label_field,
     }
 
     return model

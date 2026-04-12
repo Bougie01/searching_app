@@ -9,8 +9,10 @@ A category suggestion dashboard for reviewing product categorization, similarity
 - Flags for likely mismatches, generic categories, and incomplete records
 - Similar-product suggestions to support human review
 - Local API endpoint at `/api/category-suggestions`
+- Optional Gemini reviewer endpoint at `/api/gemini-categorize`
 - Python pipeline scaffolding in [pipeline/README.md](./pipeline/README.md)
 - A reusable train/apply category model pipeline for running on future product sets
+- A taxonomy mapping layer for normalizing different store taxonomies into shared labels
 
 ## Run locally
 
@@ -21,6 +23,15 @@ node server.js
 ```
 
 Then visit `http://localhost:8000`.
+
+If you want Gemini-backed category review, add a `.env` file with:
+
+```powershell
+GEMINI_API_KEY=your_key_here
+GEMINI_MODEL=gemini-3-flash-preview
+```
+
+The backend endpoint accepts a product payload plus optional candidate categories at `POST /api/gemini-categorize`.
 
 ## Project direction
 
@@ -34,6 +45,8 @@ This repository now targets the "Product category suggestions" project:
 ## Next implementation steps
 
 1. Run `py pipeline/prepare_dataset.py`
-2. Train the hybrid classifier with `py pipeline/train_category_model.py`
-3. Apply the saved model to another prepared dataset with `py pipeline/apply_category_model.py --input ...`
-4. Replace the hashed prototype encoder with HPC-generated embeddings and benchmark on larger catalogs
+2. Normalize another store feed with `py pipeline/prepare_external_dataset.py --input ...`
+3. Build a mixed dataset with `py pipeline/combine_datasets.py --inputs data/prepared_products.json data/prepared_external_products.json --output data/prepared_mixed_products.json`
+4. Train the hybrid classifier on shared labels with `py pipeline/train_category_model.py --input data/prepared_mixed_products.json --label-field canonical_label`
+5. Apply the saved model to another prepared dataset with `py pipeline/apply_category_model.py --input ...`
+6. Replace the hashed prototype encoder with HPC-generated embeddings and benchmark on larger catalogs

@@ -1,2502 +1,2502 @@
 {
-  "org_6BcU2bHS45bNFkde:AX:D83633": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.85,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D11433",
-        "name": "MÃ­mir",
-        "category": "Outerlayers",
-        "similarity": 0.7575
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D33436",
-        "name": "Mimir",
-        "category": "Outerlayers",
-        "similarity": 0.7497
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46101",
-        "name": "Kids Ran Light Pants",
-        "category": "Outerlayers",
-        "similarity": 0.4198
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:C33702": {
-    "suggestedCategory": "Bottoms",
-    "confidence": 0.9,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C30602",
-        "name": "Freyr Rain Set",
-        "category": "Bottoms",
-        "similarity": 0.7686
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:I43615",
-        "name": "Frigg Rain Pants",
-        "category": "Bottoms",
-        "similarity": 0.72
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C00601",
-        "name": "Freyr Rain Overall",
-        "category": "Outerlayers",
-        "similarity": 0.6756
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K01263": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.77,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11694",
-        "name": "Women's Kaldi Jacket",
-        "category": "Tops",
-        "similarity": 0.6365
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11472",
-        "name": "Skipholt Sweater",
-        "category": "Catalog",
-        "similarity": 0.6201
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11439",
-        "name": "Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.6163
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11478": {
-    "suggestedCategory": "Catalog",
-    "confidence": 0.9,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11479",
-        "name": "Vonarstraeti Zipped Hoodie",
-        "category": "Catalog",
-        "similarity": 0.846
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11476",
-        "name": "Vonarstraeti Sweater",
-        "category": "Catalog",
-        "similarity": 0.8349
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11473",
-        "name": "Skipholt W Sweater",
-        "category": "Catalog",
-        "similarity": 0.8287
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11442": {
-    "suggestedCategory": "Clothes",
-    "confidence": 0.64,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11096",
-        "name": "{\"is\":\"66Â°NorÃ°ur x Reykjavik Roses\",\"en-us\":\"\"}",
-        "category": "Tops",
-        "similarity": 0.554
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11097",
-        "name": "Olympic Hoodie",
-        "category": "Tops",
-        "similarity": 0.501
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J16106",
-        "name": "RÃ¡n",
-        "category": "Outerlayers",
-        "similarity": 0.4447
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11065": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.74,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11095",
-        "name": "Dyngja Zipped Hoodie",
-        "category": "Tops",
-        "similarity": 0.761
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11079",
-        "name": "Ãžoka",
-        "category": "Tops",
-        "similarity": 0.6718
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11057",
-        "name": "BlÃ¦r Longsleeve",
-        "category": "Gifts",
-        "similarity": 0.6586
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K01141": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.61,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11102",
-        "name": "Laugardalur",
-        "category": "Tops",
-        "similarity": 0.8808
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11477",
-        "name": "Vonarstraeti Zipped Sweater",
-        "category": "Catalog",
-        "similarity": 0.5989
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11476",
-        "name": "Vonarstraeti Sweater",
-        "category": "Catalog",
-        "similarity": 0.5756
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:J56100": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.69,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11097",
-        "name": "Olympic Hoodie",
-        "category": "Tops",
-        "similarity": 0.5439
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J16106",
-        "name": "RÃ¡n",
-        "category": "Outerlayers",
-        "similarity": 0.4839
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11096",
-        "name": "{\"is\":\"66Â°NorÃ°ur x Reykjavik Roses\",\"en-us\":\"\"}",
-        "category": "Tops",
-        "similarity": 0.4596
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11169": {
-    "suggestedCategory": "Gifts",
+  "gaeludyr:PETMARK_XML:100271": {
+    "suggestedCategory": "pet > cat-food",
     "confidence": 0.76,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11167",
-        "name": "Men's VatnajÃ¶kull Softshell Jacket",
-        "category": "Gifts",
-        "similarity": 0.9821
+        "id": "gaeludyr:PETMARK_XML:100271",
+        "name": "Brit blautmatur lax 100 gr",
+        "category": "pet > cat-food",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.4777
+        "id": "gaeludyr:PETMARK_XML:100275",
+        "name": "Brit blautmatur geldir 100gr",
+        "category": "pet > cat-food",
+        "similarity": 0.8437
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11202",
-        "name": "Women's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.4704
+        "id": "gaeludyr:PETMARK_XML:AN82980",
+        "name": "Feinstein Dog w/Rabbit 150g",
+        "category": "pet > dog-food",
+        "similarity": 0.3867
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:D43624": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.73,
+  "gaeludyr:PETMARK_XML:100275": {
+    "suggestedCategory": "pet > cat-food",
+    "confidence": 0.8,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:J56101",
-        "name": "RÃ¡n",
-        "category": "Infants",
-        "similarity": 0.5573
+        "id": "gaeludyr:PETMARK_XML:100275",
+        "name": "Brit blautmatur geldir 100gr",
+        "category": "pet > cat-food",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46101",
-        "name": "Kids Ran Light Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5368
+        "id": "gaeludyr:PETMARK_XML:100271",
+        "name": "Brit blautmatur lax 100 gr",
+        "category": "pet > cat-food",
+        "similarity": 0.8437
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46105",
-        "name": "Kids Ran Pants",
-        "category": "Outerlayers",
-        "similarity": 0.4844
+        "id": "gaeludyr:PETMARK_XML:1000278",
+        "name": "Brit blautmatur 12x100 gr",
+        "category": "pet > cat-food",
+        "similarity": 0.3961
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:C03708": {
-    "suggestedCategory": "Bottoms",
-    "confidence": 0.57,
+  "gaeludyr:PETMARK_XML:111197": {
+    "suggestedCategory": "pet > dog-food",
+    "confidence": 0.65,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C00601",
-        "name": "Freyr Rain Overall",
-        "category": "Outerlayers",
-        "similarity": 0.9371
+        "id": "gaeludyr:PETMARK_XML:111197",
+        "name": "Carnilove dós Salmon and turkey 400 gr",
+        "category": "pet > dog-food",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:I13615",
-        "name": "Frigg Raincoat",
-        "category": "Outerlayers",
-        "similarity": 0.7149
+        "id": "gaeludyr:PETMARK_XML:BRI-100384",
+        "name": "Carnilove blautmatur 85 gr quil",
+        "category": "pet > cat-food",
+        "similarity": 0.7014
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:I43615",
-        "name": "Frigg Rain Pants",
-        "category": "Bottoms",
-        "similarity": 0.6824
+        "id": "gaeludyr:PETMARK_XML:CI560019",
+        "name": "Bio-Bact S Green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.5222
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:D10104": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.68,
+  "gaeludyr:PETMARK_XML:132323": {
+    "suggestedCategory": "pet > dog-food",
+    "confidence": 0.7,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:J56101",
-        "name": "RÃ¡n",
-        "category": "Infants",
-        "similarity": 0.5667
+        "id": "gaeludyr:PETMARK_XML:132323",
+        "name": "Brit Adult M 15kg",
+        "category": "pet > dog-food",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46101",
-        "name": "Kids Ran Light Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5401
+        "id": "gaeludyr:PETMARK_XML:I050300",
+        "name": "Iams Adult Salmon 3 kg",
+        "category": "pet > cat-food",
+        "similarity": 0.4847
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.4743
+        "id": "gaeludyr:PETMARK_XML:I620070",
+        "name": "Iams Cat Naturally Adult salmon 700gr",
+        "category": "pet > cat-food",
+        "similarity": 0.4294
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11401": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.85,
+  "gaeludyr:PETMARK_XML:200070": {
+    "suggestedCategory": "pet > health-and-care",
+    "confidence": 0.87,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11419",
-        "name": "Bylur",
-        "category": "Tops",
-        "similarity": 0.7566
+        "id": "gaeludyr:PETMARK_XML:200070",
+        "name": "Yuup næring",
+        "category": "pet > health-and-care",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11439",
-        "name": "Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.6789
+        "id": "gaeludyr:PETMARK_XML:20032",
+        "name": "Yuup hvolpa og viðkvæm húð",
+        "category": "pet > health-and-care",
+        "similarity": 0.853
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.6631
+        "id": "gaeludyr:PETMARK_XML:20704",
+        "name": "Yuup glossing& detangle spray 250ml",
+        "category": "pet > health-and-care",
+        "similarity": 0.8221
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K01723": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.84,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11218",
-        "name": "Men's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.8643
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11219",
-        "name": "Women's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.8614
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01251",
-        "name": "Women's Hrannar Zip Neck",
-        "category": "Tops",
-        "similarity": 0.5472
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11078": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.61,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11087",
-        "name": "KrÃ­a Hybrid Hoodie",
-        "category": "Tops",
-        "similarity": 0.6054
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.5848
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11162",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.5801
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11072": {
-    "suggestedCategory": "Tops",
+  "gaeludyr:PETMARK_XML:85600": {
+    "suggestedCategory": "pet > aquarium-equipment",
     "confidence": 0.81,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11095",
-        "name": "Dyngja Zipped Hoodie",
-        "category": "Tops",
-        "similarity": 0.7448
+        "id": "gaeludyr:PETMARK_XML:85600",
+        "name": "Juwel Hitari 50W",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11087",
-        "name": "KrÃ­a Hybrid Hoodie",
-        "category": "Tops",
-        "similarity": 0.5982
+        "id": "gaeludyr:PETMARK_XML:85615",
+        "name": "Juwel Hitari 300W",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.9544
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11079",
-        "name": "Ãžoka",
-        "category": "Tops",
-        "similarity": 0.5767
+        "id": "gaeludyr:PETMARK_XML:AT3614",
+        "name": "Eheim hitari 100w",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4767
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11457": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.85,
+  "gaeludyr:PETMARK_XML:85615": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.8,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11456",
-        "name": "Kjalarnes Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9556
+        "id": "gaeludyr:PETMARK_XML:85615",
+        "name": "Juwel Hitari 300W",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.6693
+        "id": "gaeludyr:PETMARK_XML:85600",
+        "name": "Juwel Hitari 50W",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.9544
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6354
+        "id": "gaeludyr:PETMARK_XML:AT3614",
+        "name": "Eheim hitari 100w",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4767
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11452": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.86,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11451",
-        "name": "Men's ReykjavÃ­k Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9927
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11437",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.6674
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11436",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.6606
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11435": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.85,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9602
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11448",
-        "name": "VonarstrÃ¦ti Zipped Wool Hoodie",
-        "category": "Tops",
-        "similarity": 0.9267
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.9203
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K01184": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11219",
-        "name": "Women's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.728
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11218",
-        "name": "Men's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.7026
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11202",
-        "name": "Women's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5747
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11077": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.85,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11080",
-        "name": "Women's ViÃ°ey Crewneck",
-        "category": "Tops",
-        "similarity": 0.8221
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11087",
-        "name": "KrÃ­a Hybrid Hoodie",
-        "category": "Tops",
-        "similarity": 0.5465
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11436",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.499
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11233": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.72,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01249",
-        "name": "VarmahlÃ­Ã° Shearling Zip Neck",
-        "category": "Tops",
-        "similarity": 0.7646
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.5883
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11239",
-        "name": "Hringbraut Track Jacket",
-        "category": "Catalog",
-        "similarity": 0.5839
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11158": {
-    "suggestedCategory": "Tops",
+  "gaeludyr:PETMARK_XML:86136": {
+    "suggestedCategory": "pet > aquarium-lighting",
     "confidence": 0.82,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11159",
-        "name": "Men's VÃ­k Jacket",
-        "category": "Tops",
-        "similarity": 0.9755
+        "id": "gaeludyr:PETMARK_XML:86136",
+        "name": "Day-Lite 36 W.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5488
+        "id": "gaeludyr:PETMARK_XML:86138",
+        "name": "Day-Lite 38 W.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9721
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11202",
-        "name": "Women's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5473
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.6518
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K01264": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.84,
+  "gaeludyr:PETMARK_XML:86138": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.82,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11102",
-        "name": "Laugardalur",
-        "category": "Tops",
-        "similarity": 0.5918
+        "id": "gaeludyr:PETMARK_XML:86138",
+        "name": "Day-Lite 38 W.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.5517
+        "id": "gaeludyr:PETMARK_XML:86136",
+        "name": "Day-Lite 36 W.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9721
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.5491
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.6456
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11414": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.84,
+  "gaeludyr:PETMARK_XML:86345": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.87,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11409",
-        "name": "66Â°North x Charlie Constantinou Balaclava Knit Sweater",
-        "category": "Tops",
-        "similarity": 0.9779
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11449",
-        "name": "66Â°NxLL Knit Cardigan",
-        "category": "Tops",
-        "similarity": 0.6252
+        "id": "gaeludyr:PETMARK_XML:86456",
+        "name": "High-Lite Nature 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8626
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.6011
+        "id": "gaeludyr:PETMARK_XML:86724",
+        "name": "High-Lite Blue 24 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8328
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:C30602": {
-    "suggestedCategory": "Bottoms",
+  "gaeludyr:PETMARK_XML:86456": {
+    "suggestedCategory": "pet > aquarium-lighting",
     "confidence": 0.88,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C33702",
-        "name": "Frigg Rain Set",
-        "category": "Bottoms",
-        "similarity": 0.7686
+        "id": "gaeludyr:PETMARK_XML:86456",
+        "name": "High-Lite Nature 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:I43615",
-        "name": "Frigg Rain Pants",
-        "category": "Bottoms",
-        "similarity": 0.7175
+        "id": "gaeludyr:PETMARK_XML:86756",
+        "name": "High-Lite Blue 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.869
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C00601",
-        "name": "Freyr Rain Overall",
-        "category": "Outerlayers",
-        "similarity": 0.7096
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8626
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11479": {
-    "suggestedCategory": "Catalog",
-    "confidence": 0.9,
+  "gaeludyr:PETMARK_XML:86554": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.87,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11476",
-        "name": "Vonarstraeti Sweater",
-        "category": "Catalog",
-        "similarity": 0.9144
+        "id": "gaeludyr:PETMARK_XML:86554",
+        "name": "High-Lite Colour 54 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11477",
-        "name": "Vonarstraeti Zipped Sweater",
-        "category": "Catalog",
-        "similarity": 0.9098
+        "id": "gaeludyr:PETMARK_XML:86456",
+        "name": "High-Lite Nature 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8373
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11478",
-        "name": "Vonarstraeti W Turtleneck",
-        "category": "Catalog",
-        "similarity": 0.846
+        "id": "gaeludyr:PETMARK_XML:86645",
+        "name": "High-Lite Marine 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8184
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11472": {
-    "suggestedCategory": "Catalog",
-    "confidence": 0.83,
+  "gaeludyr:PETMARK_XML:86628": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.88,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11473",
-        "name": "Skipholt W Sweater",
-        "category": "Catalog",
-        "similarity": 0.9844
+        "id": "gaeludyr:PETMARK_XML:86628",
+        "name": "High-Lite Marine 28 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.85
+        "id": "gaeludyr:PETMARK_XML:86645",
+        "name": "High-Lite Marine 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9517
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11478",
-        "name": "Vonarstraeti W Turtleneck",
-        "category": "Catalog",
-        "similarity": 0.8179
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8319
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K01272": {
-    "suggestedCategory": "Infants",
-    "confidence": 0.38,
+  "gaeludyr:PETMARK_XML:86645": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.88,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.5637
+        "id": "gaeludyr:PETMARK_XML:86645",
+        "name": "High-Lite Marine 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01723",
-        "name": "Esja Fleece Zip-Neck",
-        "category": "Season",
-        "similarity": 0.5106
+        "id": "gaeludyr:PETMARK_XML:86628",
+        "name": "High-Lite Marine 28 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9517
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11201",
-        "name": "Men's Tungudalur Hoodie",
-        "category": "Tops",
-        "similarity": 0.4926
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8223
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11057": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.65,
+  "gaeludyr:PETMARK_XML:86724": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.88,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11043",
-        "name": "BlÃ¦r Crew Neck",
-        "category": "Tops",
-        "similarity": 0.6638
+        "id": "gaeludyr:PETMARK_XML:86724",
+        "name": "High-Lite Blue 24 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.6586
+        "id": "gaeludyr:PETMARK_XML:86756",
+        "name": "High-Lite Blue 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9224
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11036",
-        "name": "Gola",
-        "category": "Gifts",
-        "similarity": 0.6002
+        "id": "gaeludyr:PETMARK_XML:86345",
+        "name": "High-Lite Day 45 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8328
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:C11746": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.68,
+  "gaeludyr:PETMARK_XML:86756": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.88,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11745",
-        "name": "Women's Skipagata Rain Coat",
-        "category": "Outerlayers",
-        "similarity": 0.9653
+        "id": "gaeludyr:PETMARK_XML:86756",
+        "name": "High-Lite Blue 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11195",
-        "name": "Women's SnÃ¦fell Technostretch Jacket",
-        "category": "Tops",
-        "similarity": 0.5407
+        "id": "gaeludyr:PETMARK_XML:86724",
+        "name": "High-Lite Blue 24 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9224
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C41747",
-        "name": "Skipagata Rain Pants",
-        "category": "Catalog",
-        "similarity": 0.5387
+        "id": "gaeludyr:PETMARK_XML:86456",
+        "name": "High-Lite Nature 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.869
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:J56101": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46105",
-        "name": "Kids Ran Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5833
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D10104",
-        "name": "Kids Ymir Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.5667
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D43624",
-        "name": "Kids Ymir Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5573
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11162": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.67,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.918
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11239",
-        "name": "Hringbraut Track Jacket",
-        "category": "Catalog",
-        "similarity": 0.8255
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11078",
-        "name": "SuÃ°ureyri Hoodie",
-        "category": "Tops",
-        "similarity": 0.5801
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K01139": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.66,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.465
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01141",
-        "name": "Laugardalur Anorak",
-        "category": "Gifts",
-        "similarity": 0.4612
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11102",
-        "name": "Laugardalur",
-        "category": "Tops",
-        "similarity": 0.4365
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:C11747": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.59,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C41747",
-        "name": "Skipagata Rain Pants",
-        "category": "Catalog",
-        "similarity": 0.6545
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11745",
-        "name": "Women's Skipagata Rain Coat",
-        "category": "Outerlayers",
-        "similarity": 0.609
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.6088
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:B03708": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.66,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:B33702",
-        "name": "Sif Rain Overall",
-        "category": "Bottoms",
-        "similarity": 0.6154
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11745",
-        "name": "Women's Skipagata Rain Coat",
-        "category": "Outerlayers",
-        "similarity": 0.5526
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C41747",
-        "name": "Skipagata Rain Pants",
-        "category": "Catalog",
-        "similarity": 0.5315
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K01249": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11233",
-        "name": "VarmahlÃ­Ã° Shearling Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.7646
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.5609
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.5563
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11409": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11414",
-        "name": "66Â°North x Charlie Constantinou Balaclava Knit Sweater",
-        "category": "Tops",
-        "similarity": 0.9779
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11449",
-        "name": "66Â°NxLL Knit Cardigan",
-        "category": "Tops",
-        "similarity": 0.5925
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.587
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11439": {
-    "suggestedCategory": "Tops",
+  "gaeludyr:PETMARK_XML:90481": {
+    "suggestedCategory": "pet > health-and-care",
     "confidence": 0.75,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.983
+        "id": "gaeludyr:PETMARK_XML:90481",
+        "name": "BOB Kúkapokar Berjalykt 8x15",
+        "category": "pet > health-and-care",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11473",
-        "name": "Skipholt W Sweater",
-        "category": "Catalog",
-        "similarity": 0.8342
+        "id": "gaeludyr:PETMARK_XML:460335",
+        "name": "Oropharma Opti hair dog 130 ml",
+        "category": "pet > health-and-care",
+        "similarity": 0.4238
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11434",
-        "name": "66Â°North Sweater",
-        "category": "Tops",
-        "similarity": 0.8067
+        "id": "gaeludyr:PETMARK_XML:CD495009",
+        "name": "Skál S MINNIE",
+        "category": "pet > food",
+        "similarity": 0.3926
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11229": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.67,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01141",
-        "name": "Laugardalur Anorak",
-        "category": "Gifts",
-        "similarity": 0.5619
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11102",
-        "name": "Laugardalur",
-        "category": "Tops",
-        "similarity": 0.5426
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.535
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K01250": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.76,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01251",
-        "name": "Women's Hrannar Zip Neck",
-        "category": "Tops",
-        "similarity": 0.9695
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01723",
-        "name": "Esja Fleece Zip-Neck",
-        "category": "Season",
-        "similarity": 0.5431
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5119
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11083": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.71,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11074",
-        "name": "JÃ¶kla Hoodie",
-        "category": "Gifts",
-        "similarity": 0.5844
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11079",
-        "name": "Ãžoka",
-        "category": "Tops",
-        "similarity": 0.5595
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11445",
-        "name": "VatnajÃ¶kull Knitted Sweater",
-        "category": "Tops",
-        "similarity": 0.5265
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11218": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.71,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11219",
-        "name": "Women's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.9844
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01723",
-        "name": "Esja Fleece Zip-Neck",
-        "category": "Season",
-        "similarity": 0.8643
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.7026
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11419": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.72,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11401",
-        "name": "Bylur",
-        "category": "Sale",
-        "similarity": 0.7566
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11272",
-        "name": "Women's Ã–gri Sweater",
-        "category": "Tops",
-        "similarity": 0.7393
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.6524
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11159": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.8,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11158",
-        "name": "Women's VÃ­k Jacket",
-        "category": "Tops",
-        "similarity": 0.9755
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.5435
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5289
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11436": {
-    "suggestedCategory": "Tops",
+  "gaeludyr:PETMARK_XML:22608": {
+    "suggestedCategory": "pet > toys",
     "confidence": 0.83,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11437",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.9963
+        "id": "gaeludyr:PETMARK_XML:22608",
+        "name": "Kong Wubba Wet Large",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11451",
-        "name": "Men's ReykjavÃ­k Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6829
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 0.674
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11452",
-        "name": "Women's ReykjavÃ­k Sweater",
-        "category": "Tops",
-        "similarity": 0.6606
+        "id": "gaeludyr:PETMARK_XML:22639",
+        "name": "KONG Air Boltar í lausu M",
+        "category": "pet > toys",
+        "similarity": 0.6516
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11694": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.69,
+  "gaeludyr:PETMARK_XML:22616": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.6439
+        "id": "gaeludyr:PETMARK_XML:22616",
+        "name": "Kong training dummy L",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01263",
-        "name": "Kaldi Half Zip",
-        "category": "Catalog",
-        "similarity": 0.6365
+        "id": "gaeludyr:PETMARK_XML:22505",
+        "name": "KONG Classic xx-large",
+        "category": "pet > toys",
+        "similarity": 0.7373
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11473",
-        "name": "Skipholt W Sweater",
-        "category": "Catalog",
-        "similarity": 0.6182
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 0.7163
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:I43615": {
-    "suggestedCategory": "Bottoms",
-    "confidence": 0.58,
+  "gaeludyr:PETMARK_XML:22639": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:I13615",
-        "name": "Frigg Raincoat",
-        "category": "Outerlayers",
-        "similarity": 0.7522
+        "id": "gaeludyr:PETMARK_XML:22639",
+        "name": "KONG Air Boltar í lausu M",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C33702",
-        "name": "Frigg Rain Set",
-        "category": "Bottoms",
-        "similarity": 0.72
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 0.7506
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C30602",
-        "name": "Freyr Rain Set",
-        "category": "Bottoms",
-        "similarity": 0.7175
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 0.7318
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11473": {
-    "suggestedCategory": "Catalog",
-    "confidence": 0.77,
+  "gaeludyr:PETMARK_XML:22670": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11472",
-        "name": "Skipholt Sweater",
-        "category": "Catalog",
-        "similarity": 0.9844
+        "id": "gaeludyr:PETMARK_XML:22670",
+        "name": "KONG SoftSeas Octopus Lg",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.8529
+        "id": "gaeludyr:PETMARK_XML:22505",
+        "name": "KONG Classic xx-large",
+        "category": "pet > toys",
+        "similarity": 0.6954
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11439",
-        "name": "Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.8342
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 0.6609
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11239": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.69,
+  "gaeludyr:PETMARK_XML:22678": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.67,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11162",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.8255
+        "id": "gaeludyr:PETMARK_XML:22678",
+        "name": "Kong maraþon Peanut butter S",
+        "category": "pet > treats",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11233",
-        "name": "VarmahlÃ­Ã° Shearling Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.5839
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 0.6067
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11102",
-        "name": "Laugardalur",
-        "category": "Tops",
-        "similarity": 0.5377
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 0.6051
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11440": {
-    "suggestedCategory": "Clothes",
-    "confidence": 0.59,
+  "gaeludyr:PETMARK_XML:22699": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.75,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11418",
-        "name": "Dyngja Knitted Sweater",
-        "category": "Tops",
-        "similarity": 0.5785
+        "id": "gaeludyr:PETMARK_XML:22699",
+        "name": "KONG Wild Knots Bear XL",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11057",
-        "name": "BlÃ¦r Longsleeve",
-        "category": "Gifts",
-        "similarity": 0.4456
+        "id": "gaeludyr:PETMARK_XML:22751",
+        "name": "Kong kitten teddy bear",
+        "category": "pet > toys",
+        "similarity": 0.5921
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01263",
-        "name": "Kaldi Half Zip",
-        "category": "Catalog",
-        "similarity": 0.4412
+        "id": "gaeludyr:PETMARK_XML:22678",
+        "name": "Kong maraþon Peanut butter S",
+        "category": "pet > treats",
+        "similarity": 0.5885
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11036": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.74,
+  "gaeludyr:PETMARK_XML:22702": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.83,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11043",
-        "name": "BlÃ¦r Crew Neck",
-        "category": "Tops",
-        "similarity": 0.664
+        "id": "gaeludyr:PETMARK_XML:22702",
+        "name": "Kong active cat feather teaser",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11087",
-        "name": "KrÃ­a Hybrid Hoodie",
-        "category": "Tops",
-        "similarity": 0.6474
+        "id": "gaeludyr:PETMARK_XML:22766",
+        "name": "Kong Cat Stellar Teaser",
+        "category": "pet > toys",
+        "similarity": 0.796
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.6387
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.7733
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11187": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.76,
+  "gaeludyr:PETMARK_XML:22704": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.83,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11162",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.918
+        "id": "gaeludyr:PETMARK_XML:22704",
+        "name": "Kong cat fuzzy slipper",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11747",
-        "name": "Skipagata Rain Anorak",
-        "category": "Outerlayers",
-        "similarity": 0.6088
+        "id": "gaeludyr:PETMARK_XML:22705",
+        "name": "Kong cat fuzzy bunny",
+        "category": "pet > toys",
+        "similarity": 0.6856
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11233",
-        "name": "VarmahlÃ­Ã° Shearling Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.5883
+        "id": "gaeludyr:PETMARK_XML:22766",
+        "name": "Kong Cat Stellar Teaser",
+        "category": "pet > toys",
+        "similarity": 0.6782
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:C00601": {
-    "suggestedCategory": "Bottoms",
+  "gaeludyr:PETMARK_XML:22705": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22705",
+        "name": "Kong cat fuzzy bunny",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22731",
+        "name": "Kong cat wild tails",
+        "category": "pet > toys",
+        "similarity": 0.7829
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.7738
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22731": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22731",
+        "name": "Kong cat wild tails",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.8127
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22705",
+        "name": "Kong cat fuzzy bunny",
+        "category": "pet > toys",
+        "similarity": 0.7829
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22733": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22733",
+        "name": "KONG Bat-A-Bout Flicker Firefly",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 0.7208
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 0.6592
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22750": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22750",
+        "name": "Kong Kitty Fuzz Bugs",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22731",
+        "name": "Kong cat wild tails",
+        "category": "pet > toys",
+        "similarity": 0.7637
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22705",
+        "name": "Kong cat fuzzy bunny",
+        "category": "pet > toys",
+        "similarity": 0.761
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22751": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22751",
+        "name": "Kong kitten teddy bear",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.6991
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22788",
+        "name": "Kong Cat Kitty Kong",
+        "category": "pet > toys",
+        "similarity": 0.6953
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22766": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22766",
+        "name": "Kong Cat Stellar Teaser",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22702",
+        "name": "Kong active cat feather teaser",
+        "category": "pet > toys",
+        "similarity": 0.796
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.769
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22773": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.8,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22773",
+        "name": "Kong feather mouse",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.658
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22702",
+        "name": "Kong active cat feather teaser",
+        "category": "pet > toys",
+        "similarity": 0.606
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22775": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22731",
+        "name": "Kong cat wild tails",
+        "category": "pet > toys",
+        "similarity": 0.8127
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22705",
+        "name": "Kong cat fuzzy bunny",
+        "category": "pet > toys",
+        "similarity": 0.7738
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22788": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:22788",
+        "name": "Kong Cat Kitty Kong",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22775",
+        "name": "Kong Corduory Mouse Refillable",
+        "category": "pet > toys",
+        "similarity": 0.7426
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22731",
+        "name": "Kong cat wild tails",
+        "category": "pet > toys",
+        "similarity": 0.701
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:22823": {
+    "suggestedCategory": "pet > toys",
     "confidence": 0.85,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:C03708",
-        "name": "Frigg Rain Overall",
-        "category": "Outerlayers",
-        "similarity": 0.9371
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C30602",
-        "name": "Freyr Rain Set",
-        "category": "Bottoms",
-        "similarity": 0.7096
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C33702",
-        "name": "Frigg Rain Set",
-        "category": "Bottoms",
-        "similarity": 0.6756
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:J46105": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.72,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J16106",
-        "name": "RÃ¡n",
-        "category": "Outerlayers",
-        "similarity": 0.6662
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J56101",
-        "name": "RÃ¡n",
-        "category": "Infants",
-        "similarity": 0.5833
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46101",
-        "name": "Kids Ran Light Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5116
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:D33436": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.67,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D11433",
-        "name": "MÃ­mir",
-        "category": "Outerlayers",
-        "similarity": 0.8455
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D83633",
-        "name": "MÃ­mir Mittens",
-        "category": "Accessories",
-        "similarity": 0.7497
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:B33702",
-        "name": "Sif Rain Overall",
-        "category": "Bottoms",
-        "similarity": 0.4105
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11445": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6521
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11434",
-        "name": "66Â°North Sweater",
-        "category": "Tops",
-        "similarity": 0.6362
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.629
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11272": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.8,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11419",
-        "name": "Bylur",
-        "category": "Tops",
-        "similarity": 0.7393
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11434",
-        "name": "66Â°North Sweater",
-        "category": "Tops",
-        "similarity": 0.712
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11443",
-        "name": "Women's Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.7112
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11141": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.82,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5863
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.5692
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11218",
-        "name": "Men's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.5599
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11194": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.72,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11195",
-        "name": "Women's SnÃ¦fell Technostretch Jacket",
-        "category": "Tops",
-        "similarity": 0.983
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11162",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.5386
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11746",
-        "name": "Skipagata Hooded Rain Coat",
-        "category": "Gifts",
-        "similarity": 0.5349
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11202": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.81,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.9877
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11200",
-        "name": "Women's Tungudalur Hoodie",
-        "category": "Tops",
-        "similarity": 0.9305
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.5747
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11437": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11436",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.9963
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11451",
-        "name": "Men's ReykjavÃ­k Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6832
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11439",
-        "name": "Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.6694
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11201": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.82,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11200",
-        "name": "Women's Tungudalur Hoodie",
-        "category": "Tops",
-        "similarity": 0.9877
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.9309
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.5662
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11444": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9203
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9096
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11448",
-        "name": "VonarstrÃ¦ti Zipped Wool Hoodie",
-        "category": "Tops",
-        "similarity": 0.8736
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11456": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11457",
-        "name": "Kjalarnes Wool Polo",
-        "category": "Tops",
-        "similarity": 0.9556
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6822
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6556
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11096": {
-    "suggestedCategory": "Clothes",
-    "confidence": 0.69,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11097",
-        "name": "Olympic Hoodie",
-        "category": "Tops",
-        "similarity": 0.6293
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11442",
-        "name": "Kids Skipholt Kids Sweater",
-        "category": "Clothes",
-        "similarity": 0.554
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J16106",
-        "name": "RÃ¡n",
-        "category": "Outerlayers",
-        "similarity": 0.4877
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:B33702": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.76,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:B03708",
-        "name": "Sif Raincoat",
-        "category": "Outerlayers",
-        "similarity": 0.6154
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11745",
-        "name": "Women's Skipagata Rain Coat",
-        "category": "Outerlayers",
-        "similarity": 0.4409
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C41747",
-        "name": "Skipagata Rain Pants",
-        "category": "Catalog",
-        "similarity": 0.4349
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11477": {
-    "suggestedCategory": "Catalog",
-    "confidence": 0.89,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11479",
-        "name": "Vonarstraeti Zipped Hoodie",
-        "category": "Catalog",
-        "similarity": 0.9098
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11478",
-        "name": "Vonarstraeti W Turtleneck",
-        "category": "Catalog",
-        "similarity": 0.8213
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11472",
-        "name": "Skipholt Sweater",
-        "category": "Catalog",
-        "similarity": 0.753
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11476": {
-    "suggestedCategory": "Catalog",
-    "confidence": 0.82,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11479",
-        "name": "Vonarstraeti Zipped Hoodie",
-        "category": "Catalog",
-        "similarity": 0.9144
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11478",
-        "name": "Vonarstraeti W Turtleneck",
-        "category": "Catalog",
-        "similarity": 0.8349
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.7964
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11167": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.73,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11169",
-        "name": "Women's VatnajÃ¶kull Softshell Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.9821
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.5185
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11202",
-        "name": "Women's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.4913
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:D55430": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.82,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D43624",
-        "name": "Kids Ymir Pants",
-        "category": "Outerlayers",
-        "similarity": 0.3977
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D10104",
-        "name": "Kids Ymir Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.3864
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D11433",
-        "name": "MÃ­mir",
-        "category": "Outerlayers",
-        "similarity": 0.3613
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:I13615": {
-    "suggestedCategory": "Bottoms",
-    "confidence": 0.65,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:I43615",
-        "name": "Frigg Rain Pants",
-        "category": "Bottoms",
-        "similarity": 0.7522
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C03708",
-        "name": "Frigg Rain Overall",
-        "category": "Outerlayers",
-        "similarity": 0.7149
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C00601",
-        "name": "Freyr Rain Overall",
-        "category": "Outerlayers",
-        "similarity": 0.6497
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:D11430": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.74,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11162",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.4265
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J56100",
-        "name": "RÃ¡n",
-        "category": "Infants",
-        "similarity": 0.4153
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.3915
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:J46101": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.81,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D10104",
-        "name": "Kids Ymir Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.5401
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D43624",
-        "name": "Kids Ymir Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5368
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46105",
-        "name": "Kids Ran Pants",
-        "category": "Outerlayers",
-        "similarity": 0.5116
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11438": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.84,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9602
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11448",
-        "name": "VonarstrÃ¦ti Zipped Wool Hoodie",
-        "category": "Tops",
-        "similarity": 0.9507
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.9096
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11449": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.82,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.6935
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.6464
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11448",
-        "name": "VonarstrÃ¦ti Zipped Wool Hoodie",
-        "category": "Tops",
-        "similarity": 0.632
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11043": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.86,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11036",
-        "name": "Gola",
-        "category": "Gifts",
-        "similarity": 0.664
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11057",
-        "name": "BlÃ¦r Longsleeve",
-        "category": "Gifts",
-        "similarity": 0.6638
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.6296
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11200": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.82,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11201",
-        "name": "Men's Tungudalur Hoodie",
-        "category": "Tops",
-        "similarity": 0.9877
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11202",
-        "name": "Women's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.9305
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11203",
-        "name": "Men's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.9022
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11087": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.76,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11095",
-        "name": "Dyngja Zipped Hoodie",
-        "category": "Tops",
-        "similarity": 0.6568
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11036",
-        "name": "Gola",
-        "category": "Gifts",
-        "similarity": 0.6474
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.6223
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11102": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.68,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01141",
-        "name": "Laugardalur Anorak",
-        "category": "Gifts",
-        "similarity": 0.8808
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01264",
-        "name": "Women's Mosfell Zipneck",
-        "category": "Tops",
-        "similarity": 0.5918
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11187",
-        "name": "Hringbraut Track Jacket",
-        "category": "Outerlayers",
-        "similarity": 0.583
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11195": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.76,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11194",
-        "name": "Men's SnÃ¦fell Technostretch Jacket",
-        "category": "Tops",
-        "similarity": 0.983
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11141",
-        "name": "Tindur Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.5472
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11746",
-        "name": "Skipagata Hooded Rain Coat",
-        "category": "Gifts",
-        "similarity": 0.5407
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11099": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.63,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11229",
-        "name": "66Â°North x James Merry Jacket",
-        "category": "Tops",
-        "similarity": 0.4508
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11448",
-        "name": "VonarstrÃ¦ti Zipped Wool Hoodie",
-        "category": "Tops",
-        "similarity": 0.4474
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11414",
-        "name": "66Â°North x Charlie Constantinou Balaclava Knit Sweater",
-        "category": "Tops",
-        "similarity": 0.4431
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11097": {
-    "suggestedCategory": "Clothes",
-    "confidence": 0.5,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11096",
-        "name": "{\"is\":\"66Â°NorÃ°ur x Reykjavik Roses\",\"en-us\":\"\"}",
-        "category": "Tops",
-        "similarity": 0.6293
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J56100",
-        "name": "RÃ¡n",
-        "category": "Infants",
-        "similarity": 0.5439
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J16106",
-        "name": "RÃ¡n",
-        "category": "Outerlayers",
-        "similarity": 0.5422
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11079": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.79,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.6718
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11095",
-        "name": "Dyngja Zipped Hoodie",
-        "category": "Tops",
-        "similarity": 0.6652
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11074",
-        "name": "JÃ¶kla Hoodie",
-        "category": "Gifts",
-        "similarity": 0.62
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:C41747": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.74,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11747",
-        "name": "Skipagata Rain Anorak",
-        "category": "Outerlayers",
-        "similarity": 0.6545
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11746",
-        "name": "Skipagata Hooded Rain Coat",
-        "category": "Gifts",
-        "similarity": 0.5387
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:B03708",
-        "name": "Sif Raincoat",
-        "category": "Outerlayers",
-        "similarity": 0.5315
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11074": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.75,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11079",
-        "name": "Ãžoka",
-        "category": "Tops",
-        "similarity": 0.62
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11083",
-        "name": "VatnajÃ¶kull Crewneck",
-        "category": "Tops",
-        "similarity": 0.5844
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.5423
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:J16106": {
-    "suggestedCategory": "Infants",
-    "confidence": 0.73,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J46105",
-        "name": "Kids Ran Pants",
-        "category": "Outerlayers",
-        "similarity": 0.6662
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:J56101",
-        "name": "RÃ¡n",
-        "category": "Infants",
-        "similarity": 0.5514
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11097",
-        "name": "Olympic Hoodie",
-        "category": "Tops",
-        "similarity": 0.5422
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:C11745": {
-    "suggestedCategory": "Gifts",
-    "confidence": 0.72,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11746",
-        "name": "Skipagata Hooded Rain Coat",
-        "category": "Gifts",
-        "similarity": 0.9653
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:C11747",
-        "name": "Skipagata Rain Anorak",
-        "category": "Outerlayers",
-        "similarity": 0.609
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:B03708",
-        "name": "Sif Raincoat",
-        "category": "Outerlayers",
-        "similarity": 0.5526
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E61431": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9041
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.8937
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.8508
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:D11433": {
-    "suggestedCategory": "Outerlayers",
-    "confidence": 0.72,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D33436",
-        "name": "Mimir",
-        "category": "Outerlayers",
-        "similarity": 0.8455
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:D83633",
-        "name": "MÃ­mir Mittens",
-        "category": "Accessories",
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:22574",
+        "name": "Kong Dental Stick Medium",
+        "category": "pet > toys",
         "similarity": 0.7575
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:B03708",
-        "name": "Sif Raincoat",
-        "category": "Outerlayers",
-        "similarity": 0.4242
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 0.7528
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11095": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.74,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11065",
-        "name": "Dyngja Hoodie",
-        "category": "Gifts",
-        "similarity": 0.761
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11072",
-        "name": "Dyngja Cropped Hoodie",
-        "category": "Tops",
-        "similarity": 0.7448
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11079",
-        "name": "Ãžoka",
-        "category": "Tops",
-        "similarity": 0.6652
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11219": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.71,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11218",
-        "name": "Men's Esja Fleece Jacket",
-        "category": "Tops",
-        "similarity": 0.9844
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01723",
-        "name": "Esja Fleece Zip-Neck",
-        "category": "Season",
-        "similarity": 0.8614
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.728
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11451": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.83,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11452",
-        "name": "Women's ReykjavÃ­k Sweater",
-        "category": "Tops",
-        "similarity": 0.9927
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11437",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.6832
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11436",
-        "name": "TjÃ¶rnin",
-        "category": "Tops",
-        "similarity": 0.6829
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:K11080": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.77,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11077",
-        "name": "ViÃ°ey Hoodie",
-        "category": "Tops",
-        "similarity": 0.8221
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11456",
-        "name": "Kjalarnes Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.5235
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01263",
-        "name": "Kaldi Half Zip",
-        "category": "Catalog",
-        "similarity": 0.498
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11443": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.68,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11439",
-        "name": "Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.983
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11473",
-        "name": "Skipholt W Sweater",
-        "category": "Catalog",
-        "similarity": 0.8529
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11472",
-        "name": "Skipholt Sweater",
-        "category": "Catalog",
-        "similarity": 0.85
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11418": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.73,
-    "similarProducts": [
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11440",
-        "name": "Sif",
-        "category": "Clothes",
-        "similarity": 0.5785
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11445",
-        "name": "VatnajÃ¶kull Knitted Sweater",
-        "category": "Tops",
-        "similarity": 0.5355
-      },
-      {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11419",
-        "name": "Bylur",
-        "category": "Tops",
-        "similarity": 0.5335
-      }
-    ],
-    "baselineSource": "hybrid-model-crossval"
-  },
-  "org_6BcU2bHS45bNFkde:AX:E11448": {
-    "suggestedCategory": "Tops",
+  "gaeludyr:PETMARK_XML:22824": {
+    "suggestedCategory": "pet > toys",
     "confidence": 0.84,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11438",
-        "name": "VonarstrÃ¦ti Zipped Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9507
+        "id": "gaeludyr:PETMARK_XML:22824",
+        "name": "KONG Low Stuff Flopzie Lamb Md.",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11435",
-        "name": "VonarstrÃ¦ti Wool Sweater",
-        "category": "Tops",
-        "similarity": 0.9267
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 0.7022
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11444",
-        "name": "Women's VonarstrÃ¦ti Wool Turtleneck",
-        "category": "Tops",
-        "similarity": 0.8736
+        "id": "gaeludyr:PETMARK_XML:22639",
+        "name": "KONG Air Boltar í lausu M",
+        "category": "pet > toys",
+        "similarity": 0.661
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K01251": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.75,
+  "gaeludyr:PETMARK_XML:22833": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.84,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01250",
-        "name": "Men's Hrannar Zipneck",
-        "category": "Tops",
-        "similarity": 0.9695
+        "id": "gaeludyr:PETMARK_XML:22833",
+        "name": "KONG Flyangle Assorted Lg",
+        "category": "pet > toys",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01723",
-        "name": "Esja Fleece Zip-Neck",
-        "category": "Season",
-        "similarity": 0.5472
+        "id": "gaeludyr:PETMARK_XML:22823",
+        "name": "KONG Signature Stick w/Rope Md.",
+        "category": "pet > toys",
+        "similarity": 0.7528
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K01184",
-        "name": "Women's Askja Top",
-        "category": "Tops",
-        "similarity": 0.4977
+        "id": "gaeludyr:PETMARK_XML:22505",
+        "name": "KONG Classic xx-large",
+        "category": "pet > toys",
+        "similarity": 0.7523
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:E11434": {
-    "suggestedCategory": "Tops",
-    "confidence": 0.68,
+  "gaeludyr:PETMARK_XML:25380": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.81,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11439",
-        "name": "Skipholt Sweater",
-        "category": "Tops",
-        "similarity": 0.8067
+        "id": "gaeludyr:PETMARK_XML:25380",
+        "name": "Primo 110 svart",
+        "category": "pet > aquariums",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11478",
-        "name": "Vonarstraeti W Turtleneck",
-        "category": "Catalog",
-        "similarity": 0.7361
+        "id": "gaeludyr:PETMARK_XML:J11930",
+        "name": "Lido 200 LED svart",
+        "category": "pet > aquariums",
+        "similarity": 0.5306
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:E11472",
-        "name": "Skipholt Sweater",
-        "category": "Catalog",
-        "similarity": 0.7314
+        "id": "gaeludyr:PETMARK_XML:J01750",
+        "name": "Rio 125 LED Dark Wood",
+        "category": "pet > aquariums",
+        "similarity": 0.4929
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
   },
-  "org_6BcU2bHS45bNFkde:AX:K11203": {
-    "suggestedCategory": "Tops",
+  "gaeludyr:PETMARK_XML:46360": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:46360",
+        "name": "Ljósastæði T5 2x24W 60 cm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:46420",
+        "name": "Ljósasett High-Lite 120cm 54W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9353
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:86724",
+        "name": "High-Lite Blue 24 W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.495
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:46420": {
+    "suggestedCategory": "pet > aquarium-lighting",
     "confidence": 0.82,
     "similarProducts": [
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11202",
-        "name": "Women's Tungudalur Jacket",
-        "category": "Tops",
-        "similarity": 0.9877
+        "id": "gaeludyr:PETMARK_XML:46420",
+        "name": "Ljósasett High-Lite 120cm 54W",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11201",
-        "name": "Men's Tungudalur Hoodie",
-        "category": "Tops",
-        "similarity": 0.9309
+        "id": "gaeludyr:PETMARK_XML:46360",
+        "name": "Ljósastæði T5 2x24W 60 cm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.9353
       },
       {
-        "id": "org_6BcU2bHS45bNFkde:AX:K11200",
-        "name": "Women's Tungudalur Hoodie",
-        "category": "Tops",
-        "similarity": 0.9022
+        "id": "gaeludyr:PETMARK_XML:86456",
+        "name": "High-Lite Nature 54 W 1200mm",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.5205
       }
     ],
-    "baselineSource": "hybrid-model-crossval"
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:A550A": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.8,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:A550A",
+        "name": "Filtermaterial f/A440+A550",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560029",
+        "name": "Bio Bact L green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.6277
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560019",
+        "name": "Bio-Bact S Green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.6233
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AN82883": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.78,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AN82883",
+        "name": "Dental Sticks Small 110g (7)",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:AN82886",
+        "name": "Dental Sticks Multi Medium 28 stk.",
+        "category": "pet > treats",
+        "similarity": 0.9257
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD495009",
+        "name": "Skál S MINNIE",
+        "category": "pet > food",
+        "similarity": 0.4471
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AN82886": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.79,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AN82886",
+        "name": "Dental Sticks Multi Medium 28 stk.",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:AN82883",
+        "name": "Dental Sticks Small 110g (7)",
+        "category": "pet > treats",
+        "similarity": 0.9257
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD495009",
+        "name": "Skál S MINNIE",
+        "category": "pet > food",
+        "similarity": 0.4147
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AN82980": {
+    "suggestedCategory": "pet > dog-food",
+    "confidence": 0.68,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AN82980",
+        "name": "Feinstein Dog w/Rabbit 150g",
+        "category": "pet > dog-food",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560026",
+        "name": "Foam large svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4407
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:422105",
+        "name": "Nutribird C15 1kg",
+        "category": "pet > bird-food",
+        "similarity": 0.4397
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AN83030": {
+    "suggestedCategory": "pet > cat-food",
+    "confidence": 0.79,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AN83030",
+        "name": "Ani.VF Cat Chick & Rabb 85g",
+        "category": "pet > cat-food",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:AN83033",
+        "name": "Ani.VF Cat chick & Tuna 85g",
+        "category": "pet > cat-food",
+        "similarity": 0.5508
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:BRI-100384",
+        "name": "Carnilove blautmatur 85 gr quil",
+        "category": "pet > cat-food",
+        "similarity": 0.4679
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AN83033": {
+    "suggestedCategory": "pet > cat-food",
+    "confidence": 0.73,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AN83033",
+        "name": "Ani.VF Cat chick & Tuna 85g",
+        "category": "pet > cat-food",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:AN83030",
+        "name": "Ani.VF Cat Chick & Rabb 85g",
+        "category": "pet > cat-food",
+        "similarity": 0.5508
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33673",
+        "name": "Euka.Pet mjúkbúr 70*52*53 L",
+        "category": "pet > habitats",
+        "similarity": 0.4522
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AN83125": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.69,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AN83125",
+        "name": "Milkies hairball 120 gr",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560019",
+        "name": "Bio-Bact S Green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4849
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560029",
+        "name": "Bio Bact L green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4585
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AT129": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AT129",
+        "name": "Plastbúr m/loki 27*17*18 cm",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:AT130",
+        "name": "Plastbúr m/loki 34*20*22 cm",
+        "category": "pet > aquariums",
+        "similarity": 0.8192
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:J01750",
+        "name": "Rio 125 LED Dark Wood",
+        "category": "pet > aquariums",
+        "similarity": 0.5534
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:AT130": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:AT130",
+        "name": "Plastbúr m/loki 34*20*22 cm",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:AT129",
+        "name": "Plastbúr m/loki 27*17*18 cm",
+        "category": "pet > aquariums",
+        "similarity": 0.8192
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI570033",
+        "name": "Emotions Pro 120 svartur skápur",
+        "category": "pet > aquariums",
+        "similarity": 0.5853
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD518944": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD518944",
+        "name": "Leikfang mjúkt BATMAN",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD041859",
+        "name": "Leikfang m/reipi MICKEY",
+        "category": "pet > toys",
+        "similarity": 0.8183
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD519279",
+        "name": "Leikfang Mjúkt SPIDERMAN",
+        "category": "pet > toys",
+        "similarity": 0.8055
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD519002": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.81,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD519002",
+        "name": "Leikfang mjúkt STAR WARS DARTH VADER",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD519279",
+        "name": "Leikfang Mjúkt SPIDERMAN",
+        "category": "pet > toys",
+        "similarity": 0.8009
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042306",
+        "name": "Leikfang nag STAR WARS",
+        "category": "pet > toys",
+        "similarity": 0.7878
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD519279": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD519279",
+        "name": "Leikfang Mjúkt SPIDERMAN",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD518692",
+        "name": "Leikfang SPIDERMAN",
+        "category": "pet > toys",
+        "similarity": 0.8872
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042306",
+        "name": "Leikfang nag STAR WARS",
+        "category": "pet > toys",
+        "similarity": 0.8074
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI200001": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.75,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI200001",
+        "name": "Hreinsidæla CF 40 svört",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI390793",
+        "name": "Hreinsidæla 5W",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.6032
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI690114",
+        "name": "Nexus fiskabúr 15L hvítt",
+        "category": "pet > aquariums",
+        "similarity": 0.5879
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI390793": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.8,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI390793",
+        "name": "Hreinsidæla 5W",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI200001",
+        "name": "Hreinsidæla CF 40 svört",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.6032
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560026",
+        "name": "Foam large svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.525
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI540134": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.86,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540134",
+        "name": "Fiskabúr CIANO 20 svart",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540246",
+        "name": "Aquarium 80 White",
+        "category": "pet > aquariums",
+        "similarity": 0.8125
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI690114",
+        "name": "Nexus fiskabúr 15L hvítt",
+        "category": "pet > aquariums",
+        "similarity": 0.7512
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI540230": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.89,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540230",
+        "name": "Fiskabúr CIANO 80 svart",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI70002",
+        "name": "Fiskabúrastandur CIANO 80 svartur",
+        "category": "pet > aquariums",
+        "similarity": 0.8246
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580052",
+        "name": "Converter CLA 20 Black",
+        "category": "pet > aquariums",
+        "similarity": 0.7959
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI540246": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540246",
+        "name": "Aquarium 80 White",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540134",
+        "name": "Fiskabúr CIANO 20 svart",
+        "category": "pet > aquariums",
+        "similarity": 0.8125
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI690114",
+        "name": "Nexus fiskabúr 15L hvítt",
+        "category": "pet > aquariums",
+        "similarity": 0.6999
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560019": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560019",
+        "name": "Bio-Bact S Green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560029",
+        "name": "Bio Bact L green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.9573
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:A550A",
+        "name": "Filtermaterial f/A440+A550",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.6233
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560024": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560024",
+        "name": "Stop-Algae M Red",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560025",
+        "name": "Foam M Black",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.637
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560054",
+        "name": "Foam XL svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.5662
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560025": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.86,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560025",
+        "name": "Foam M Black",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560026",
+        "name": "Foam large svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.832
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560054",
+        "name": "Foam XL svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.7365
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560026": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.85,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560026",
+        "name": "Foam large svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560025",
+        "name": "Foam M Black",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.832
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560054",
+        "name": "Foam XL svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.7231
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560029": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560029",
+        "name": "Bio Bact L green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560019",
+        "name": "Bio-Bact S Green",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.9573
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:A550A",
+        "name": "Filtermaterial f/A440+A550",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.6277
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560047": {
+    "suggestedCategory": "pet > fish-food",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560047",
+        "name": "Plant Protection Dosator M",
+        "category": "pet > fish-food",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560025",
+        "name": "Foam M Black",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4997
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560026",
+        "name": "Foam large svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.4575
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI560054": {
+    "suggestedCategory": "pet > aquarium-equipment",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560054",
+        "name": "Foam XL svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560025",
+        "name": "Foam M Black",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.7365
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI560026",
+        "name": "Foam large svart",
+        "category": "pet > aquarium-equipment",
+        "similarity": 0.7231
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI570033": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.85,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI570033",
+        "name": "Emotions Pro 120 svartur skápur",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540230",
+        "name": "Fiskabúr CIANO 80 svart",
+        "category": "pet > aquariums",
+        "similarity": 0.6997
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI70002",
+        "name": "Fiskabúrastandur CIANO 80 svartur",
+        "category": "pet > aquariums",
+        "similarity": 0.688
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI580052": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.86,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580052",
+        "name": "Converter CLA 20 Black",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540230",
+        "name": "Fiskabúr CIANO 80 svart",
+        "category": "pet > aquariums",
+        "similarity": 0.7959
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI70002",
+        "name": "Fiskabúrastandur CIANO 80 svartur",
+        "category": "pet > aquariums",
+        "similarity": 0.6607
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI580083": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.8,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580083",
+        "name": "CLE 60/80 svart Straumbr.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:J49260",
+        "name": "NovoLux LED 60 White",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.641
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:J48994",
+        "name": "Straumgjafi Helialux Spect.1200-",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.5565
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI580111": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.78,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580111",
+        "name": "Ljós CLA 20 Univers svart + Straumbr.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580156",
+        "name": "CLE 100 hvítt+ Straumbr. (full pack)",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.5288
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580153",
+        "name": "CLE 80 svart + Straumbr. (full pack)",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.5137
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI580153": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.79,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580153",
+        "name": "CLE 80 svart + Straumbr. (full pack)",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580156",
+        "name": "CLE 100 hvítt+ Straumbr. (full pack)",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8388
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580083",
+        "name": "CLE 60/80 svart Straumbr.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.5442
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI580156": {
+    "suggestedCategory": "pet > aquarium-lighting",
+    "confidence": 0.79,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580156",
+        "name": "CLE 100 hvítt+ Straumbr. (full pack)",
+        "category": "pet > aquarium-lighting",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580153",
+        "name": "CLE 80 svart + Straumbr. (full pack)",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.8388
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI580111",
+        "name": "Ljós CLA 20 Univers svart + Straumbr.",
+        "category": "pet > aquarium-lighting",
+        "similarity": 0.5288
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI690114": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI690114",
+        "name": "Nexus fiskabúr 15L hvítt",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540134",
+        "name": "Fiskabúr CIANO 20 svart",
+        "category": "pet > aquariums",
+        "similarity": 0.7512
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540246",
+        "name": "Aquarium 80 White",
+        "category": "pet > aquariums",
+        "similarity": 0.6999
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CI70002": {
+    "suggestedCategory": "pet > aquariums",
+    "confidence": 0.87,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CI70002",
+        "name": "Fiskabúrastandur CIANO 80 svartur",
+        "category": "pet > aquariums",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI540230",
+        "name": "Fiskabúr CIANO 80 svart",
+        "category": "pet > aquariums",
+        "similarity": 0.8246
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CI70024",
+        "name": "Table Aqua 60 White",
+        "category": "pet > aquariums",
+        "similarity": 0.7433
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H300132": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.8,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H300132",
+        "name": "ICrate hvolpagerði Gold 80cm",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H301817",
+        "name": "ICrate hvolpagerði Pink 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 0.5901
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H301818",
+        "name": "ICrate hvolpagerði Blue 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 0.5832
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H300776": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.81,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H300776",
+        "name": "Grindabúr ICrate 123 cm",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H300858",
+        "name": "ICrate skál í búr 300ml",
+        "category": "pet > habitats",
+        "similarity": 0.5422
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H300132",
+        "name": "ICrate hvolpagerði Gold 80cm",
+        "category": "pet > habitats",
+        "similarity": 0.3768
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H300858": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H300858",
+        "name": "ICrate skál í búr 300ml",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H301817",
+        "name": "ICrate hvolpagerði Pink 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 0.5667
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H301818",
+        "name": "ICrate hvolpagerði Blue 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 0.5659
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H301817": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H301817",
+        "name": "ICrate hvolpagerði Pink 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H301818",
+        "name": "ICrate hvolpagerði Blue 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 0.9949
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H300132",
+        "name": "ICrate hvolpagerði Gold 80cm",
+        "category": "pet > habitats",
+        "similarity": 0.5901
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H301818": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H301818",
+        "name": "ICrate hvolpagerði Blue 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H301817",
+        "name": "ICrate hvolpagerði Pink 63cm (Small)",
+        "category": "pet > habitats",
+        "similarity": 0.9949
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H300132",
+        "name": "ICrate hvolpagerði Gold 80cm",
+        "category": "pet > habitats",
+        "similarity": 0.5832
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H33671": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H33671",
+        "name": "Euka.Pet mjúkbúr 49*34*36 S",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33673",
+        "name": "Euka.Pet mjúkbúr 70*52*53 L",
+        "category": "pet > habitats",
+        "similarity": 0.8814
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33672",
+        "name": "Euka.Pet mjúkbúr 60*42*42 M",
+        "category": "pet > habitats",
+        "similarity": 0.8565
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H33672": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H33672",
+        "name": "Euka.Pet mjúkbúr 60*42*42 M",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33673",
+        "name": "Euka.Pet mjúkbúr 70*52*53 L",
+        "category": "pet > habitats",
+        "similarity": 0.859
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33671",
+        "name": "Euka.Pet mjúkbúr 49*34*36 S",
+        "category": "pet > habitats",
+        "similarity": 0.8565
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H33673": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H33673",
+        "name": "Euka.Pet mjúkbúr 70*52*53 L",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33671",
+        "name": "Euka.Pet mjúkbúr 49*34*36 S",
+        "category": "pet > habitats",
+        "similarity": 0.8814
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H33672",
+        "name": "Euka.Pet mjúkbúr 60*42*42 M",
+        "category": "pet > habitats",
+        "similarity": 0.859
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H37549": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.83,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H37549",
+        "name": "Vetbed 100x70cm loppur á gráu",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H37557",
+        "name": "Vetbed 100x70cm loppur sv/hv á gráu",
+        "category": "pet > habitats",
+        "similarity": 0.9093
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD494842",
+        "name": "Hellir Hundabæli STAR WARS",
+        "category": "pet > habitats",
+        "similarity": 0.6826
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H37557": {
+    "suggestedCategory": "pet > habitats",
+    "confidence": 0.81,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H37557",
+        "name": "Vetbed 100x70cm loppur sv/hv á gráu",
+        "category": "pet > habitats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H37549",
+        "name": "Vetbed 100x70cm loppur á gráu",
+        "category": "pet > habitats",
+        "similarity": 0.9093
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD494842",
+        "name": "Hellir Hundabæli STAR WARS",
+        "category": "pet > habitats",
+        "similarity": 0.6386
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H40063": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H40063",
+        "name": "AS Liver snack",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H51084",
+        "name": "AS duck sticks 16stk",
+        "category": "pet > treats",
+        "similarity": 0.8607
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H5106405",
+        "name": "AS liver Sticks 4 stk",
+        "category": "pet > treats",
+        "similarity": 0.4571
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H4008335": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.85,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H4008335",
+        "name": "AS Duck Snack",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H5106405",
+        "name": "AS liver Sticks 4 stk",
+        "category": "pet > treats",
+        "similarity": 0.8171
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H40063",
+        "name": "AS Liver snack",
+        "category": "pet > treats",
+        "similarity": 0.4435
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H5106405": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H5106405",
+        "name": "AS liver Sticks 4 stk",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H4008335",
+        "name": "AS Duck Snack",
+        "category": "pet > treats",
+        "similarity": 0.8171
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H51084",
+        "name": "AS duck sticks 16stk",
+        "category": "pet > treats",
+        "similarity": 0.4742
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H51084": {
+    "suggestedCategory": "pet > treats",
+    "confidence": 0.84,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H51084",
+        "name": "AS duck sticks 16stk",
+        "category": "pet > treats",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H40063",
+        "name": "AS Liver snack",
+        "category": "pet > treats",
+        "similarity": 0.8607
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H5106405",
+        "name": "AS liver Sticks 4 stk",
+        "category": "pet > treats",
+        "similarity": 0.4742
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H616007": {
+    "suggestedCategory": "pet > accessories",
+    "confidence": 0.73,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H616007",
+        "name": "K9 IDC Beisli Baby 1 Svart",
+        "category": "pet > accessories",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H616229",
+        "name": "K9 IDC Beisli Mini-Mini Black",
+        "category": "pet > accessories",
+        "similarity": 0.6995
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:461313",
+        "name": "Complete chincilla 1,75 kg",
+        "category": "pet > small-pet-food",
+        "similarity": 0.4175
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:H616229": {
+    "suggestedCategory": "pet > accessories",
+    "confidence": 0.78,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:H616229",
+        "name": "K9 IDC Beisli Mini-Mini Black",
+        "category": "pet > accessories",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:H616007",
+        "name": "K9 IDC Beisli Baby 1 Svart",
+        "category": "pet > accessories",
+        "similarity": 0.6995
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD448098",
+        "name": "Taumur S MINNIE",
+        "category": "pet > accessories",
+        "similarity": 0.4129
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD041859": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD041859",
+        "name": "Leikfang m/reipi MICKEY",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD518944",
+        "name": "Leikfang mjúkt BATMAN",
+        "category": "pet > toys",
+        "similarity": 0.8183
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042306",
+        "name": "Leikfang nag STAR WARS",
+        "category": "pet > toys",
+        "similarity": 0.7639
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD042221": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042221",
+        "name": "Leikfang m/hring MANDALORIAN",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD518692",
+        "name": "Leikfang SPIDERMAN",
+        "category": "pet > toys",
+        "similarity": 0.8906
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042269",
+        "name": "Nagdót STITCH",
+        "category": "pet > toys",
+        "similarity": 0.8628
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD042306": {
+    "suggestedCategory": "pet > toys",
+    "confidence": 0.82,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042306",
+        "name": "Leikfang nag STAR WARS",
+        "category": "pet > toys",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD042320",
+        "name": "Nagdót THE MANDALORIAN",
+        "category": "pet > toys",
+        "similarity": 0.8386
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD519279",
+        "name": "Leikfang Mjúkt SPIDERMAN",
+        "category": "pet > toys",
+        "similarity": 0.8074
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD054118": {
+    "suggestedCategory": "pet > accessories",
+    "confidence": 0.88,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD054118",
+        "name": "Taumur S MARVEL",
+        "category": "pet > accessories",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD054095",
+        "name": "Taumur S MICKEY",
+        "category": "pet > accessories",
+        "similarity": 0.9261
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD448050",
+        "name": "Taumur S BATMAN",
+        "category": "pet > accessories",
+        "similarity": 0.9078
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD062991": {
+    "suggestedCategory": "pet > apparel",
+    "confidence": 0.88,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD062991",
+        "name": "Regnkápa XS STAR WARS STORM TROOPER",
+        "category": "pet > apparel",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422098",
+        "name": "Peysa XS Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.8011
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD063134",
+        "name": "Regnkápa S BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.7784
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD064636": {
+    "suggestedCategory": "pet > accessories",
+    "confidence": 0.89,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD064636",
+        "name": "Hálsól S/M MARVEL",
+        "category": "pet > accessories",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447619",
+        "name": "Hálsól S/M BATMAN",
+        "category": "pet > accessories",
+        "similarity": 0.886
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD448159",
+        "name": "Taumur M MARVEL",
+        "category": "pet > accessories",
+        "similarity": 0.8155
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD421992": {
+    "suggestedCategory": "pet > apparel",
+    "confidence": 0.92,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD421992",
+        "name": "Peysa XXS BATMAN",
+        "category": "pet > apparel",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422074",
+        "name": "Peysa XXS Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.9878
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422111",
+        "name": "Peysa S Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.8841
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD422074": {
+    "suggestedCategory": "pet > apparel",
+    "confidence": 0.92,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422074",
+        "name": "Peysa XXS Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD421992",
+        "name": "Peysa XXS BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.9878
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422111",
+        "name": "Peysa S Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.8978
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD422098": {
+    "suggestedCategory": "pet > apparel",
+    "confidence": 0.91,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422098",
+        "name": "Peysa XS Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422074",
+        "name": "Peysa XXS Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.8928
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD421992",
+        "name": "Peysa XXS BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.8792
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD422111": {
+    "suggestedCategory": "pet > apparel",
+    "confidence": 0.92,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD422111",
+        "name": "Peysa S Brushed BATMAN",
+        "category": "pet > apparel",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD064049",
+        "name": "Peysa S MARVEL",
+        "category": "pet > apparel",
+        "similarity": 0.9159
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD063134",
+        "name": "Regnkápa S BATMAN",
+        "category": "pet > apparel",
+        "similarity": 0.9081
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD447572": {
+    "suggestedCategory": "pet > accessories",
+    "confidence": 0.88,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447572",
+        "name": "Hálsól XXS/XS BATMAN",
+        "category": "pet > accessories",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447978",
+        "name": "Hálsól XXS/XS DARTH VADER",
+        "category": "pet > accessories",
+        "similarity": 0.8851
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447732",
+        "name": "Hálsól XXS/XS MARVEL",
+        "category": "pet > accessories",
+        "similarity": 0.8788
+      }
+    ],
+    "baselineSource": "hybrid-model"
+  },
+  "gaeludyr:PETMARK_XML:CD447671": {
+    "suggestedCategory": "pet > accessories",
+    "confidence": 0.88,
+    "similarProducts": [
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447671",
+        "name": "Hálsól XS/S MINNIE",
+        "category": "pet > accessories",
+        "similarity": 1.0
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447572",
+        "name": "Hálsól XXS/XS BATMAN",
+        "category": "pet > accessories",
+        "similarity": 0.8272
+      },
+      {
+        "id": "gaeludyr:PETMARK_XML:CD447619",
+        "name": "Hálsól S/M BATMAN",
+        "category": "pet > accessories",
+        "similarity": 0.8062
+      }
+    ],
+    "baselineSource": "hybrid-model"
   }
 }

@@ -141,6 +141,66 @@
         </div>
       </section>
 
+      <section class="catalog-section" id="playground">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Model Playground</p>
+            <h2>See how the model behaves on another dataset.</h2>
+          </div>
+          <p class="section-copy">
+            This view shows inference results from external test sets: raw store categories, mapped taxonomy hints,
+            top candidate categories, and confidence bands so you can quickly see whether the model is generalizing.
+          </p>
+        </div>
+
+        <div class="playground-shell">
+          <div class="playground-metrics">
+            <article>
+              <span class="comparison-label">Rows loaded</span>
+              <strong id="playgroundRowCount">0</strong>
+            </article>
+            <article>
+              <span class="comparison-label">High confidence</span>
+              <strong id="playgroundHighCount">0</strong>
+            </article>
+            <article>
+              <span class="comparison-label">Medium confidence</span>
+              <strong id="playgroundMediumCount">0</strong>
+            </article>
+            <article>
+              <span class="comparison-label">Low confidence</span>
+              <strong id="playgroundLowCount">0</strong>
+            </article>
+          </div>
+
+          <div class="search-panel">
+            <form id="playgroundSearchForm" class="search-form">
+              <label class="search-input">
+                <span class="visually-hidden">Search model evaluation</span>
+                <input
+                  id="playgroundSearchInput"
+                  type="search"
+                  placeholder="Search external products, categories, or canonical labels..."
+                  autocomplete="off"
+                >
+              </label>
+              <button class="search-submit" type="submit">Filter</button>
+            </form>
+
+            <div class="review-toolbar" id="playgroundConfidenceFilters" aria-label="Confidence filters"></div>
+            <div class="filter-group" id="playgroundCategoryFilters" aria-label="Suggested categories"></div>
+
+            <div class="search-meta">
+              <p id="playgroundResultsCount">Loading model evaluation...</p>
+              <button id="playgroundClearFilters" class="text-button" type="button">Clear filters</button>
+            </div>
+          </div>
+
+          <div class="playground-source" id="playgroundSource">No evaluation artifact loaded yet.</div>
+          <div class="playground-grid" id="playgroundGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
       <section class="search-lab" id="pipeline">
         <div class="section-heading compact">
           <div>
@@ -250,6 +310,43 @@
         <div class="review-flags"></div>
         <div class="review-tags"></div>
         <div class="review-similar"></div>
+        <button class="gemini-review-button" type="button">Review with Gemini</button>
+        <div class="gemini-review-panel" hidden>
+          <span class="comparison-label">Gemini Reviewer</span>
+          <strong class="gemini-suggestion"></strong>
+          <p class="gemini-reasoning"></p>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <template id="playgroundCardTemplate">
+    <article class="playground-card">
+      <div class="playground-header">
+        <div>
+          <h3 class="playground-name"></h3>
+          <p class="playground-raw-category"></p>
+        </div>
+        <p class="playground-confidence"></p>
+      </div>
+      <div class="playground-comparison">
+        <div>
+          <span class="comparison-label">Mapped Label</span>
+          <strong class="playground-canonical"></strong>
+        </div>
+        <div>
+          <span class="comparison-label">Model Suggestion</span>
+          <strong class="playground-suggested"></strong>
+        </div>
+      </div>
+      <div class="playground-status"></div>
+      <div class="playground-top-candidates"></div>
+      <div class="playground-similar"></div>
+      <button class="gemini-review-button" type="button">Review with Gemini</button>
+      <div class="gemini-review-panel" hidden>
+        <span class="comparison-label">Gemini Reviewer</span>
+        <strong class="gemini-suggestion"></strong>
+        <p class="gemini-reasoning"></p>
       </div>
     </article>
   </template>

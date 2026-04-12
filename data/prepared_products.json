@@ -12,6 +12,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 81% bio-Attributed PVC, 19% recycled polyester",
@@ -64,6 +71,13 @@
     "all_categories": [
       "Bottoms"
     ],
+    "taxonomy_paths": [
+      "Bottoms"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "bottoms",
+    "canonical_label": "apparel > bottoms",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 81% bio-Attributed PVC, 19% recycled polyester",
@@ -112,6 +126,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -142,6 +163,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -172,6 +200,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 81% Bio-Attributed PVC, 19% Recycled polyester",
@@ -227,6 +262,15 @@
       "Outerlayers",
       "Season"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Outerlayers",
+      "Season"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 81% Bio-Attributed PVC, 19% Recycled polyester",
@@ -277,6 +321,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 81% Bio-Attributed PVC, 19% Recycled polyester",
@@ -327,6 +378,13 @@
     "all_categories": [
       "Bottoms"
     ],
+    "taxonomy_paths": [
+      "Bottoms"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "bottoms",
+    "canonical_label": "apparel > bottoms",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -357,6 +415,13 @@
     "all_categories": [
       "Bottoms"
     ],
+    "taxonomy_paths": [
+      "Bottoms"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "bottoms",
+    "canonical_label": "apparel > bottoms",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -385,6 +450,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 81% Bio-Attributed PVC, 19% Recycled polyester",
@@ -426,6 +496,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyamide\nLining: 100% Polyester",
@@ -473,6 +550,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -511,6 +595,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 66% PVC, 22% Polyester, 12% Polyurethane",
@@ -560,6 +651,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 66% PVC, 22% Polyester, 12% Polyurethane",
@@ -607,6 +705,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyamide\nLining: 100% Polyester",
@@ -649,6 +754,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Polyurethane",
@@ -695,6 +807,13 @@
     "all_categories": [
       "Accessories"
     ],
+    "taxonomy_paths": [
+      "Accessories"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "accessories",
+    "canonical_label": "apparel > accessories",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 66% PVC, 22% Polyester, 12% Polyurethane",
@@ -740,6 +859,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -792,6 +918,14 @@
       "Sale",
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Sale",
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "sale",
+    "canonical_label": "apparel > sale",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -843,6 +977,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [
       "Constantinou"
     ],
@@ -889,6 +1030,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 42% Viscose, 40% Wool, 18% Polyester",
@@ -936,6 +1084,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 60% Virgin Wool, 40% Acrylic",
@@ -989,6 +1144,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1043,6 +1205,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1092,6 +1261,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1146,6 +1322,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 50% Recycled wool, 50% Recycled mohair",
@@ -1190,6 +1373,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 50% Recycled wool, 50% Recycled mohair",
@@ -1234,6 +1424,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1290,6 +1487,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1347,6 +1551,13 @@
     "all_categories": [
       "Clothes"
     ],
+    "taxonomy_paths": [
+      "Clothes"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "general-apparel",
+    "canonical_label": "apparel > general-apparel",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 60% Virgin Wool, 40% Acrylic",
@@ -1390,6 +1601,13 @@
     "all_categories": [
       "Clothes"
     ],
+    "taxonomy_paths": [
+      "Clothes"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "general-apparel",
+    "canonical_label": "apparel > general-apparel",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% wool",
@@ -1435,6 +1653,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1491,6 +1716,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1545,6 +1777,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Virgin Wool",
@@ -1593,6 +1832,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1647,6 +1893,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100%",
@@ -1694,6 +1947,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1739,6 +1999,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -1784,6 +2051,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Wool",
@@ -1834,6 +2108,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% wool",
@@ -1881,6 +2162,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% wool",
@@ -1920,6 +2206,11 @@
     "current_main_group": "Womens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% wool",
@@ -1959,6 +2250,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100%",
@@ -1998,6 +2294,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100%",
@@ -2037,6 +2338,11 @@
     "current_main_group": "Womens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100%",
@@ -2076,6 +2382,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100%",
@@ -2117,6 +2428,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 100% Wool",
@@ -2161,6 +2479,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -2191,6 +2516,13 @@
     "all_categories": [
       "Bottoms"
     ],
+    "taxonomy_paths": [
+      "Bottoms"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "bottoms",
+    "canonical_label": "apparel > bottoms",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -2221,6 +2553,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% polyamide\nLining: 100% polyester",
@@ -2263,6 +2602,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% polyamide",
@@ -2310,6 +2656,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% polyamide\nLining: 100% polyester",
@@ -2353,6 +2706,14 @@
       "Infants",
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Infants",
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "kids-apparel",
+    "canonical_label": "apparel > kids-apparel",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "100% polyamide"
@@ -2399,6 +2760,14 @@
       "Infants",
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Infants",
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "kids-apparel",
+    "canonical_label": "apparel > kids-apparel",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% polyamide\nLining: 100% polyester",
@@ -2437,6 +2806,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [],
     "tags": [
@@ -2482,6 +2858,15 @@
       "Outerlayers",
       "Shells"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Outerlayers",
+      "Shells"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyamide\nThird fabric: 100% Polyester\nLining: 100% Polyamide",
@@ -2526,6 +2911,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyester\nSecond fabric: 100% Recycled polyester\nThird fabric: 58% Polyester, 33% Polyamide, 9% Elastane\n\nColor C842 - Glacial Clay\nMain fabric: 100% Recycled polyester | PolartecÂ® Thermal ProÂ® Shearling\nSecond fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\nThird fabric: 100% Recycled polyester | PolartecÂ® Power StretchÂ® Proâ„¢",
@@ -2570,6 +2962,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 54% Acrylic, 26% Polyester, 20% Wool\nSecond fabric: 100% Recycled polyester\nLining: 100% Polyamide",
@@ -2622,6 +3021,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 54% recycled polyester, 46% polyester | PolartecÂ® AlphaÂ®",
@@ -2682,6 +3088,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 54% recycled polyester, 46% polyester | PolartecÂ® AlphaÂ®",
@@ -2740,6 +3153,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 75% virgin wool, 25% polyester\nSecond fabric: 100% wool",
@@ -2781,6 +3199,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Yarn: 95% polyamide, 5% elastane",
@@ -2834,6 +3259,13 @@
     "all_categories": [
       "Clothes"
     ],
+    "taxonomy_paths": [
+      "Clothes"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "general-apparel",
+    "canonical_label": "apparel > general-apparel",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% recycled polyester | PolartecÂ® Shearling Fleece Thermal ProÂ®\nSecond fabric: 95% polyester, 5% elastane | PolartecÂ® HardfaceÂ®",
@@ -2887,6 +3319,14 @@
       "Season",
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Season",
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "seasonal",
+    "canonical_label": "apparel > seasonal",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% polyester | PolartecÂ® 200 Fleece Series\n\nColor 495 - Eclipse\nMain fabric: 100% recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor 544 - Arctic Sage\nMain fabric: 100% recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor B750 - Dark Golden Brown\nMain fabric: 100% recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor D191 - River Rock\nMain fabric: 100% recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor N191 - River Rock\nMain fabric: 100% recycled polyester | PolartecÂ® 200 Fleece Series",
@@ -2951,6 +3391,15 @@
       "Season",
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Season",
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 67% Organic Cotton, 33% Polyester",
@@ -3002,6 +3451,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 76% Organic Cotton, 13% Recycled polyester, 11% Polyester",
@@ -3057,6 +3513,14 @@
       "Gifts",
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 60% Organic Cotton, 40% Recycled polyester",
@@ -3111,6 +3575,14 @@
       "Gifts",
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 66% Organic Cotton, 34% Recycled polyester",
@@ -3164,6 +3636,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 66% Organic Cotton, 34% Recycled polyester",
@@ -3211,6 +3690,14 @@
       "Gifts",
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Organic Cotton",
@@ -3258,6 +3745,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 63% Wool, 23% Polyamide, 10% Polyester, 4% Other fibers",
@@ -3304,6 +3798,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 74% Organic Cotton, 26% Recycled polyester",
@@ -3356,6 +3857,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Organic Cotton",
@@ -3410,6 +3918,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 63% Wool, 23% Polyamide, 10% Polyester, 4% Other fibers",
@@ -3455,6 +3970,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Organic Cotton",
@@ -3507,6 +4029,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 80% Organic Cotton, 20% Polyester\nSecond fabric: 100% Recycled polyamide\nThird fabric: 95% Organic Cotton, 5% Elastane",
@@ -3553,6 +4082,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 74% Organic Cotton, 26% recycled polyester\n\nColor P214 - Fisherman Print\nMain fabric: 100% Organic Cotton",
@@ -3606,6 +4142,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Organic Cotton",
@@ -3653,6 +4196,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 74% Organic Cotton, 26% recycled polyester",
@@ -3702,6 +4252,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [
       "Capsule"
     ],
@@ -3744,6 +4301,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyamide",
@@ -3786,6 +4350,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Polyester | PolartecÂ® Wind ProÂ®\nSecond fabric: 86% Recycled polyester, 14% Elastane | PolartecÂ® HardfaceÂ®",
@@ -3838,6 +4409,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Color 900 - Black\nMain fabric: 58% Polyester, 33% Polyamide, 9% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢\n\nColor N900 - Black\nMain fabric: 52% Recycled polyester, 39% Polyamide, 9% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢",
@@ -3892,6 +4470,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Color 820 - Soft Grey\nMain fabric: 58% Polyester, 33% Polyamide, 9% Elastane\n\nColor 900 - Black\nMain fabric: 58% Polyester, 33% Polyamide, 9% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢\n\nColor N900 - Black\nMain fabric: 52% Recycled polyester, 39% Polyamide, 9% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢",
@@ -3946,6 +4531,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyamide\nLining: 100% Polyester",
@@ -4000,6 +4592,15 @@
       "Outerlayers",
       "Shells"
     ],
+    "taxonomy_paths": [
+      "Gifts",
+      "Outerlayers",
+      "Shells"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "gifts",
+    "canonical_label": "apparel > gifts",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 90% Polyester, 10% Elastane | PolartecÂ® Power Shield ProÂ®",
@@ -4061,6 +4662,14 @@
       "Outerlayers",
       "Shells"
     ],
+    "taxonomy_paths": [
+      "Outerlayers",
+      "Shells"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 90% Polyester, 10% Elastane | PolartecÂ® Power Shield ProÂ®",
@@ -4115,6 +4724,13 @@
     "all_categories": [
       "Outerlayers"
     ],
+    "taxonomy_paths": [
+      "Outerlayers"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "outerwear",
+    "canonical_label": "apparel > outerwear",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Polyamide\nLining: 100% Polyester",
@@ -4165,6 +4781,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 94% Recycled polyester, 6% Elastane | PontetortoÂ® Technostretch, SEAQUALâ„¢",
@@ -4224,6 +4847,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 94% Recycled polyester, 6% Elastane | PontetortoÂ® Technostretch, SEAQUALâ„¢",
@@ -4280,6 +4910,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 84% Recycled polyester, 16% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢\nSecond fabric: 100% Polyester",
@@ -4336,6 +4973,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 84% Recycled polyester, 16% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢\nSecond fabric: 100% Polyester",
@@ -4392,6 +5036,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 84% Recycled polyester, 16% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢\nSecond fabric: 100% Polyester",
@@ -4448,6 +5099,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 84% Recycled polyester, 16% Elastane | PolartecÂ® Power StretchÂ® Proâ„¢\nSecond fabric: 100% Polyester",
@@ -4504,6 +5162,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Color 191 - River Rock\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor 495 - Eclipse\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor 909 - Black\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor B842 - Dark Glacial Clay\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series",
@@ -4554,6 +5219,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Color 120 - Stone\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor 191 - River Rock\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor 495 - Eclipse\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series\n\nColor B842 - Dark Glacial Clay\nMain fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series",
@@ -4604,6 +5276,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Recycled polyester | PolartecÂ® 200 Fleece Series",
@@ -4647,6 +5326,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 54% Acrylic, 26% Polyester, 20% Wool\nSecond fabric: 100% Recycled polyester",
@@ -4698,6 +5384,11 @@
     "current_main_group": "Mens",
     "current_category": "Catalog",
     "all_categories": [],
+    "taxonomy_paths": [],
+    "canonical_domain": "apparel",
+    "canonical_category": "uncategorized",
+    "canonical_label": "apparel > uncategorized",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Main fabric: 100% Polyamide\nLining: 100% Polyester",
@@ -4737,6 +5428,13 @@
     "all_categories": [
       "Tops"
     ],
+    "taxonomy_paths": [
+      "Tops"
+    ],
+    "canonical_domain": "apparel",
+    "canonical_category": "tops",
+    "canonical_label": "apparel > tops",
+    "taxonomy_mapping_matched": true,
     "collection_tags": [],
     "materials": [
       "Color 118 - Snow Cloud\nMain fabric: 100% wool\nLining: 100% polyester | 2 Layer, GORE-TEXÂ® INFINIUMâ„¢\n\nColor 901 - Blackish\nMain fabric: 100% wool\nLining: 100% polyester | 2 Layer, GORE-TEXÂ® INFINIUMâ„¢\n\nColor N118 - Snow Cloud\nMain fabric: 100% wool\nLining: 100% recycled polyester | 2 Layer, WINDSTOPPERÂ® by Gore-Tex\n\nColor N901 - Blackish\nMain fabric: 100% wool\nLining: 100% recycled polyester | 2 Layer, WINDSTOPPERÂ® by Gore-Tex",

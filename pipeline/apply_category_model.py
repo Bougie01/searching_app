@@ -38,6 +38,7 @@ def main():
                 "id": row["id"],
                 "product_name": row.get("product_name", ""),
                 "current_category": row.get("current_category"),
+                "canonical_label": row.get("canonical_label"),
                 "suggested_category": prediction["suggestedCategory"],
                 "confidence": prediction["confidence"],
                 "top_categories": prediction["rankedCategories"],
@@ -58,4 +59,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

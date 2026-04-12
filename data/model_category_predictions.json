@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "gaeludyr:PETMARK_XML:100271",
+    "product_name": "Brit blautmatur lax 100 gr",
+    "current_category": "Kettir>Kattafóður>Brit",
+    "canonical_label": "pet > cat-food",
+    "suggested_category": "pet > cat-food",
+    "confidence": 0.76,
+    "top_categories": [
+      {
+        "category": "pet > cat-food",
+        "probability": 0.7567
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.054
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0194
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0151
+      },
+      {
+        "category": "pet > bird-food",
+        "probability": 0.0132
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:100275",
+    "product_name": "Brit blautmatur geldir 100gr",
+    "current_category": "Kettir>Kattafóður>Brit",
+    "canonical_label": "pet > cat-food",
+    "suggested_category": "pet > cat-food",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > cat-food",
+        "probability": 0.804
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0201
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0195
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0126
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0126
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:111197",
+    "product_name": "Carnilove dós Salmon and turkey 400 gr",
+    "current_category": "Hundar>Hundafóður>Blautfóður",
+    "canonical_label": "pet > dog-food",
+    "suggested_category": "pet > dog-food",
+    "confidence": 0.65,
+    "top_categories": [
+      {
+        "category": "pet > dog-food",
+        "probability": 0.6505
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0755
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0714
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.025
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0189
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:132323",
+    "product_name": "Brit Adult M 15kg",
+    "current_category": "Hundar>Hundafóður>Brit",
+    "canonical_label": "pet > dog-food",
+    "suggested_category": "pet > dog-food",
+    "confidence": 0.7,
+    "top_categories": [
+      {
+        "category": "pet > dog-food",
+        "probability": 0.7035
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.1355
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0191
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0116
+      },
+      {
+        "category": "external > fuglar>dúfur-og-hænur",
+        "probability": 0.0108
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:200070",
+    "product_name": "Yuup næring",
+    "current_category": "Hundar>Hundasnyrtivörur og umhirða>Yuup feldvörur",
+    "canonical_label": "pet > health-and-care",
+    "suggested_category": "pet > health-and-care",
+    "confidence": 0.87,
+    "top_categories": [
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.8693
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0115
+      },
+      {
+        "category": "external > fuglar>dúfur-og-hænur",
+        "probability": 0.0114
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0106
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0079
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:85600",
+    "product_name": "Juwel Hitari 50W",
+    "current_category": "Fiskar>Dælur og hitarar>Hitarar",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.81,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8054
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0184
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0167
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0163
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0138
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:85615",
+    "product_name": "Juwel Hitari 300W",
+    "current_category": "Fiskar>Dælur og hitarar>Hitarar",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8029
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0193
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0168
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0163
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0127
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86136",
+    "product_name": "Day-Lite 36 W.",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8207
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0178
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0167
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0134
+      },
+      {
+        "category": "external > fuglar>dúfur-og-hænur",
+        "probability": 0.0134
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86138",
+    "product_name": "Day-Lite 38 W.",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8234
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0165
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0156
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0142
+      },
+      {
+        "category": "external > fuglar>dúfur-og-hænur",
+        "probability": 0.0128
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86345",
+    "product_name": "High-Lite Day 45 W",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.87,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8738
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0111
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0111
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0092
+      },
+      {
+        "category": "external > fuglar>dúfur-og-hænur",
+        "probability": 0.0077
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86456",
+    "product_name": "High-Lite Nature 54 W 1200mm",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.876
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0099
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0099
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0083
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0081
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86554",
+    "product_name": "High-Lite Colour 54 W",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.87,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8695
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0093
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0086
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0086
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0083
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86628",
+    "product_name": "High-Lite Marine 28 W",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.876
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0103
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.01
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0086
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0083
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86645",
+    "product_name": "High-Lite Marine 45 W",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8761
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0095
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0087
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0082
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0081
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86724",
+    "product_name": "High-Lite Blue 24 W",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8751
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0117
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0108
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0082
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0079
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86756",
+    "product_name": "High-Lite Blue 54 W 1200mm",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8768
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0102
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0097
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0082
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0082
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:90481",
+    "product_name": "BOB Kúkapokar Berjalykt 8x15",
+    "current_category": "Hundar>Hundasnyrtivörur og umhirða>Kúkapokar",
+    "canonical_label": "pet > health-and-care",
+    "suggested_category": "pet > health-and-care",
+    "confidence": 0.75,
+    "top_categories": [
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.7485
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.054
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0191
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0184
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0177
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22608",
+    "product_name": "Kong Wubba Wet Large",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8292
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0143
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0123
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0119
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0114
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22616",
+    "product_name": "Kong training dummy L",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8408
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0155
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0118
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0109
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0102
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22639",
+    "product_name": "KONG Air Boltar í lausu M",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8404
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0143
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0108
+      },
+      {
+        "category": "pet > hygiene",
+        "probability": 0.0102
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0101
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22670",
+    "product_name": "KONG SoftSeas Octopus Lg",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8221
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0165
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0163
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0118
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0111
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22678",
+    "product_name": "Kong maraþon Peanut butter S",
+    "current_category": "Hundar>Nagbein og nammi>Kex",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.67,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.6708
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.1535
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.021
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0154
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0116
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22699",
+    "product_name": "KONG Wild Knots Bear XL",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.75,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.7452
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0672
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0198
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0175
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0142
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22702",
+    "product_name": "Kong active cat feather teaser",
+    "current_category": "Kettir>Kattaklórur og leikföng>Veiðistangir",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8323
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0173
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0154
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0123
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0113
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22704",
+    "product_name": "Kong cat fuzzy slipper",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8254
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0175
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0145
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0127
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0124
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22705",
+    "product_name": "Kong cat fuzzy bunny",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8412
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0155
+      },
+      {
+        "category": "pet > apparel",
+        "probability": 0.0154
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0097
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0096
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22731",
+    "product_name": "Kong cat wild tails",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.842
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0192
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0112
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0107
+      },
+      {
+        "category": "apparel > kids-apparel",
+        "probability": 0.0107
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22733",
+    "product_name": "KONG Bat-A-Bout Flicker Firefly",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8341
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0175
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0129
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0123
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0114
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22750",
+    "product_name": "Kong Kitty Fuzz Bugs",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8446
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0177
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0099
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0084
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0081
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22751",
+    "product_name": "Kong kitten teddy bear",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.827
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0168
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0144
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0134
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0115
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22766",
+    "product_name": "Kong Cat Stellar Teaser",
+    "current_category": "Kettir>Kattaklórur og leikföng>Veiðistangir",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8423
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0214
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0148
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0117
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0092
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22773",
+    "product_name": "Kong feather mouse",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kattaleikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8033
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.02
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0182
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0137
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0126
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22775",
+    "product_name": "Kong Corduory Mouse Refillable",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8435
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0138
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0114
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0104
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0094
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22788",
+    "product_name": "Kong Cat Kitty Kong",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8232
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0146
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0129
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0119
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.011
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22823",
+    "product_name": "KONG Signature Stick w/Rope Md.",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.85,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8504
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0171
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0119
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0095
+      },
+      {
+        "category": "pet > apparel",
+        "probability": 0.0089
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22824",
+    "product_name": "KONG Low Stuff Flopzie Lamb Md.",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8378
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0192
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0092
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0087
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.008
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22833",
+    "product_name": "KONG Flyangle Assorted Lg",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8423
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0176
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0112
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0111
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0101
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:25380",
+    "product_name": "Primo 110 svart",
+    "current_category": "Fiskar>Fiskabúr og skápar>Önnur fiskabúr",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.81,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8128
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0212
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0154
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0142
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0111
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:46360",
+    "product_name": "Ljósastæði T5 2x24W 60 cm",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8255
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0188
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0143
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0128
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.011
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:46420",
+    "product_name": "Ljósasett High-Lite 120cm 54W",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8248
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0205
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0136
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0117
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0111
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:A550A",
+    "product_name": "Filtermaterial f/A440+A550",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.795
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0191
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0182
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0174
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0166
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN82883",
+    "product_name": "Dental Sticks Small 110g (7)",
+    "current_category": "Hundar>Nagbein og nammi>Tannhreinsibein",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.78,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.7827
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0504
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0175
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.016
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0128
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN82886",
+    "product_name": "Dental Sticks Multi Medium 28 stk.",
+    "current_category": "Hundar>Nagbein og nammi>Tannhreinsibein",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.79,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.7918
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0464
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0152
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0146
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0146
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN82980",
+    "product_name": "Feinstein Dog w/Rabbit 150g",
+    "current_category": "Hundar>Hundafóður>Blautfóður",
+    "canonical_label": "pet > dog-food",
+    "suggested_category": "pet > dog-food",
+    "confidence": 0.68,
+    "top_categories": [
+      {
+        "category": "pet > dog-food",
+        "probability": 0.6793
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0721
+      },
+      {
+        "category": "pet > bird-food",
+        "probability": 0.0648
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0159
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0145
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN83030",
+    "product_name": "Ani.VF Cat Chick & Rabb 85g",
+    "current_category": "Kettir>Kattafóður>Animonda",
+    "canonical_label": "pet > cat-food",
+    "suggested_category": "pet > cat-food",
+    "confidence": 0.79,
+    "top_categories": [
+      {
+        "category": "pet > cat-food",
+        "probability": 0.7906
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0233
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.019
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0176
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0131
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN83033",
+    "product_name": "Ani.VF Cat chick & Tuna 85g",
+    "current_category": "Kettir>Kattafóður>Animonda",
+    "canonical_label": "pet > cat-food",
+    "suggested_category": "pet > cat-food",
+    "confidence": 0.73,
+    "top_categories": [
+      {
+        "category": "pet > cat-food",
+        "probability": 0.7337
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.064
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0196
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0154
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN83125",
+    "product_name": "Milkies hairball 120 gr",
+    "current_category": "Kettir>Aðrar kattavörur>Nammi",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.69,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.6934
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.1235
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0212
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0196
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0133
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AT129",
+    "product_name": "Plastbúr m/loki 27*17*18 cm",
+    "current_category": "Fiskar>Fiskabúr og skápar>Önnur fiskabúr",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8257
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0266
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0134
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0119
+      },
+      {
+        "category": "external > fuglar>góðgæti-og-stangir",
+        "probability": 0.0117
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AT130",
+    "product_name": "Plastbúr m/loki 34*20*22 cm",
+    "current_category": "Fiskar>Fiskabúr og skápar>Önnur fiskabúr",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8326
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0224
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0122
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0114
+      },
+      {
+        "category": "external > fuglar>góðgæti-og-stangir",
+        "probability": 0.0106
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD518944",
+    "product_name": "Leikfang mjúkt BATMAN",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8195
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0202
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0148
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0141
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD519002",
+    "product_name": "Leikfang mjúkt STAR WARS DARTH VADER",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.81,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8103
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0229
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0169
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0149
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0126
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD519279",
+    "product_name": "Leikfang Mjúkt SPIDERMAN",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.821
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0189
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0154
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.013
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI200001",
+    "product_name": "Hreinsidæla CF 40 svört",
+    "current_category": "Fiskar>Dælur og hitarar>Hreinsidælur",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.75,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.7516
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0727
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0153
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0142
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0131
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI390793",
+    "product_name": "Hreinsidæla 5W",
+    "current_category": "Fiskar>Dælur og hitarar>Loftdælur",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8041
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0135
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0134
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0134
+      },
+      {
+        "category": "pet > bird-food",
+        "probability": 0.0129
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI540134",
+    "product_name": "Fiskabúr CIANO 20 svart",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.86,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8576
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0153
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0135
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0099
+      },
+      {
+        "category": "external > fuglar>dúfur-og-hænur",
+        "probability": 0.0086
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI540230",
+    "product_name": "Fiskabúr CIANO 80 svart",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.89,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8869
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0108
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0102
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0096
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0082
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI540246",
+    "product_name": "Aquarium 80 White",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8389
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0206
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0124
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0115
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0103
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560019",
+    "product_name": "Bio-Bact S Green",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8214
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0183
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0157
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0154
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0151
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560024",
+    "product_name": "Stop-Algae M Red",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8207
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0179
+      },
+      {
+        "category": "pet > fish-food",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0135
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0124
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560025",
+    "product_name": "Foam M Black",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.86,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8553
+      },
+      {
+        "category": "pet > fish-food",
+        "probability": 0.0221
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0112
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0099
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0085
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560026",
+    "product_name": "Foam large svart",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.85,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8507
+      },
+      {
+        "category": "pet > fish-food",
+        "probability": 0.0178
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0111
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0104
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.009
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560029",
+    "product_name": "Bio Bact L green",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8212
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0182
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0159
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0155
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0152
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560047",
+    "product_name": "Plant Protection Dosator M",
+    "current_category": "Fiskar>Fiskafóður og bætiefni>Bætiefni",
+    "canonical_label": "pet > fish-food",
+    "suggested_category": "pet > fish-food",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > fish-food",
+        "probability": 0.834
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.1082
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0039
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0039
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0038
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560054",
+    "product_name": "Foam XL svart",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "canonical_label": "pet > aquarium-equipment",
+    "suggested_category": "pet > aquarium-equipment",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.8446
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0153
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0117
+      },
+      {
+        "category": "pet > fish-food",
+        "probability": 0.0117
+      },
+      {
+        "category": "pet > apparel",
+        "probability": 0.0099
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI570033",
+    "product_name": "Emotions Pro 120 svartur skápur",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.85,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8506
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0112
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0111
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.01
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580052",
+    "product_name": "Converter CLA 20 Black",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.86,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.8571
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0123
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.011
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0108
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0103
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580083",
+    "product_name": "CLE 60/80 svart Straumbr.",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.8044
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0177
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0169
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0161
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0134
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580111",
+    "product_name": "Ljós CLA 20 Univers svart + Straumbr.",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.78,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.7835
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0312
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0243
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0159
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0133
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580153",
+    "product_name": "CLE 80 svart + Straumbr. (full pack)",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.79,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.795
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0217
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0192
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0126
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0123
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580156",
+    "product_name": "CLE 100 hvítt+ Straumbr. (full pack)",
+    "current_category": "Fiskar>Ljós og perur",
+    "canonical_label": "pet > aquarium-lighting",
+    "suggested_category": "pet > aquarium-lighting",
+    "confidence": 0.79,
+    "top_categories": [
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.786
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0235
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0211
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0203
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0138
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI690114",
+    "product_name": "Nexus fiskabúr 15L hvítt",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.843
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0235
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0153
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0113
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0089
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI70002",
+    "product_name": "Fiskabúrastandur CIANO 80 svartur",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "canonical_label": "pet > aquariums",
+    "suggested_category": "pet > aquariums",
+    "confidence": 0.87,
+    "top_categories": [
+      {
+        "category": "pet > aquariums",
+        "probability": 0.874
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0136
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0098
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.009
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0089
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H300132",
+    "product_name": "ICrate hvolpagerði Gold 80cm",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.8,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.7995
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0324
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0136
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0126
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0126
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H300776",
+    "product_name": "Grindabúr ICrate 123 cm",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.81,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8107
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0201
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0156
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0143
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0125
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H300858",
+    "product_name": "ICrate skál í búr 300ml",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.816
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0219
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0208
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.017
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.014
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H301817",
+    "product_name": "ICrate hvolpagerði Pink 63cm (Small)",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8248
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0221
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0156
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0126
+      },
+      {
+        "category": "external > fuglar>hreinlæti-og-heilsa",
+        "probability": 0.0114
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H301818",
+    "product_name": "ICrate hvolpagerði Blue 63cm (Small)",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8247
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0217
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0157
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0127
+      },
+      {
+        "category": "external > fuglar>hreinlæti-og-heilsa",
+        "probability": 0.0115
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H33671",
+    "product_name": "Euka.Pet mjúkbúr 49*34*36 S",
+    "current_category": "Kettir>Aðrar kattavörur>Ferðabúr og bæli",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8197
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0179
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.015
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0144
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0135
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H33672",
+    "product_name": "Euka.Pet mjúkbúr 60*42*42 M",
+    "current_category": "Kettir>Aðrar kattavörur>Ferðabúr og bæli",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8192
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0176
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0161
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.013
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0129
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H33673",
+    "product_name": "Euka.Pet mjúkbúr 70*52*53 L",
+    "current_category": "Kettir>Aðrar kattavörur>Ferðabúr og bæli",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8196
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0174
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0167
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0132
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0131
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H37549",
+    "product_name": "Vetbed 100x70cm loppur á gráu",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Hundabæli og dýnur",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.83,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8268
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0139
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0138
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0125
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0123
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H37557",
+    "product_name": "Vetbed 100x70cm loppur sv/hv á gráu",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Hundabæli og dýnur",
+    "canonical_label": "pet > habitats",
+    "suggested_category": "pet > habitats",
+    "confidence": 0.81,
+    "top_categories": [
+      {
+        "category": "pet > habitats",
+        "probability": 0.8098
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0181
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0142
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0136
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0131
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H40063",
+    "product_name": "AS Liver snack",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.8445
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.016
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0127
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0104
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0103
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H4008335",
+    "product_name": "AS Duck Snack",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.85,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.8461
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0119
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0117
+      },
+      {
+        "category": "pet > aquariums",
+        "probability": 0.0108
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0107
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H5106405",
+    "product_name": "AS liver Sticks 4 stk",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.8431
+      },
+      {
+        "category": "pet > cat-food",
+        "probability": 0.0124
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0123
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0106
+      },
+      {
+        "category": "pet > dog-food",
+        "probability": 0.0103
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H51084",
+    "product_name": "AS duck sticks 16stk",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "canonical_label": "pet > treats",
+    "suggested_category": "pet > treats",
+    "confidence": 0.84,
+    "top_categories": [
+      {
+        "category": "pet > treats",
+        "probability": 0.8407
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0165
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0116
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0098
+      },
+      {
+        "category": "pet > food",
+        "probability": 0.0092
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H616007",
+    "product_name": "K9 IDC Beisli Baby 1 Svart",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>JULIUS Hundabeisli",
+    "canonical_label": "pet > accessories",
+    "suggested_category": "pet > accessories",
+    "confidence": 0.73,
+    "top_categories": [
+      {
+        "category": "pet > accessories",
+        "probability": 0.7254
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0575
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0168
+      },
+      {
+        "category": "external > fuglar>góðgæti-og-stangir",
+        "probability": 0.0152
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H616229",
+    "product_name": "K9 IDC Beisli Mini-Mini Black",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>JULIUS Hundabeisli",
+    "canonical_label": "pet > accessories",
+    "suggested_category": "pet > accessories",
+    "confidence": 0.78,
+    "top_categories": [
+      {
+        "category": "pet > accessories",
+        "probability": 0.7825
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0205
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0179
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0158
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.014
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD041859",
+    "product_name": "Leikfang m/reipi MICKEY",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8186
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.022
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0165
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0156
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0143
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD042221",
+    "product_name": "Leikfang m/hring MANDALORIAN",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.8183
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0177
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0168
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0161
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0128
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD042306",
+    "product_name": "Leikfang nag STAR WARS",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "canonical_label": "pet > toys",
+    "suggested_category": "pet > toys",
+    "confidence": 0.82,
+    "top_categories": [
+      {
+        "category": "pet > toys",
+        "probability": 0.824
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0177
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0172
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.015
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0139
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD054118",
+    "product_name": "Taumur S MARVEL",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "canonical_label": "pet > accessories",
+    "suggested_category": "pet > accessories",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > accessories",
+        "probability": 0.8823
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.014
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0102
+      },
+      {
+        "category": "pet > small-pet-food",
+        "probability": 0.0082
+      },
+      {
+        "category": "pet > aquarium-lighting",
+        "probability": 0.0079
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD062991",
+    "product_name": "Regnkápa XS STAR WARS STORM TROOPER",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "canonical_label": "pet > apparel",
+    "suggested_category": "pet > apparel",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > apparel",
+        "probability": 0.877
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0127
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0109
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0099
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0099
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD064636",
+    "product_name": "Hálsól S/M MARVEL",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "canonical_label": "pet > accessories",
+    "suggested_category": "pet > accessories",
+    "confidence": 0.89,
+    "top_categories": [
+      {
+        "category": "pet > accessories",
+        "probability": 0.8912
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0115
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0091
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0077
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0069
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD421992",
+    "product_name": "Peysa XXS BATMAN",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "canonical_label": "pet > apparel",
+    "suggested_category": "pet > apparel",
+    "confidence": 0.92,
+    "top_categories": [
+      {
+        "category": "pet > apparel",
+        "probability": 0.9156
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0096
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0078
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0068
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0067
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD422074",
+    "product_name": "Peysa XXS Brushed BATMAN",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "canonical_label": "pet > apparel",
+    "suggested_category": "pet > apparel",
+    "confidence": 0.92,
+    "top_categories": [
+      {
+        "category": "pet > apparel",
+        "probability": 0.9166
+      },
+      {
+        "category": "pet > toys",
+        "probability": 0.0093
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0077
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0067
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0066
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD422098",
+    "product_name": "Peysa XS Brushed BATMAN",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "canonical_label": "pet > apparel",
+    "suggested_category": "pet > apparel",
+    "confidence": 0.91,
+    "top_categories": [
+      {
+        "category": "pet > apparel",
+        "probability": 0.9115
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0082
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0076
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0075
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0072
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD422111",
+    "product_name": "Peysa S Brushed BATMAN",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "canonical_label": "pet > apparel",
+    "suggested_category": "pet > apparel",
+    "confidence": 0.92,
+    "top_categories": [
+      {
+        "category": "pet > apparel",
+        "probability": 0.9182
+      },
+      {
+        "category": "pet > accessories",
+        "probability": 0.0075
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0072
+      },
+      {
+        "category": "pet > aquarium-equipment",
+        "probability": 0.0067
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0067
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD447572",
+    "product_name": "Hálsól XXS/XS BATMAN",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "canonical_label": "pet > accessories",
+    "suggested_category": "pet > accessories",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > accessories",
+        "probability": 0.8787
+      },
+      {
+        "category": "pet > apparel",
+        "probability": 0.0103
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0101
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0093
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0092
+      }
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD447671",
+    "product_name": "Hálsól XS/S MINNIE",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "canonical_label": "pet > accessories",
+    "suggested_category": "pet > accessories",
+    "confidence": 0.88,
+    "top_categories": [
+      {
+        "category": "pet > accessories",
+        "probability": 0.8824
+      },
+      {
+        "category": "pet > habitats",
+        "probability": 0.0101
+      },
+      {
+        "category": "pet > treats",
+        "probability": 0.0098
+      },
+      {
+        "category": "pet > health-and-care",
+        "probability": 0.0093
+      },
+      {
+        "category": "external > fuglar>hreinlæti-og-heilsa",
+        "probability": 0.0088
+      }
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+{
+  "apparel": {
+    "category_rules": {
+      "Accessories": {
+        "domain": "apparel",
+        "category": "accessories",
+        "label": "apparel > accessories"
+      },
+      "Bottoms": {
+        "domain": "apparel",
+        "category": "bottoms",
+        "label": "apparel > bottoms"
+      },
+      "Catalog": {
+        "domain": "apparel",
+        "category": "uncategorized",
+        "label": "apparel > uncategorized"
+      },
+      "Clothes": {
+        "domain": "apparel",
+        "category": "general-apparel",
+        "label": "apparel > general-apparel"
+      },
+      "Gifts": {
+        "domain": "apparel",
+        "category": "gifts",
+        "label": "apparel > gifts"
+      },
+      "Infants": {
+        "domain": "apparel",
+        "category": "kids-apparel",
+        "label": "apparel > kids-apparel"
+      },
+      "Outerlayers": {
+        "domain": "apparel",
+        "category": "outerwear",
+        "label": "apparel > outerwear"
+      },
+      "Sale": {
+        "domain": "apparel",
+        "category": "sale",
+        "label": "apparel > sale"
+      },
+      "Season": {
+        "domain": "apparel",
+        "category": "seasonal",
+        "label": "apparel > seasonal"
+      },
+      "Tops": {
+        "domain": "apparel",
+        "category": "tops",
+        "label": "apparel > tops"
+      }
+    }
+  },
+  "pet": {
+    "path_contains_rules": [
+      {
+        "tokens": ["hundafóður"],
+        "domain": "pet",
+        "category": "dog-food",
+        "label": "pet > dog-food"
+      },
+      {
+        "tokens": ["kattafóður"],
+        "domain": "pet",
+        "category": "cat-food",
+        "label": "pet > cat-food"
+      },
+      {
+        "tokens": ["fuglafóður"],
+        "domain": "pet",
+        "category": "bird-food",
+        "label": "pet > bird-food"
+      },
+      {
+        "tokens": ["fiskafóður"],
+        "domain": "pet",
+        "category": "fish-food",
+        "label": "pet > fish-food"
+      },
+      {
+        "tokens": ["nagdýr", "fóður"],
+        "domain": "pet",
+        "category": "small-pet-food",
+        "label": "pet > small-pet-food"
+      },
+      {
+        "tokens": ["fóður", "góðgæti"],
+        "domain": "pet",
+        "category": "small-pet-food",
+        "label": "pet > small-pet-food"
+      },
+      {
+        "tokens": ["blautfóður"],
+        "domain": "pet",
+        "category": "food",
+        "label": "pet > food"
+      },
+      {
+        "tokens": ["fóður"],
+        "domain": "pet",
+        "category": "food",
+        "label": "pet > food"
+      },
+      {
+        "tokens": ["hundaleikföng"],
+        "domain": "pet",
+        "category": "toys",
+        "label": "pet > toys"
+      },
+      {
+        "tokens": ["kattaleikföng"],
+        "domain": "pet",
+        "category": "toys",
+        "label": "pet > toys"
+      },
+      {
+        "tokens": ["kóng"],
+        "domain": "pet",
+        "category": "toys",
+        "label": "pet > toys"
+      },
+      {
+        "tokens": ["kong"],
+        "domain": "pet",
+        "category": "toys",
+        "label": "pet > toys"
+      },
+      {
+        "tokens": ["veiðistangir"],
+        "domain": "pet",
+        "category": "toys",
+        "label": "pet > toys"
+      },
+      {
+        "tokens": ["hundaföt"],
+        "domain": "pet",
+        "category": "apparel",
+        "label": "pet > apparel"
+      },
+      {
+        "tokens": ["kattaföt"],
+        "domain": "pet",
+        "category": "apparel",
+        "label": "pet > apparel"
+      },
+      {
+        "tokens": ["hundaólar", "taumar", "beisli"],
+        "domain": "pet",
+        "category": "accessories",
+        "label": "pet > accessories"
+      },
+      {
+        "tokens": ["hundabeisli"],
+        "domain": "pet",
+        "category": "accessories",
+        "label": "pet > accessories"
+      },
+      {
+        "tokens": ["kattaólar", "taumar", "beisli"],
+        "domain": "pet",
+        "category": "accessories",
+        "label": "pet > accessories"
+      },
+      {
+        "tokens": ["hundanammi"],
+        "domain": "pet",
+        "category": "treats",
+        "label": "pet > treats"
+      },
+      {
+        "tokens": ["kattanammi"],
+        "domain": "pet",
+        "category": "treats",
+        "label": "pet > treats"
+      },
+      {
+        "tokens": ["nammi"],
+        "domain": "pet",
+        "category": "treats",
+        "label": "pet > treats"
+      },
+      {
+        "tokens": ["kex"],
+        "domain": "pet",
+        "category": "treats",
+        "label": "pet > treats"
+      },
+      {
+        "tokens": ["tannhreinsibein"],
+        "domain": "pet",
+        "category": "treats",
+        "label": "pet > treats"
+      },
+      {
+        "tokens": ["hundahreinlæti"],
+        "domain": "pet",
+        "category": "health-and-care",
+        "label": "pet > health-and-care"
+      },
+      {
+        "tokens": ["hundasnyrtivörur", "umhirða"],
+        "domain": "pet",
+        "category": "health-and-care",
+        "label": "pet > health-and-care"
+      },
+      {
+        "tokens": ["kattasnyrtivörur"],
+        "domain": "pet",
+        "category": "health-and-care",
+        "label": "pet > health-and-care"
+      },
+      {
+        "tokens": ["yuup", "feldvörur"],
+        "domain": "pet",
+        "category": "health-and-care",
+        "label": "pet > health-and-care"
+      },
+      {
+        "tokens": ["kúkapokar"],
+        "domain": "pet",
+        "category": "hygiene",
+        "label": "pet > hygiene"
+      },
+      {
+        "tokens": ["kattasandur"],
+        "domain": "pet",
+        "category": "hygiene",
+        "label": "pet > hygiene"
+      },
+      {
+        "tokens": ["hundabúr", "bæli"],
+        "domain": "pet",
+        "category": "habitats",
+        "label": "pet > habitats"
+      },
+      {
+        "tokens": ["ferðabúr", "bæli"],
+        "domain": "pet",
+        "category": "habitats",
+        "label": "pet > habitats"
+      },
+      {
+        "tokens": ["grindabúr"],
+        "domain": "pet",
+        "category": "habitats",
+        "label": "pet > habitats"
+      },
+      {
+        "tokens": ["dýnur"],
+        "domain": "pet",
+        "category": "habitats",
+        "label": "pet > habitats"
+      },
+      {
+        "tokens": ["fiskabúr", "skápar"],
+        "domain": "pet",
+        "category": "aquariums",
+        "label": "pet > aquariums"
+      },
+      {
+        "tokens": ["ljós", "perur"],
+        "domain": "pet",
+        "category": "aquarium-lighting",
+        "label": "pet > aquarium-lighting"
+      },
+      {
+        "tokens": ["filterefni"],
+        "domain": "pet",
+        "category": "aquarium-equipment",
+        "label": "pet > aquarium-equipment"
+      },
+      {
+        "tokens": ["dælur", "hitarar"],
+        "domain": "pet",
+        "category": "aquarium-equipment",
+        "label": "pet > aquarium-equipment"
+      },
+      {
+        "tokens": ["hreinsidælur"],
+        "domain": "pet",
+        "category": "aquarium-equipment",
+        "label": "pet > aquarium-equipment"
+      },
+      {
+        "tokens": ["loftdælur"],
+        "domain": "pet",
+        "category": "aquarium-equipment",
+        "label": "pet > aquarium-equipment"
+      },
+      {
+        "tokens": ["hitarar"],
+        "domain": "pet",
+        "category": "aquarium-equipment",
+        "label": "pet > aquarium-equipment"
+      },
+      {
+        "tokens": ["bætiefni"],
+        "domain": "pet",
+        "category": "supplements",
+        "label": "pet > supplements"
+      }
+    ]
+  }
+}

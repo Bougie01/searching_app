@@ -1,0 +1,4319 @@
+[
+  {
+    "id": "gaeludyr:PETMARK_XML:100271",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "100271",
+    "product_name": "Brit blautmatur lax 100 gr",
+    "subtitle": "Brit",
+    "description": "Brit blautmatur með lax og þorski 100 gr. Innihald: 60% meat and animal derivatives in chunks, 16% fish and fish derivatives in chunks (8% salmon, 8% trout), derivatives of vegetable origin (0.4% of inulin), minerals. No Colorants, No Preservatives. Næringagildi: crude protein 8.5 %, fat content 4.5 %, crude ash 2.5 %, crude fibre 0.4 %, moisture 82 %",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattafóður>Brit",
+    "all_categories": [
+      "Kettir",
+      "Kattafóður",
+      "Brit"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattafóður>Brit"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "cat-food",
+    "canonical_label": "pet > cat-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Brit",
+      "ISK",
+      "Kattafóður",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Brit blautmatur lax 100 gr Brit Brit blautmatur með lax og þorski 100 gr. Innihald: 60% meat and animal derivatives in chunks, 16% fish and fish derivatives in chunks (8% salmon, 8% trout), derivatives of vegetable origin (0.4% of inulin), minerals. No Colorants, No Preservatives. Næringagildi: crude protein 8.5 %, fat content 4.5 %, crude ash 2.5 %, crude fibre 0.4 %, moisture 82 % Brit ISK Kattafóður New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:100275",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "100275",
+    "product_name": "Brit blautmatur geldir 100gr",
+    "subtitle": "Brit",
+    "description": "Brit blautmatur fyrir gelda ketti. Innihald: 80% meat and animal derivatives in chunks (8% of chicken), derivatives of vegetable origin (0.4% of inulin), minerals. No Colorants, No Preservatives. Næringagildi: protein 8.5 %, fat content 3 %, crude ash 2.5 %, crude fibre 1 %, moisture 82 %.",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattafóður>Brit",
+    "all_categories": [
+      "Kettir",
+      "Kattafóður",
+      "Brit"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattafóður>Brit"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "cat-food",
+    "canonical_label": "pet > cat-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Brit",
+      "ISK",
+      "Kattafóður",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Brit blautmatur geldir 100gr Brit Brit blautmatur fyrir gelda ketti. Innihald: 80% meat and animal derivatives in chunks (8% of chicken), derivatives of vegetable origin (0.4% of inulin), minerals. No Colorants, No Preservatives. Næringagildi: protein 8.5 %, fat content 3 %, crude ash 2.5 %, crude fibre 1 %, moisture 82 %. Brit ISK Kattafóður New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:111197",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "111197",
+    "product_name": "Carnilove dós Salmon and turkey 400 gr",
+    "subtitle": "Blautfóður",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundafóður>Blautfóður",
+    "all_categories": [
+      "Hundar",
+      "Hundafóður",
+      "Blautfóður"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundafóður>Blautfóður"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "dog-food",
+    "canonical_label": "pet > dog-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Blautfóður",
+      "Carnilove",
+      "Hundafóður",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Carnilove dós Salmon and turkey 400 gr Blautfóður Blautfóður Carnilove Hundafóður ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:132323",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "132323",
+    "product_name": "Brit Adult M 15kg",
+    "subtitle": "Brit",
+    "description": "Brit adult medium 15 kg Heilfóður fyrir miðlungs stóra hunda ( 10-25 kg ) Hentar fyrir hunda á aldrinum 1-7 ára Inniheldur 41 % kjúkling. Prótín : 25 % Fita 15 % Raki 10 % Aska 6,4 % Trefjar 2,2 % Kalk 1,4 % Fosfór 1 % Kaloríur pr kíló 4143 Vörunúmer: 132323 Skoða nánar á heimasíðu framleiðanda",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundafóður>Brit",
+    "all_categories": [
+      "Hundar",
+      "Hundafóður",
+      "Brit"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundafóður>Brit"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "dog-food",
+    "canonical_label": "pet > dog-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Brit",
+      "Hundafóður",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Brit Adult M 15kg Brit Brit adult medium 15 kg Heilfóður fyrir miðlungs stóra hunda ( 10-25 kg ) Hentar fyrir hunda á aldrinum 1-7 ára Inniheldur 41 % kjúkling. Prótín : 25 % Fita 15 % Raki 10 % Aska 6,4 % Trefjar 2,2 % Kalk 1,4 % Fosfór 1 % Kaloríur pr kíló 4143 Vörunúmer: 132323 Skoða nánar á heimasíðu framleiðanda Brit Hundafóður ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:200070",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "200070",
+    "product_name": "Yuup næring",
+    "subtitle": "Yuup feldvörur",
+    "description": "Næring frá Yuup fyrir allar feldgerðir (ekki nota í tegundir með strían feld). 250ml Þarf ekki að blanda - tilbúið til notkunar Inniheldur C- og E-vítamín fyrir feldinn ásamt róandi bambus og lótusblómakrafti. Mild lykt fyrir hundinn en góð fyrir eigandann. Hentar fyrir hunda og ketti Feldvörurnar frá Yuup eru án parabena, þalata, sls og sles. Hentar einstaklega vel fyrir skemmdan og flæktan feld.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundasnyrtivörur og umhirða>Yuup feldvörur",
+    "all_categories": [
+      "Hundar",
+      "Hundasnyrtivörur og umhirða",
+      "Yuup feldvörur"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundasnyrtivörur og umhirða>Yuup feldvörur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "health-and-care",
+    "canonical_label": "pet > health-and-care",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundasnyrtivörur og umhirða",
+      "ISK",
+      "New",
+      "Yuup",
+      "Yuup feldvörur",
+      "out of stock"
+    ],
+    "searchable_text": "Yuup næring Yuup feldvörur Næring frá Yuup fyrir allar feldgerðir (ekki nota í tegundir með strían feld). 250ml Þarf ekki að blanda - tilbúið til notkunar Inniheldur C- og E-vítamín fyrir feldinn ásamt róandi bambus og lótusblómakrafti. Mild lykt fyrir hundinn en góð fyrir eigandann. Hentar fyrir hunda og ketti Feldvörurnar frá Yuup eru án parabena, þalata, sls og sles. Hentar einstaklega vel fyrir skemmdan og flæktan feld. Hundasnyrtivörur og umhirða ISK New Yuup Yuup feldvörur out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:85600",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "85600",
+    "product_name": "Juwel Hitari 50W",
+    "subtitle": "Hitarar",
+    "description": "Sjálfvirki hitarinn frá Juwel er hannaður til að passa fullkomlega inn í Juwel filter kerfið. Hitarinn heldur jöfnu hitastigi á vatninu í búrinu. 50Watt Vörunúmer: 85600",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Dælur og hitarar>Hitarar",
+    "all_categories": [
+      "Fiskar",
+      "Dælur og hitarar",
+      "Hitarar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Dælur og hitarar>Hitarar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Dælur og hitarar",
+      "Hitarar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Juwel Hitari 50W Hitarar Sjálfvirki hitarinn frá Juwel er hannaður til að passa fullkomlega inn í Juwel filter kerfið. Hitarinn heldur jöfnu hitastigi á vatninu í búrinu. 50Watt Vörunúmer: 85600 Dælur og hitarar Hitarar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:85615",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "85615",
+    "product_name": "Juwel Hitari 300W",
+    "subtitle": "Hitarar",
+    "description": "Sjálfvirki hitarinn frá Juwel er hannaður til að passa fullkomlega inn í Juwel filter kerfið. Hitarinn heldur jöfnu hitastigi á vatninu í búrinu. 300Watt Vörunúmer: 85615",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Dælur og hitarar>Hitarar",
+    "all_categories": [
+      "Fiskar",
+      "Dælur og hitarar",
+      "Hitarar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Dælur og hitarar>Hitarar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Dælur og hitarar",
+      "Hitarar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Juwel Hitari 300W Hitarar Sjálfvirki hitarinn frá Juwel er hannaður til að passa fullkomlega inn í Juwel filter kerfið. Hitarinn heldur jöfnu hitastigi á vatninu í búrinu. 300Watt Vörunúmer: 85615 Dælur og hitarar Hitarar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86136",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86136",
+    "product_name": "Day-Lite 36 W.",
+    "subtitle": "Ljós og perur",
+    "description": "Nýju T8 perurnar frá Juwel fyrir allar stærðir og gerðir Juwel búranna. Í boði eru Day-Lite, Warm-Lite og Colour-Lite. Besta samsetningin er að staðsetja Warm-Lite fyrir framan og Day-Lite fyrir aftan í ljósasettinu og þannig tryggja bestu samsetninguna fyrir bæði birtu-jafnvægi og plöntuvöxt. Munið að skipta út peruþéttingum á sama tíma og skipt er út peru í hvert sinn til að tryggja rakaþéttni ljósasettsins. Pera: Day-Lite 36 W Vörunúmer: 86136",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Day-Lite 36 W. Ljós og perur Nýju T8 perurnar frá Juwel fyrir allar stærðir og gerðir Juwel búranna. Í boði eru Day-Lite, Warm-Lite og Colour-Lite. Besta samsetningin er að staðsetja Warm-Lite fyrir framan og Day-Lite fyrir aftan í ljósasettinu og þannig tryggja bestu samsetninguna fyrir bæði birtu-jafnvægi og plöntuvöxt. Munið að skipta út peruþéttingum á sama tíma og skipt er út peru í hvert sinn til að tryggja rakaþéttni ljósasettsins. Pera: Day-Lite 36 W Vörunúmer: 86136 ISK Ljós og perur New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86138",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86138",
+    "product_name": "Day-Lite 38 W.",
+    "subtitle": "Ljós og perur",
+    "description": "Nýju T8 perurnar frá Juwel fyrir allar stærðir og gerðir Juwel búranna. Í boði eru Day-Lite, Warm-Lite og Colour-Lite. Besta samsetningin er að staðsetja Warm-Lite fyrir framan og Day-Lite fyrir aftan í ljósasettinu og þannig tryggja bestu samsetninguna fyrir bæði birtu-jafnvægi og plöntuvöxt. Munið að skipta út peruþéttingum á sama tíma og skipt er út peru í hvert sinn til að tryggja rakaþéttni ljósasettsins. Pera: Day-Lite 38 W Vörunúmer: 86138",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Day-Lite 38 W. Ljós og perur Nýju T8 perurnar frá Juwel fyrir allar stærðir og gerðir Juwel búranna. Í boði eru Day-Lite, Warm-Lite og Colour-Lite. Besta samsetningin er að staðsetja Warm-Lite fyrir framan og Day-Lite fyrir aftan í ljósasettinu og þannig tryggja bestu samsetninguna fyrir bæði birtu-jafnvægi og plöntuvöxt. Munið að skipta út peruþéttingum á sama tíma og skipt er út peru í hvert sinn til að tryggja rakaþéttni ljósasettsins. Pera: Day-Lite 38 W Vörunúmer: 86138 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86345",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86345",
+    "product_name": "High-Lite Day 45 W",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Day perurnar búa til flott og skært ljós. Það gerir nátturulegu liti búrsins betri og hjálpar plöntum að vaxa. 9000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 180 og Trigon 350 Vörunúmer:86345",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "High-Lite Day 45 W Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Day perurnar búa til flott og skært ljós. Það gerir nátturulegu liti búrsins betri og hjálpar plöntum að vaxa. 9000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 180 og Trigon 350 Vörunúmer:86345 ISK Ljós og perur New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86456",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86456",
+    "product_name": "High-Lite Nature 54 W 1200mm",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Nature perurnar búa til heitt og náttúrulegt ljós sem eykur náttúrulega liti búrsins og hjálpar plöntum að vaxa. 4100 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 400 og Vision 450. Vörunúmer: 86456",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "High-Lite Nature 54 W 1200mm Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Nature perurnar búa til heitt og náttúrulegt ljós sem eykur náttúrulega liti búrsins og hjálpar plöntum að vaxa. 4100 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 400 og Vision 450. Vörunúmer: 86456 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86554",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86554",
+    "product_name": "High-Lite Colour 54 W",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Colour perurnar eykur náttúrulega liti búrsins. Það umbreytir rauðu og bláu litunum í búrinu. 6800 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Vision 180 Vörunúmer: 86554",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "High-Lite Colour 54 W Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Colour perurnar eykur náttúrulega liti búrsins. Það umbreytir rauðu og bláu litunum í búrinu. 6800 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Vision 180 Vörunúmer: 86554 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86628",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86628",
+    "product_name": "High-Lite Marine 28 W",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Marine perurnar búa til ákaft hvítt ljós sem hermir eftir náttúrulegum litum rifsins í vatninu. 15000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 125 og Trigon 190. Vörunúmer: 86628",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "High-Lite Marine 28 W Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Marine perurnar búa til ákaft hvítt ljós sem hermir eftir náttúrulegum litum rifsins í vatninu. 15000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 125 og Trigon 190. Vörunúmer: 86628 ISK Ljós og perur New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86645",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86645",
+    "product_name": "High-Lite Marine 45 W",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Marine perurnar búa til ákaft hvítt ljós sem hermir eftir náttúrulegum litum rifsins í vatninu. 15000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 180 og Trigon 350 Vörunúmer:86645",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "High-Lite Marine 45 W Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Marine perurnar búa til ákaft hvítt ljós sem hermir eftir náttúrulegum litum rifsins í vatninu. 15000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 180 og Trigon 350 Vörunúmer:86645 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86724",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86724",
+    "product_name": "High-Lite Blue 24 W",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Blue búa til flott blátt ljós sem ýtir undir það að kórallinn vex 20000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Lido 120 og Trigon 350 Vörunúmer: 86724",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "High-Lite Blue 24 W Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Blue búa til flott blátt ljós sem ýtir undir það að kórallinn vex 20000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Lido 120 og Trigon 350 Vörunúmer: 86724 ISK Ljós og perur New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:86756",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "86756",
+    "product_name": "High-Lite Blue 54 W 1200mm",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Blue búa til flott blátt ljós sem ýtir undir það að kórallinn vex 20000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 400 og Vision 450 Vörunúmer: 86756",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "High-Lite Blue 54 W 1200mm Ljós og perur High-Lite eru nýjar ljósaperur sem sameina lengdina af gömlu T8 perunum og birtuna frá nýju T5 tækninni. High-Lite Blue búa til flott blátt ljós sem ýtir undir það að kórallinn vex 20000 Kelvin Eftirfarandi fiskabúr styðja þessa peru: Rio 400 og Vision 450 Vörunúmer: 86756 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:90481",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "90481",
+    "product_name": "BOB Kúkapokar Berjalykt 8x15",
+    "subtitle": "Kúkapokar",
+    "description": "BOB kúkapokar með berjailm 8 rúllur í pakka 15 pokar í hverri rúllu Plast",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundasnyrtivörur og umhirða>Kúkapokar",
+    "all_categories": [
+      "Hundar",
+      "Hundasnyrtivörur og umhirða",
+      "Kúkapokar"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundasnyrtivörur og umhirða>Kúkapokar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "health-and-care",
+    "canonical_label": "pet > health-and-care",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundasnyrtivörur og umhirða",
+      "ISK",
+      "Kúkapokar",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "BOB Kúkapokar Berjalykt 8x15 Kúkapokar BOB kúkapokar með berjailm 8 rúllur í pakka 15 pokar í hverri rúllu Plast Hundasnyrtivörur og umhirða ISK Kúkapokar New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22608",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22608",
+    "product_name": "Kong Wubba Wet Large",
+    "subtitle": "KONG",
+    "description": "Leikfang sem hentar frábærlega í sækivinnu/leiki í vatn og snjó. Klætt með neoprene efni sem þornar hratt.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong Wubba Wet Large KONG Leikfang sem hentar frábærlega í sækivinnu/leiki í vatn og snjó. Klætt með neoprene efni sem þornar hratt. Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22616",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22616",
+    "product_name": "Kong training dummy L",
+    "subtitle": "KONG",
+    "description": "Kong Training Dummy fyrir miðlungs / stóra hunda, hentar vel í sund Skoða betur á heimasíðu framleiðanda Vörunúmer: 22616",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong training dummy L KONG Kong Training Dummy fyrir miðlungs / stóra hunda, hentar vel í sund Skoða betur á heimasíðu framleiðanda Vörunúmer: 22616 Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22639",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22639",
+    "product_name": "KONG Air Boltar í lausu M",
+    "subtitle": "KONG",
+    "description": "Kong air tennisbolti í lausu. Er með tístu. Vörunúmer 22639",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "KONG Air Boltar í lausu M KONG Kong air tennisbolti í lausu. Er með tístu. Vörunúmer 22639 Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22670",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22670",
+    "product_name": "KONG SoftSeas Octopus Lg",
+    "subtitle": "KONG",
+    "description": "Einstök plush lögun tilvalin til að hrista Fjölbreytt efni fyrir margar leiðir til að leika Tíst og skrjáf lengir leiktímann Frábært fyrir leik innandyra",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "KONG SoftSeas Octopus Lg KONG Einstök plush lögun tilvalin til að hrista Fjölbreytt efni fyrir margar leiðir til að leika Tíst og skrjáf lengir leiktímann Frábært fyrir leik innandyra Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22678",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22678",
+    "product_name": "Kong maraþon Peanut butter S",
+    "subtitle": "Kex",
+    "description": "KONG maraþon hveturinn hundinn til að naga . Þessi þægilega, sóðalausa skemmtun er í fullkomnri stærð til að passa í KONG Classic gúmmíleikfangið vinsæla . Sem forréttur kveikja bragðhnúðar á náttúrulegri tyggingarþörf, en svo kemur öflugt ytra lag. KONG maraþon er náttúrulegt, kornlaust og með stolti gert í Bandaríkjunum. Kong Marathon er góð skemmtun og auðvelt að meðhöndla ,þú einfaldlega ýtir Kong Marathoninu á Kong Classic gúmmíleikfangið og fjörið getur byrjað!",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Kex",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Kex"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Kex"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kex",
+      "Kong",
+      "Nagbein og nammi",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Kong maraþon Peanut butter S Kex KONG maraþon hveturinn hundinn til að naga . Þessi þægilega, sóðalausa skemmtun er í fullkomnri stærð til að passa í KONG Classic gúmmíleikfangið vinsæla . Sem forréttur kveikja bragðhnúðar á náttúrulegri tyggingarþörf, en svo kemur öflugt ytra lag. KONG maraþon er náttúrulegt, kornlaust og með stolti gert í Bandaríkjunum. Kong Marathon er góð skemmtun og auðvelt að meðhöndla ,þú einfaldlega ýtir Kong Marathoninu á Kong Classic gúmmíleikfangið og fjörið getur byrjað! ISK Kex Kong Nagbein og nammi New out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22699",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22699",
+    "product_name": "KONG Wild Knots Bear XL",
+    "subtitle": "KONG",
+    "description": "KONG Wild Knots eru mjúkir og loðnir að utan en endingargóðir og sterkir að innan. Wild Knots birnir eru vissulega að slá í gegn hjá hundum og eigendum. Hundar elska hnýttu beinagrindina og mjúka búkinn. Kong wild knots er tilvlið fyrir þá sem skemma leikföngin sín á met tíma. KONG Wild Knots hafa minni fyllingu til að minnka sóðaskapinn ef hann opnast og þeir tísta til að hvetja til leiks.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "KONG Wild Knots Bear XL KONG KONG Wild Knots eru mjúkir og loðnir að utan en endingargóðir og sterkir að innan. Wild Knots birnir eru vissulega að slá í gegn hjá hundum og eigendum. Hundar elska hnýttu beinagrindina og mjúka búkinn. Kong wild knots er tilvlið fyrir þá sem skemma leikföngin sín á met tíma. KONG Wild Knots hafa minni fyllingu til að minnka sóðaskapinn ef hann opnast og þeir tísta til að hvetja til leiks. Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22702",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22702",
+    "product_name": "Kong active cat feather teaser",
+    "subtitle": "Veiðistangir",
+    "description": "Kong active feather. Vörunúmer 22702",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Veiðistangir",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Veiðistangir"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Veiðistangir"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "Veiðistangir",
+      "in stock"
+    ],
+    "searchable_text": "Kong active cat feather teaser Veiðistangir Kong active feather. Vörunúmer 22702 ISK Kattaklórur og leikföng Kong New Veiðistangir in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22704",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22704",
+    "product_name": "Kong cat fuzzy slipper",
+    "subtitle": "Kong",
+    "description": "Leikfang handa kisum. Hægt að opna með frönskum rennilás og fylla af catnip. Skemmtilegt leikfang til að vekja veiðieðlið í kettinum.",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Kong cat fuzzy slipper Kong Leikfang handa kisum. Hægt að opna með frönskum rennilás og fylla af catnip. Skemmtilegt leikfang til að vekja veiðieðlið í kettinum. ISK Kattaklórur og leikföng Kong New out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22705",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22705",
+    "product_name": "Kong cat fuzzy bunny",
+    "subtitle": "Kong",
+    "description": "Kong cat fuzzy bunny Vörunúmer 22705",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Kong cat fuzzy bunny Kong Kong cat fuzzy bunny Vörunúmer 22705 ISK Kattaklórur og leikföng Kong New out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22731",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22731",
+    "product_name": "Kong cat wild tails",
+    "subtitle": "Kong",
+    "description": "Kong wild tails. Vörunúmer 22731",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong cat wild tails Kong Kong wild tails. Vörunúmer 22731 ISK Kattaklórur og leikföng Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22733",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22733",
+    "product_name": "KONG Bat-A-Bout Flicker Firefly",
+    "subtitle": "KONG",
+    "description": "Blikkandi LED-bolti lýsir til að skemmta dag og nótt Endurskinsvængir hvetja til náttúrulegrar veiðifærni.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "KONG Bat-A-Bout Flicker Firefly KONG Blikkandi LED-bolti lýsir til að skemmta dag og nótt Endurskinsvængir hvetja til náttúrulegrar veiðifærni. Hundaleikföng ISK KONG Kong New out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22750",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22750",
+    "product_name": "Kong Kitty Fuzz Bugs",
+    "subtitle": "Kong",
+    "description": "Kong fuzz bugs Vörunúmer 22750",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Kong Kitty Fuzz Bugs Kong Kong fuzz bugs Vörunúmer 22750 ISK Kattaklórur og leikföng Kong New out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22751",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22751",
+    "product_name": "Kong kitten teddy bear",
+    "subtitle": "Kong",
+    "description": "Kong bangsi í tveimur litum, bleiku og bláu, fyrir kettlinga. Með catnip til að auka við leik hjá kettlingnum.",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong kitten teddy bear Kong Kong bangsi í tveimur litum, bleiku og bláu, fyrir kettlinga. Með catnip til að auka við leik hjá kettlingnum. ISK Kattaklórur og leikföng Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22766",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22766",
+    "product_name": "Kong Cat Stellar Teaser",
+    "subtitle": "Veiðistangir",
+    "description": "Veiðistöng frá Kong með borða",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Veiðistangir",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Veiðistangir"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Veiðistangir"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "Veiðistangir",
+      "out of stock"
+    ],
+    "searchable_text": "Kong Cat Stellar Teaser Veiðistangir Veiðistöng frá Kong með borða ISK Kattaklórur og leikföng Kong New Veiðistangir out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22773",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22773",
+    "product_name": "Kong feather mouse",
+    "subtitle": "Kattaleikföng",
+    "description": "Leikfangamús handa kisum. Skemmtilegar fjaðrirnar gera leikinn enn skemmtilegri og auðvitað er músin fyllt með catnip.",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kattaleikföng",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kattaleikföng"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kattaleikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kattaleikföng",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong feather mouse Kattaleikföng Leikfangamús handa kisum. Skemmtilegar fjaðrirnar gera leikinn enn skemmtilegri og auðvitað er músin fyllt með catnip. ISK Kattaklórur og leikföng Kattaleikföng Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22775",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22775",
+    "product_name": "Kong Corduory Mouse Refillable",
+    "subtitle": "Kong",
+    "description": "Kong cat corduroy mouse með catnip. Vörunúmer 22775",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong Corduory Mouse Refillable Kong Kong cat corduroy mouse með catnip. Vörunúmer 22775 ISK Kattaklórur og leikföng Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22788",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22788",
+    "product_name": "Kong Cat Kitty Kong",
+    "subtitle": "Kong",
+    "description": "Kong fyrir ketti Má fylla með blautfóðri, þurrfóðri eða uppbleyttu þurrfóðri Frábær skemmtun og andleg útrás fyrir köttinn",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattaklórur og leikföng>Kong",
+    "all_categories": [
+      "Kettir",
+      "Kattaklórur og leikföng",
+      "Kong"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattaklórur og leikföng>Kong"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Kattaklórur og leikföng",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Kong Cat Kitty Kong Kong Kong fyrir ketti Má fylla með blautfóðri, þurrfóðri eða uppbleyttu þurrfóðri Frábær skemmtun og andleg útrás fyrir köttinn ISK Kattaklórur og leikföng Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22823",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22823",
+    "product_name": "KONG Signature Stick w/Rope Md.",
+    "subtitle": "KONG",
+    "description": "Kastprik með reipi frá KONG fullkomið til að láta hundinn sækja",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "KONG Signature Stick w/Rope Md. KONG Kastprik með reipi frá KONG fullkomið til að láta hundinn sækja Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22824",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22824",
+    "product_name": "KONG Low Stuff Flopzie Lamb Md.",
+    "subtitle": "KONG",
+    "description": "KONG Flopzie lamb, krúttlegt lamb með lítilli fyllingu, tístu og skrjáfi",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "KONG Low Stuff Flopzie Lamb Md. KONG KONG Flopzie lamb, krúttlegt lamb með lítilli fyllingu, tístu og skrjáfi Hundaleikföng ISK KONG Kong New out of stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:22833",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "22833",
+    "product_name": "KONG Flyangle Assorted Lg",
+    "subtitle": "KONG",
+    "description": "Skemmtilegt leikfang frá KONG sem hægt er að kasta eða togagast á með Flýtur í vatni",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>KONG",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "KONG"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>KONG"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "KONG",
+      "Kong",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "KONG Flyangle Assorted Lg KONG Skemmtilegt leikfang frá KONG sem hægt er að kasta eða togagast á með Flýtur í vatni Hundaleikföng ISK KONG Kong New in stock",
+    "attributes_present": [
+      "availability",
+      "brand",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:25380",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "25380",
+    "product_name": "Primo 110 svart",
+    "subtitle": "Önnur fiskabúr",
+    "description": "Primo línan er einföld og stílhrein. Primo 110 fiskabúrin koma útbúin með eftirfarandi búnaði: Ljós - NovoLux LED 80 Hreinsidælu - Eccoflow 500 og Bioflow Super filter Hitara - AquaHeat 100W Lítrafjöldi: 110 Lítrar Hæð: 45 cm Lengd: 36 cm Breidd: 81 cm",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Önnur fiskabúr",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Önnur fiskabúr"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Önnur fiskabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock",
+      "Önnur fiskabúr"
+    ],
+    "searchable_text": "Primo 110 svart Önnur fiskabúr Primo línan er einföld og stílhrein. Primo 110 fiskabúrin koma útbúin með eftirfarandi búnaði: Ljós - NovoLux LED 80 Hreinsidælu - Eccoflow 500 og Bioflow Super filter Hitara - AquaHeat 100W Lítrafjöldi: 110 Lítrar Hæð: 45 cm Lengd: 36 cm Breidd: 81 cm Fiskabúr og skápar ISK New in stock Önnur fiskabúr",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:46360",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "46360",
+    "product_name": "Ljósastæði T5 2x24W 60 cm",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite vísar til nýrra ljósatækni hannaða af Juwel. Ljósin sameina núverandi lengd T8 ljósaperanna með nýju, bjartari T5 ljósatækninni. High-Lite ljósastæðin ná, með sínum einstöku björtu perum, endanna á milli í búrinu til að auka ljósmagn til hins ýtrasta. High-Lite ljósasettið er 60 cm langt og gert fyrir tvær T5 flúrperur 438 mm / 24 Watta Til viðbótar er hægt að bæta við Juwel bakspeglunum til að tvöfalda birtumagn ljóssins. Vinsamlegast farið eftir leiðbeiningum um meðferð ljósasettsins til að tryggja að það haldist vatnsþétt og skili hámarks ljósmagni. Mælt er með því að skipta út perum árlega ásamt viðeigandi peruþéttingum. A.t.h. Öll High-Lite ljósasett koma án pera til að veita þér svigrúm til að velja þá lýsingu sem hentar þínu búri. High-Lite Ljósasett 60 cm, 2 x 24 W Mál: 60 cm Vörunúmer: 46360",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Ljósastæði T5 2x24W 60 cm Ljós og perur High-Lite vísar til nýrra ljósatækni hannaða af Juwel. Ljósin sameina núverandi lengd T8 ljósaperanna með nýju, bjartari T5 ljósatækninni. High-Lite ljósastæðin ná, með sínum einstöku björtu perum, endanna á milli í búrinu til að auka ljósmagn til hins ýtrasta. High-Lite ljósasettið er 60 cm langt og gert fyrir tvær T5 flúrperur 438 mm / 24 Watta Til viðbótar er hægt að bæta við Juwel bakspeglunum til að tvöfalda birtumagn ljóssins. Vinsamlegast farið eftir leiðbeiningum um meðferð ljósasettsins til að tryggja að það haldist vatnsþétt og skili hámarks ljósmagni. Mælt er með því að skipta út perum árlega ásamt viðeigandi peruþéttingum. A.t.h. Öll High-Lite ljósasett koma án pera til að veita þér svigrúm til að velja þá lýsingu sem hentar þínu búri. High-Lite Ljósasett 60 cm, 2 x 24 W Mál: 60 cm Vörunúmer: 46360 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:46420",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "46420",
+    "product_name": "Ljósasett High-Lite 120cm 54W",
+    "subtitle": "Ljós og perur",
+    "description": "High-Lite vísar til nýrra ljósatækni hannaða af Juwel. Ljósin sameina núverandi lengd T8 ljósaperanna með nýju, bjartari T5 ljósatækninni. High-Lite ljósastæðin ná, með sínum einstöku björtu perum, endanna á milli í búrinu til að auka ljósmagn til hins ýtrasta. High-Lite ljósasettið er 100 cm langt og gert fyrir tvær T5 flúrperur 1047 mm / 54 Watta Til viðbótar er hægt að bæta við Juwel bakspeglunum til að tvöfalda birtumagn ljóssins. Vinsamlegast farið eftir leiðbeiningum um meðferð ljósasettsins til að tryggja að það haldist vatnsþétt og skili hámarks ljósmagni. Mælt er með því að skipta út perum árlega ásamt viðeigandi peruþéttingum. A.t.h. Öll High-Lite ljósasett koma án pera til að veita þér svigrúm til að velja þá lýsingu sem hentar þínu búri. High-Lite Ljósasett 100 cm, 2 x 54 W Mál: 120 cm Vörunúmer: 46420",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Ljósasett High-Lite 120cm 54W Ljós og perur High-Lite vísar til nýrra ljósatækni hannaða af Juwel. Ljósin sameina núverandi lengd T8 ljósaperanna með nýju, bjartari T5 ljósatækninni. High-Lite ljósastæðin ná, með sínum einstöku björtu perum, endanna á milli í búrinu til að auka ljósmagn til hins ýtrasta. High-Lite ljósasettið er 100 cm langt og gert fyrir tvær T5 flúrperur 1047 mm / 54 Watta Til viðbótar er hægt að bæta við Juwel bakspeglunum til að tvöfalda birtumagn ljóssins. Vinsamlegast farið eftir leiðbeiningum um meðferð ljósasettsins til að tryggja að það haldist vatnsþétt og skili hámarks ljósmagni. Mælt er með því að skipta út perum árlega ásamt viðeigandi peruþéttingum. A.t.h. Öll High-Lite ljósasett koma án pera til að veita þér svigrúm til að velja þá lýsingu sem hentar þínu búri. High-Lite Ljósasett 100 cm, 2 x 54 W Mál: 120 cm Vörunúmer: 46420 ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:A550A",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "A550A",
+    "product_name": "Filtermaterial f/A440+A550",
+    "subtitle": "Filterefni",
+    "description": "Hreinsisíur fyrir A440 & A550 Panorama og Hexa fiskabúr",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Filtermaterial f/A440+A550 Filterefni Hreinsisíur fyrir A440 & A550 Panorama og Hexa fiskabúr Aðrar fiskavörur Filterefni ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN82883",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AN82883",
+    "product_name": "Dental Sticks Small 110g (7)",
+    "subtitle": "Tannhreinsibein",
+    "description": "Tannhreinsibein frá Animonda Fyrir hunda frá 2-10kg Styðja við tannheilsu í fullorðnum hundum Innihalda virka efnið Stay-C® sem dregur úr uppsöfnun tannsteins Dagleg notkun getur haldið niðri myndun á skán og tannsteini Framleitt í Þýskalandi",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Tannhreinsibein",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Tannhreinsibein"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Tannhreinsibein"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Nagbein og nammi",
+      "New",
+      "Tannhreinsibein",
+      "out of stock"
+    ],
+    "searchable_text": "Dental Sticks Small 110g (7) Tannhreinsibein Tannhreinsibein frá Animonda Fyrir hunda frá 2-10kg Styðja við tannheilsu í fullorðnum hundum Innihalda virka efnið Stay-C® sem dregur úr uppsöfnun tannsteins Dagleg notkun getur haldið niðri myndun á skán og tannsteini Framleitt í Þýskalandi ISK Nagbein og nammi New Tannhreinsibein out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN82886",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AN82886",
+    "product_name": "Dental Sticks Multi Medium 28 stk.",
+    "subtitle": "Tannhreinsibein",
+    "description": "Tannhreinsibein frá Animonda Fyrir hunda frá 10-25kg Styðja við tannheilsu í fullorðnum hundum Innihalda virka efnið Stay-C® sem dregur úr uppsöfnun tannsteins Dagleg notkun getur haldið niðri myndun á skán og tannsteini Framleitt í Þýskalandi",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Tannhreinsibein",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Tannhreinsibein"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Tannhreinsibein"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Nagbein og nammi",
+      "New",
+      "Tannhreinsibein",
+      "out of stock"
+    ],
+    "searchable_text": "Dental Sticks Multi Medium 28 stk. Tannhreinsibein Tannhreinsibein frá Animonda Fyrir hunda frá 10-25kg Styðja við tannheilsu í fullorðnum hundum Innihalda virka efnið Stay-C® sem dregur úr uppsöfnun tannsteins Dagleg notkun getur haldið niðri myndun á skán og tannsteini Framleitt í Þýskalandi ISK Nagbein og nammi New Tannhreinsibein out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN82980",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AN82980",
+    "product_name": "Feinstein Dog w/Rabbit 150g",
+    "subtitle": "Blautfóður",
+    "description": "Næringargildi: 10,5% prótín, 4,5% fita, aska 2,5%, trefjar 0,4%, raki 81%. Innihaldsefni: 63% kjöt og kjötafurðir (svínakjöt, nautakjöt, alifuglakjöt, 8% kanína) og steinefni.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundafóður>Blautfóður",
+    "all_categories": [
+      "Hundar",
+      "Hundafóður",
+      "Blautfóður"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundafóður>Blautfóður"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "dog-food",
+    "canonical_label": "pet > dog-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Blautfóður",
+      "Hundafóður",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Feinstein Dog w/Rabbit 150g Blautfóður Næringargildi: 10,5% prótín, 4,5% fita, aska 2,5%, trefjar 0,4%, raki 81%. Innihaldsefni: 63% kjöt og kjötafurðir (svínakjöt, nautakjöt, alifuglakjöt, 8% kanína) og steinefni. Blautfóður Hundafóður ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN83030",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AN83030",
+    "product_name": "Ani.VF Cat Chick & Rabb 85g",
+    "subtitle": "Animonda",
+    "description": "Mjúkur \"mousse\" blautmatur Engin litarefni eða rotvarnaefni Engin sykur, soja eða kornmeti Fyrir ketti á aldrinum 1-6 ára",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattafóður>Animonda",
+    "all_categories": [
+      "Kettir",
+      "Kattafóður",
+      "Animonda"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattafóður>Animonda"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "cat-food",
+    "canonical_label": "pet > cat-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Animonda",
+      "ISK",
+      "Kattafóður",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Ani.VF Cat Chick & Rabb 85g Animonda Mjúkur \"mousse\" blautmatur Engin litarefni eða rotvarnaefni Engin sykur, soja eða kornmeti Fyrir ketti á aldrinum 1-6 ára Animonda ISK Kattafóður New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN83033",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AN83033",
+    "product_name": "Ani.VF Cat chick & Tuna 85g",
+    "subtitle": "Animonda",
+    "description": "Innihaldslýsing: 53 % kjöt og kjötafurðir (30 % kjúklingur, alifugl , svínakjöt), Fiskur og fiskafurðir (7 % túnfiskur), steinefni.",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Kattafóður>Animonda",
+    "all_categories": [
+      "Kettir",
+      "Kattafóður",
+      "Animonda"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Kattafóður>Animonda"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "cat-food",
+    "canonical_label": "pet > cat-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Animonda",
+      "ISK",
+      "Kattafóður",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Ani.VF Cat chick & Tuna 85g Animonda Innihaldslýsing: 53 % kjöt og kjötafurðir (30 % kjúklingur, alifugl , svínakjöt), Fiskur og fiskafurðir (7 % túnfiskur), steinefni. Animonda ISK Kattafóður New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AN83125",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AN83125",
+    "product_name": "Milkies hairball 120 gr",
+    "subtitle": "Nammi",
+    "description": "Milkies kattanammi frá Animonda Stökkir nammikoddar með mjúkri mjólkurfyllingu Með malti Inniheldur ekki soja, kornvöru, litar- eða rotvarnarefni 120g",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Aðrar kattavörur>Nammi",
+    "all_categories": [
+      "Kettir",
+      "Aðrar kattavörur",
+      "Nammi"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Aðrar kattavörur>Nammi"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar kattavörur",
+      "ISK",
+      "Nammi",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Milkies hairball 120 gr Nammi Milkies kattanammi frá Animonda Stökkir nammikoddar með mjúkri mjólkurfyllingu Með malti Inniheldur ekki soja, kornvöru, litar- eða rotvarnarefni 120g Aðrar kattavörur ISK Nammi New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AT129",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AT129",
+    "product_name": "Plastbúr m/loki 27*17*18 cm",
+    "subtitle": "Önnur fiskabúr",
+    "description": "Plastbúr með loki 27 x 17 x 18cm",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Önnur fiskabúr",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Önnur fiskabúr"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Önnur fiskabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "out of stock",
+      "Önnur fiskabúr"
+    ],
+    "searchable_text": "Plastbúr m/loki 27*17*18 cm Önnur fiskabúr Plastbúr með loki 27 x 17 x 18cm Fiskabúr og skápar ISK New out of stock Önnur fiskabúr",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:AT130",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "AT130",
+    "product_name": "Plastbúr m/loki 34*20*22 cm",
+    "subtitle": "Önnur fiskabúr",
+    "description": "Plastbúr með loki 34 x 20 x 22cm",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Önnur fiskabúr",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Önnur fiskabúr"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Önnur fiskabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "out of stock",
+      "Önnur fiskabúr"
+    ],
+    "searchable_text": "Plastbúr m/loki 34*20*22 cm Önnur fiskabúr Plastbúr með loki 34 x 20 x 22cm Fiskabúr og skápar ISK New out of stock Önnur fiskabúr",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD518944",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD518944",
+    "product_name": "Leikfang mjúkt BATMAN",
+    "subtitle": "Mjúk leikföng",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "Mjúk leikföng"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>Mjúk leikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "Mjúk leikföng",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Leikfang mjúkt BATMAN Mjúk leikföng Hundaleikföng ISK Mjúk leikföng New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD519002",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD519002",
+    "product_name": "Leikfang mjúkt STAR WARS DARTH VADER",
+    "subtitle": "Mjúk leikföng",
+    "description": "Darth vader bangsi fyrir hunda!",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "Mjúk leikföng"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>Mjúk leikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "Mjúk leikföng",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Leikfang mjúkt STAR WARS DARTH VADER Mjúk leikföng Darth vader bangsi fyrir hunda! Hundaleikföng ISK Mjúk leikföng New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD519279",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD519279",
+    "product_name": "Leikfang Mjúkt SPIDERMAN",
+    "subtitle": "Mjúk leikföng",
+    "description": "Spiderman bangsi fyrir hunda.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "Mjúk leikföng"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>Mjúk leikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "Mjúk leikföng",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Leikfang Mjúkt SPIDERMAN Mjúk leikföng Spiderman bangsi fyrir hunda. Hundaleikföng ISK Mjúk leikföng New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI200001",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI200001",
+    "product_name": "Hreinsidæla CF 40 svört",
+    "subtitle": "Hreinsidælur",
+    "description": "Búnaður innifalinn 1 spraybar (jafnari dreifing vatns og aukin súrefnisdreifing); 1 water clear&protect „S“ Ciano®; kolahilki 1 water foam“S” 30PPI Ciano®; mekanískur filtersvampur Mál (LxBxH) 3,5 x 5,5 x 14 cm Mótor 200 l/klst Lágmarksstærð búrs 20 L Hámarksstærð búrs 40 L Heildarþyngd 0,25 kg stærð “S” á filterum frá CIANO",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Dælur og hitarar>Hreinsidælur",
+    "all_categories": [
+      "Fiskar",
+      "Dælur og hitarar",
+      "Hreinsidælur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Dælur og hitarar>Hreinsidælur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Dælur og hitarar",
+      "Hreinsidælur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Hreinsidæla CF 40 svört Hreinsidælur Búnaður innifalinn 1 spraybar (jafnari dreifing vatns og aukin súrefnisdreifing); 1 water clear&protect „S“ Ciano®; kolahilki 1 water foam“S” 30PPI Ciano®; mekanískur filtersvampur Mál (LxBxH) 3,5 x 5,5 x 14 cm Mótor 200 l/klst Lágmarksstærð búrs 20 L Hámarksstærð búrs 40 L Heildarþyngd 0,25 kg stærð “S” á filterum frá CIANO Dælur og hitarar Hreinsidælur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI390793",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI390793",
+    "product_name": "Hreinsidæla 5W",
+    "subtitle": "Loftdælur",
+    "description": "Loftdæla CF40 5W Mál (LxWxH) 3,5 x 5,5 x 14 cm Mótor 200 l/h Minimum Volume 20 L Maximum volume 40 L þyngd 0,25 Kg Consumables Size “S”",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Dælur og hitarar>Loftdælur",
+    "all_categories": [
+      "Fiskar",
+      "Dælur og hitarar",
+      "Loftdælur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Dælur og hitarar>Loftdælur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Dælur og hitarar",
+      "ISK",
+      "Loftdælur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Hreinsidæla 5W Loftdælur Loftdæla CF40 5W Mál (LxWxH) 3,5 x 5,5 x 14 cm Mótor 200 l/h Minimum Volume 20 L Maximum volume 40 L þyngd 0,25 Kg Consumables Size “S” Dælur og hitarar ISK Loftdælur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI540134",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI540134",
+    "product_name": "Fiskabúr CIANO 20 svart",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "AQUA 20 er tilvalið gler fiskabúr fyrir þá sem vilja byrja smátt. Búrið kemur með ljósa og hreinsibúnaði. Búnaður innifalinn 1 LED ljós CLA20 Ciano® (1,5W - 12VDC) 1 Straumbreytir fyrir LED ljós (12VDC) 1 Hreinsidæla CF40 Ciano® 1 Skammtur Water Bio Bact “S” Ciano® Kolasía 1 FOAM “S” 30PPI Ciano® Mekanískur filtersvampur",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Fiskabúr CIANO 20 svart Ciano fiskabúr og skápar AQUA 20 er tilvalið gler fiskabúr fyrir þá sem vilja byrja smátt. Búrið kemur með ljósa og hreinsibúnaði. Búnaður innifalinn 1 LED ljós CLA20 Ciano® (1,5W - 12VDC) 1 Straumbreytir fyrir LED ljós (12VDC) 1 Hreinsidæla CF40 Ciano® 1 Skammtur Water Bio Bact “S” Ciano® Kolasía 1 FOAM “S” 30PPI Ciano® Mekanískur filtersvampur Ciano fiskabúr og skápar Fiskabúr og skápar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI540230",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI540230",
+    "product_name": "Fiskabúr CIANO 80 svart",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Fiskabúr CIANO 80 svart Ciano fiskabúr og skápar Ciano fiskabúr og skápar Fiskabúr og skápar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI540246",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI540246",
+    "product_name": "Aquarium 80 White",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "Fullbúið fiskabúr frá CIANO og það stæðsta í byrjunarlínu þeirra. Fiskabúrinu fylgir fullbúinn hreinsibúnaður, hitari og LED lýsing sem gerir startið einfallt og þæginlegt. Búnaður innifalinn 1 Hreinsidæla CF80 Ciano® 1 LED Ljósabúnaður CLA60 Ciano® (8W - 18VDC) 1 Straumbreytir fyrir LED (18VDC) 1 Vatnsdæla 260 l / klst. 1 Hitari 100W 1 Skammtur WATER CLEAR „M“ Ciano® kolasía 1 FOAM “M” 30PPI Ciano® hreinsisvampur",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Aquarium 80 White Ciano fiskabúr og skápar Fullbúið fiskabúr frá CIANO og það stæðsta í byrjunarlínu þeirra. Fiskabúrinu fylgir fullbúinn hreinsibúnaður, hitari og LED lýsing sem gerir startið einfallt og þæginlegt. Búnaður innifalinn 1 Hreinsidæla CF80 Ciano® 1 LED Ljósabúnaður CLA60 Ciano® (8W - 18VDC) 1 Straumbreytir fyrir LED (18VDC) 1 Vatnsdæla 260 l / klst. 1 Hitari 100W 1 Skammtur WATER CLEAR „M“ Ciano® kolasía 1 FOAM “M” 30PPI Ciano® hreinsisvampur Ciano fiskabúr og skápar Fiskabúr og skápar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560019",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560019",
+    "product_name": "Bio-Bact S Green",
+    "subtitle": "Filterefni",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Bio-Bact S Green Filterefni Aðrar fiskavörur Filterefni ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560024",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560024",
+    "product_name": "Stop-Algae M Red",
+    "subtitle": "Filterefni",
+    "description": "Lýsing Efnasíun Tilfallandi notkunn til að vinna gegn þörungamyndun í fiskabúri ATHUGIÐ: Ef þú notar lyf í fiskabúrinu þínu, þá ættir þú ekki að nota þessa vöru Stærð M Litur rauður Skammtur/kassi 1 Mál (LxBxH) 4,6 x 3,6 x 3,1 cm Samhæft við síur CF80, CFSTONE80, CFBIO150 & 250, Magi380 og SuperClean 60&90 Þyngd 0,04 kg",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Stop-Algae M Red Filterefni Lýsing Efnasíun Tilfallandi notkunn til að vinna gegn þörungamyndun í fiskabúri ATHUGIÐ: Ef þú notar lyf í fiskabúrinu þínu, þá ættir þú ekki að nota þessa vöru Stærð M Litur rauður Skammtur/kassi 1 Mál (LxBxH) 4,6 x 3,6 x 3,1 cm Samhæft við síur CF80, CFSTONE80, CFBIO150 & 250, Magi380 og SuperClean 60&90 Þyngd 0,04 kg Aðrar fiskavörur Filterefni ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560025",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560025",
+    "product_name": "Foam M Black",
+    "subtitle": "Filterefni",
+    "description": "Mekanískur hreinsisvampur frá CIANO til hreinsunar á fiskabúri. Stærð M Litur svartur Skammtur/kassi 1 Mál (LxBxH) 4,5 x 3,5 x 7,5 cm Samhæft við síur CF80, CFSTONE80, Magi380 Þyngd 0,01 kg",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Foam M Black Filterefni Mekanískur hreinsisvampur frá CIANO til hreinsunar á fiskabúri. Stærð M Litur svartur Skammtur/kassi 1 Mál (LxBxH) 4,5 x 3,5 x 7,5 cm Samhæft við síur CF80, CFSTONE80, Magi380 Þyngd 0,01 kg Aðrar fiskavörur Filterefni ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560026",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560026",
+    "product_name": "Foam large svart",
+    "subtitle": "Filterefni",
+    "description": "Mekanískur hreinsisvampur frá CIANO til hreinsunar á fiskabúri. Stærð L Litur svartur Skammtur/kassi 1 Mál (LxBxH) 5,4 x 5,4 x 24,5 cm Samhæft við síur CFBIO150 & 250 Þyngd 0,05 kg",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Foam large svart Filterefni Mekanískur hreinsisvampur frá CIANO til hreinsunar á fiskabúri. Stærð L Litur svartur Skammtur/kassi 1 Mál (LxBxH) 5,4 x 5,4 x 24,5 cm Samhæft við síur CFBIO150 & 250 Þyngd 0,05 kg Aðrar fiskavörur Filterefni ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560029",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560029",
+    "product_name": "Bio Bact L green",
+    "subtitle": "Filterefni",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Bio Bact L green Filterefni Aðrar fiskavörur Filterefni ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560047",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560047",
+    "product_name": "Plant Protection Dosator M",
+    "subtitle": "Bætiefni",
+    "description": "Öflug næringarefni fyrir fiskabúrplöntur. Aukinn vöxtur á örfáum vikum. PLANTS PROTECTION skammtarinn er tilvalinn fyrir þá sem vilja auðvelda sér viðhald. Stærð M Litur svartur Notist í Ferskvatni Skammtar í allt að 60 daga í senn Lágmarksmagn 40 L Hámarksmagn 80 L Mál (LxBxH) 5,4 x 4,5 x 7 cm Heildarþyngd 0,11 kg",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskafóður og bætiefni>Bætiefni",
+    "all_categories": [
+      "Fiskar",
+      "Fiskafóður og bætiefni",
+      "Bætiefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskafóður og bætiefni>Bætiefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "fish-food",
+    "canonical_label": "pet > fish-food",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Bætiefni",
+      "Fiskafóður og bætiefni",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Plant Protection Dosator M Bætiefni Öflug næringarefni fyrir fiskabúrplöntur. Aukinn vöxtur á örfáum vikum. PLANTS PROTECTION skammtarinn er tilvalinn fyrir þá sem vilja auðvelda sér viðhald. Stærð M Litur svartur Notist í Ferskvatni Skammtar í allt að 60 daga í senn Lágmarksmagn 40 L Hámarksmagn 80 L Mál (LxBxH) 5,4 x 4,5 x 7 cm Heildarþyngd 0,11 kg Bætiefni Fiskafóður og bætiefni ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI560054",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI560054",
+    "product_name": "Foam XL svart",
+    "subtitle": "Filterefni",
+    "description": "Mekanískur hreinsisvampur frá CIANO til hreinsunar á fiskabúri. Stærð XL Litur svartur Skammtur/kassi 1 Mál (LxBxH) 10,6 x 8,6 x 3,5 cm Samhæft við síur CFBIO XL Þyngd 0,02 kg",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Aðrar fiskavörur>Filterefni",
+    "all_categories": [
+      "Fiskar",
+      "Aðrar fiskavörur",
+      "Filterefni"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Aðrar fiskavörur>Filterefni"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-equipment",
+    "canonical_label": "pet > aquarium-equipment",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar fiskavörur",
+      "Filterefni",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Foam XL svart Filterefni Mekanískur hreinsisvampur frá CIANO til hreinsunar á fiskabúri. Stærð XL Litur svartur Skammtur/kassi 1 Mál (LxBxH) 10,6 x 8,6 x 3,5 cm Samhæft við síur CFBIO XL Þyngd 0,02 kg Aðrar fiskavörur Filterefni ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI570033",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI570033",
+    "product_name": "Emotions Pro 120 svartur skápur",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "Svartur Skápur undir Emotions pro 120 fiskabúrið Mál 121 x 40 x 82 cm",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Emotions Pro 120 svartur skápur Ciano fiskabúr og skápar Svartur Skápur undir Emotions pro 120 fiskabúrið Mál 121 x 40 x 82 cm Ciano fiskabúr og skápar Fiskabúr og skápar ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580052",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI580052",
+    "product_name": "Converter CLA 20 Black",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "CLN5 | CLA20 Universal | CLA20 – INPUT 100-240V – OUTPUT 12V 500mA – TUV – CE",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Converter CLA 20 Black Ciano fiskabúr og skápar CLN5 | CLA20 Universal | CLA20 – INPUT 100-240V – OUTPUT 12V 500mA – TUV – CE Ciano fiskabúr og skápar Fiskabúr og skápar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580083",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI580083",
+    "product_name": "CLE 60/80 svart Straumbr.",
+    "subtitle": "Ljós og perur",
+    "description": "CLE 60/80 straumbreytir",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "CLE 60/80 svart Straumbr. Ljós og perur CLE 60/80 straumbreytir ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580111",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI580111",
+    "product_name": "Ljós CLA 20 Univers svart + Straumbr.",
+    "subtitle": "Ljós og perur",
+    "description": "Inniheldur LED lýsingarkerfi CLA20 Universal Ciano® (1.5W - 12VDC); Breytikerfi (12VDC). Litur svartur Mál (LxBxH) 16,2x5,2x8,2 cm Ljósstreymi 135lm Litahiti 6300K Heildarþyngd 0,3 kg Samhæft við fiskabúr án ramma með þykkt 3, 4 eða 5 mm",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Ljós CLA 20 Univers svart + Straumbr. Ljós og perur Inniheldur LED lýsingarkerfi CLA20 Universal Ciano® (1.5W - 12VDC); Breytikerfi (12VDC). Litur svartur Mál (LxBxH) 16,2x5,2x8,2 cm Ljósstreymi 135lm Litahiti 6300K Heildarþyngd 0,3 kg Samhæft við fiskabúr án ramma með þykkt 3, 4 eða 5 mm ISK Ljós og perur New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580153",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI580153",
+    "product_name": "CLE 80 svart + Straumbr. (full pack)",
+    "subtitle": "Ljós og perur",
+    "description": "Innifalið LED ljósabúnaður CLE80 Ciano® (23W – 24VDC); Straumbreytir LED (24 VDC); 4 Emotions PRO lok; 2 bremsur fyrir Emotions ONE; 2 universal supports. Litur svartur Mál (LxBxH) 6 x 2 x 78 cm Ljósstreymi 2200 lm Litahiti 6500K Heildarþyngd 2,10 kg Samhæft við Emotions Pro 80 e Emotions One 80 og Emotions One 100*. *Aðeins sem auka Led.",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "CLE 80 svart + Straumbr. (full pack) Ljós og perur Innifalið LED ljósabúnaður CLE80 Ciano® (23W – 24VDC); Straumbreytir LED (24 VDC); 4 Emotions PRO lok; 2 bremsur fyrir Emotions ONE; 2 universal supports. Litur svartur Mál (LxBxH) 6 x 2 x 78 cm Ljósstreymi 2200 lm Litahiti 6500K Heildarþyngd 2,10 kg Samhæft við Emotions Pro 80 e Emotions One 80 og Emotions One 100*. *Aðeins sem auka Led. ISK Ljós og perur New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI580156",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI580156",
+    "product_name": "CLE 100 hvítt+ Straumbr. (full pack)",
+    "subtitle": "Ljós og perur",
+    "description": "Innifalið LED ljósakerfi CLE60 Ciano® (30W – 24VDC); Straumbreytir LED (24 VDC); 4 Emotions PRO lok; 2 universal supports. Litur Hvítt Mál (LxBxH) 6 x 2 x 98 cm Ljósstreymi 2900 lm Litahiti 6500K Heildarþyngd 2,56 kg Samhæft við Emotions Pro 100 og Emotions One 100.",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Ljós og perur",
+    "all_categories": [
+      "Fiskar",
+      "Ljós og perur"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Ljós og perur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquarium-lighting",
+    "canonical_label": "pet > aquarium-lighting",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "ISK",
+      "Ljós og perur",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "CLE 100 hvítt+ Straumbr. (full pack) Ljós og perur Innifalið LED ljósakerfi CLE60 Ciano® (30W – 24VDC); Straumbreytir LED (24 VDC); 4 Emotions PRO lok; 2 universal supports. Litur Hvítt Mál (LxBxH) 6 x 2 x 98 cm Ljósstreymi 2900 lm Litahiti 6500K Heildarþyngd 2,56 kg Samhæft við Emotions Pro 100 og Emotions One 100. ISK Ljós og perur New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI690114",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI690114",
+    "product_name": "Nexus fiskabúr 15L hvítt",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "Búnaður innifalinn 1 LED lýsingarkerfi CLA20 Ciano® (1,5W - 12VDC) 1 Breytikerfi (12VDC) 1 Innri sía CF40 Ciano® 1 Skammtur VATNSHREINSIR “S” Ciano® 1 FOAM “S” 30PPI Ciano® Litur hvítur Tilvísun EUR AQM690114 Tilvísun UK AQM690706 Mál (LxBxH) 25 x 25 x 31,5 cm Gagnlegt bindi 14 L Heildarþyngd 3,3 Kg",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Nexus fiskabúr 15L hvítt Ciano fiskabúr og skápar Búnaður innifalinn 1 LED lýsingarkerfi CLA20 Ciano® (1,5W - 12VDC) 1 Breytikerfi (12VDC) 1 Innri sía CF40 Ciano® 1 Skammtur VATNSHREINSIR “S” Ciano® 1 FOAM “S” 30PPI Ciano® Litur hvítur Tilvísun EUR AQM690114 Tilvísun UK AQM690706 Mál (LxBxH) 25 x 25 x 31,5 cm Gagnlegt bindi 14 L Heildarþyngd 3,3 Kg Ciano fiskabúr og skápar Fiskabúr og skápar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CI70002",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CI70002",
+    "product_name": "Fiskabúrastandur CIANO 80 svartur",
+    "subtitle": "Ciano fiskabúr og skápar",
+    "description": "Stílhreint og sterkt borð undir AQUA 80 eða AQUARIUM 80 fiskabúrin! Litur Svart Mál 79 x 30 x 70 cm",
+    "current_status": "Active",
+    "current_main_group": "Fiskar",
+    "current_category": "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar",
+    "all_categories": [
+      "Fiskar",
+      "Fiskabúr og skápar",
+      "Ciano fiskabúr og skápar"
+    ],
+    "taxonomy_paths": [
+      "Fiskar>Fiskabúr og skápar>Ciano fiskabúr og skápar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "aquariums",
+    "canonical_label": "pet > aquariums",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Ciano fiskabúr og skápar",
+      "Fiskabúr og skápar",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Fiskabúrastandur CIANO 80 svartur Ciano fiskabúr og skápar Stílhreint og sterkt borð undir AQUA 80 eða AQUARIUM 80 fiskabúrin! Litur Svart Mál 79 x 30 x 70 cm Ciano fiskabúr og skápar Fiskabúr og skápar ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H300132",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H300132",
+    "product_name": "ICrate hvolpagerði Gold 80cm",
+    "subtitle": "Grindabúr",
+    "description": "Þetta er frábær hvolpagrind ef þú vilt hafa gæludýrið þitt öruggt og afskekkt, en með svigrúm til að hreyfa þig. Hvolpagrindin samanstendur af átta hliðum á lömum , hver hlið 24 \"breið. Hvolpagrindin er 80cm á hæð Hægt að nota í hvaða formi sem er, svo sem 4ft x 4ft ferningur, eða 4ft 5in x 4ft 5in átthyrningur. Hentar fyrir hunda 26 - 40 lbs • Öruggur aðgangur, tvöföld læsing • Acri-Lock ™ akrýlhúðað gullsink • Veitir langvarandi vernd • Inniheldur hæla til að festa grindina í jörðina • Hægt að nota fyrir ýmis gæludýr • Brýst saman fyrir þægilega stærð • Auðvelt í uppsetningu (Engin verkfæri þarf)",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Grindabúr"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Grindabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Grindabúr",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "ICrate hvolpagerði Gold 80cm Grindabúr Þetta er frábær hvolpagrind ef þú vilt hafa gæludýrið þitt öruggt og afskekkt, en með svigrúm til að hreyfa þig. Hvolpagrindin samanstendur af átta hliðum á lömum , hver hlið 24 \"breið. Hvolpagrindin er 80cm á hæð Hægt að nota í hvaða formi sem er, svo sem 4ft x 4ft ferningur, eða 4ft 5in x 4ft 5in átthyrningur. Hentar fyrir hunda 26 - 40 lbs • Öruggur aðgangur, tvöföld læsing • Acri-Lock ™ akrýlhúðað gullsink • Veitir langvarandi vernd • Inniheldur hæla til að festa grindina í jörðina • Hægt að nota fyrir ýmis gæludýr • Brýst saman fyrir þægilega stærð • Auðvelt í uppsetningu (Engin verkfæri þarf) Grindabúr Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H300776",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H300776",
+    "product_name": "Grindabúr ICrate 123 cm",
+    "subtitle": "Grindabúr",
+    "description": "Svart grindabúr með plastbakka. Skilrúm til að skipta niður búrinu fylgir H300776 - L123 x B76 x H81 cmm, fyrir 40-50 kg.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Grindabúr"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Grindabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Grindabúr",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Grindabúr ICrate 123 cm Grindabúr Svart grindabúr með plastbakka. Skilrúm til að skipta niður búrinu fylgir H300776 - L123 x B76 x H81 cmm, fyrir 40-50 kg. Grindabúr Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H300858",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H300858",
+    "product_name": "ICrate skál í búr 300ml",
+    "subtitle": "Grindabúr",
+    "description": "Stálskál með festingu til að hengja upp í Icrate grindarbúr. Hægt er að taka skálina af haldaranum til þess að fylla á.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Grindabúr"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Grindabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Grindabúr",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "ICrate skál í búr 300ml Grindabúr Stálskál með festingu til að hengja upp í Icrate grindarbúr. Hægt er að taka skálina af haldaranum til þess að fylla á. Grindabúr Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H301817",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H301817",
+    "product_name": "ICrate hvolpagerði Pink 63cm (Small)",
+    "subtitle": "Grindabúr",
+    "description": "Sömu gæði og eiginleikar og í svörtu grindunum en aðeins krúttlegri í „Pretty in Pink“ og „Hey Baby Blue“ litunum! Innandyra eða utandyra, þessi hvolpagrind er frábær ef þú vilt hafa gæludýrið þitt öruggt á einum stað, en með svigrúm til að hreyfa þig. Hver hvolpagrind samanstendur af átta hliðum á lömum, hver 24 \"breið. Hægt að dreifa grindinni í hvaða form sem er nánast. Vertu með margar saman til að búa til eina stóra hvolpagrind! Heldur hundinum þínum öruggum og innilokuðum, en með svigrúm til að hreyfa sig! 63cm á hæð.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Grindabúr"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Grindabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Grindabúr",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "ICrate hvolpagerði Pink 63cm (Small) Grindabúr Sömu gæði og eiginleikar og í svörtu grindunum en aðeins krúttlegri í „Pretty in Pink“ og „Hey Baby Blue“ litunum! Innandyra eða utandyra, þessi hvolpagrind er frábær ef þú vilt hafa gæludýrið þitt öruggt á einum stað, en með svigrúm til að hreyfa þig. Hver hvolpagrind samanstendur af átta hliðum á lömum, hver 24 \"breið. Hægt að dreifa grindinni í hvaða form sem er nánast. Vertu með margar saman til að búa til eina stóra hvolpagrind! Heldur hundinum þínum öruggum og innilokuðum, en með svigrúm til að hreyfa sig! 63cm á hæð. Grindabúr Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H301818",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H301818",
+    "product_name": "ICrate hvolpagerði Blue 63cm (Small)",
+    "subtitle": "Grindabúr",
+    "description": "Sömu gæði og eiginleikar og í svörtu grindunum en aðeins krúttlegri í „Pretty in Pink“ og „Hey Baby Blue“ litunum! Innandyra eða utandyra, þessi hvolpagrind er frábær ef þú vilt hafa gæludýrið þitt öruggt á einum stað, en með svigrúm til að hreyfa þig. Hver hvolpagrind samanstendur af átta hliðum á lömum, hver 24 \"breið. Hægt að dreifa grindinni í hvaða form sem er nánast. Vertu með margar saman til að búa til eina stóra hvolpagrind! Heldur hundinum þínum öruggum og innilokuðum, en með svigrúm til að hreyfa sig! 63cm á hæð.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Grindabúr",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Grindabúr"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Grindabúr"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Grindabúr",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "ICrate hvolpagerði Blue 63cm (Small) Grindabúr Sömu gæði og eiginleikar og í svörtu grindunum en aðeins krúttlegri í „Pretty in Pink“ og „Hey Baby Blue“ litunum! Innandyra eða utandyra, þessi hvolpagrind er frábær ef þú vilt hafa gæludýrið þitt öruggt á einum stað, en með svigrúm til að hreyfa þig. Hver hvolpagrind samanstendur af átta hliðum á lömum, hver 24 \"breið. Hægt að dreifa grindinni í hvaða form sem er nánast. Vertu með margar saman til að búa til eina stóra hvolpagrind! Heldur hundinum þínum öruggum og innilokuðum, en með svigrúm til að hreyfa sig! 63cm á hæð. Grindabúr Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H33671",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H33671",
+    "product_name": "Euka.Pet mjúkbúr 49*34*36 S",
+    "subtitle": "Ferðabúr og bæli",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Aðrar kattavörur>Ferðabúr og bæli",
+    "all_categories": [
+      "Kettir",
+      "Aðrar kattavörur",
+      "Ferðabúr og bæli"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Aðrar kattavörur>Ferðabúr og bæli"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar kattavörur",
+      "Ferðabúr og bæli",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Euka.Pet mjúkbúr 49*34*36 S Ferðabúr og bæli Aðrar kattavörur Ferðabúr og bæli ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H33672",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H33672",
+    "product_name": "Euka.Pet mjúkbúr 60*42*42 M",
+    "subtitle": "Ferðabúr og bæli",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Aðrar kattavörur>Ferðabúr og bæli",
+    "all_categories": [
+      "Kettir",
+      "Aðrar kattavörur",
+      "Ferðabúr og bæli"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Aðrar kattavörur>Ferðabúr og bæli"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar kattavörur",
+      "Ferðabúr og bæli",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Euka.Pet mjúkbúr 60*42*42 M Ferðabúr og bæli Aðrar kattavörur Ferðabúr og bæli ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H33673",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H33673",
+    "product_name": "Euka.Pet mjúkbúr 70*52*53 L",
+    "subtitle": "Ferðabúr og bæli",
+    "description": "",
+    "current_status": "Active",
+    "current_main_group": "Kettir",
+    "current_category": "Kettir>Aðrar kattavörur>Ferðabúr og bæli",
+    "all_categories": [
+      "Kettir",
+      "Aðrar kattavörur",
+      "Ferðabúr og bæli"
+    ],
+    "taxonomy_paths": [
+      "Kettir>Aðrar kattavörur>Ferðabúr og bæli"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Aðrar kattavörur",
+      "Ferðabúr og bæli",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Euka.Pet mjúkbúr 70*52*53 L Ferðabúr og bæli Aðrar kattavörur Ferðabúr og bæli ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H37549",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H37549",
+    "product_name": "Vetbed 100x70cm loppur á gráu",
+    "subtitle": "Hundabæli og dýnur",
+    "description": "VetBed 100x75cm grátt með loppu",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Hundabæli og dýnur",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Hundabæli og dýnur"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Hundabæli og dýnur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundabæli og dýnur",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Vetbed 100x70cm loppur á gráu Hundabæli og dýnur VetBed 100x75cm grátt með loppu Hundabæli og dýnur Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H37557",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H37557",
+    "product_name": "Vetbed 100x70cm loppur sv/hv á gráu",
+    "subtitle": "Hundabæli og dýnur",
+    "description": "VetBed 100x75 cm grátt með svörtum og hvítum loppum",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundabúr, bæli og bílavörur>Hundabæli og dýnur",
+    "all_categories": [
+      "Hundar",
+      "Hundabúr, bæli og bílavörur",
+      "Hundabæli og dýnur"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundabúr, bæli og bílavörur>Hundabæli og dýnur"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "habitats",
+    "canonical_label": "pet > habitats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundabæli og dýnur",
+      "Hundabúr, bæli og bílavörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Vetbed 100x70cm loppur sv/hv á gráu Hundabæli og dýnur VetBed 100x75 cm grátt með svörtum og hvítum loppum Hundabæli og dýnur Hundabúr, bæli og bílavörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H40063",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H40063",
+    "product_name": "AS Liver snack",
+    "subtitle": "Hundanammi",
+    "description": "Alpha spirit er nammi sem er framleitt úr 100%nátturulegu hráefni og 85% fersku kjöti. http://www.aspiritpetfood.com/products/dog-snacks/ AS liver snack 80g VN: H40063",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Hundanammi"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Hundanammi"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundanammi",
+      "ISK",
+      "Nagbein og nammi",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "AS Liver snack Hundanammi Alpha spirit er nammi sem er framleitt úr 100%nátturulegu hráefni og 85% fersku kjöti. http://www.aspiritpetfood.com/products/dog-snacks/ AS liver snack 80g VN: H40063 Hundanammi ISK Nagbein og nammi New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H4008335",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H4008335",
+    "product_name": "AS Duck Snack",
+    "subtitle": "Hundanammi",
+    "description": "Nammi fyrir hunda frá ALPHA SPIRIT úr náttúrulegum hráefnum. Verðlaunaðu hundinn þinn með hollum og bragðgóðum bitum. Innihald: 35% fersk önd, 20% ferskur kjúklingur, 20% heill ferskur fiskur, 10% fersk svínalifur, vatnssprengd sterkja, grænmetisglýserín 26% Hráfita: 10% Raki: 28% Hrátrefjar: 1% Hráaska: 6,5%",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Hundanammi"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Hundanammi"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundanammi",
+      "ISK",
+      "Nagbein og nammi",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "AS Duck Snack Hundanammi Nammi fyrir hunda frá ALPHA SPIRIT úr náttúrulegum hráefnum. Verðlaunaðu hundinn þinn með hollum og bragðgóðum bitum. Innihald: 35% fersk önd, 20% ferskur kjúklingur, 20% heill ferskur fiskur, 10% fersk svínalifur, vatnssprengd sterkja, grænmetisglýserín 26% Hráfita: 10% Raki: 28% Hrátrefjar: 1% Hráaska: 6,5% Hundanammi ISK Nagbein og nammi New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H5106405",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H5106405",
+    "product_name": "AS liver Sticks 4 stk",
+    "subtitle": "Hundanammi",
+    "description": "ALPHA SPIRIT Stangir fyrir hunda úr náttúrulegum hráefnum Innihald: 35% fersk svínalifur, 30% ferskur kjúklingur, 20% heill ferskur fiskur, vatnsrofið sterkja, grænmetisglýserín Hráprótein: 26% Hráfita: 10% Raki: 28% Hrátrefjar: 1% Hráaska: 6,5%",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Hundanammi"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Hundanammi"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundanammi",
+      "ISK",
+      "Nagbein og nammi",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "AS liver Sticks 4 stk Hundanammi ALPHA SPIRIT Stangir fyrir hunda úr náttúrulegum hráefnum Innihald: 35% fersk svínalifur, 30% ferskur kjúklingur, 20% heill ferskur fiskur, vatnsrofið sterkja, grænmetisglýserín Hráprótein: 26% Hráfita: 10% Raki: 28% Hrátrefjar: 1% Hráaska: 6,5% Hundanammi ISK Nagbein og nammi New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl",
+      "shortDescription"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H51084",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H51084",
+    "product_name": "AS duck sticks 16stk",
+    "subtitle": "Hundanammi",
+    "description": "Alpha spirit er nammi sem er framleitt úr 100%nátturulegu hráefni og 85% fersku kjöti. http://www.aspiritpetfood.com/products/dog-snacks/ AS duck stick 12stk VN: H51084",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Nagbein og nammi>Hundanammi",
+    "all_categories": [
+      "Hundar",
+      "Nagbein og nammi",
+      "Hundanammi"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Nagbein og nammi>Hundanammi"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "treats",
+    "canonical_label": "pet > treats",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundanammi",
+      "ISK",
+      "Nagbein og nammi",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "AS duck sticks 16stk Hundanammi Alpha spirit er nammi sem er framleitt úr 100%nátturulegu hráefni og 85% fersku kjöti. http://www.aspiritpetfood.com/products/dog-snacks/ AS duck stick 12stk VN: H51084 Hundanammi ISK Nagbein og nammi New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H616007",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H616007",
+    "product_name": "K9 IDC Beisli Baby 1 Svart",
+    "subtitle": "JULIUS Hundabeisli",
+    "description": "Julius K9 stærð Baby 1 er 29-36 cm og passar á hunda ca 1-3 kg",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>JULIUS Hundabeisli",
+    "all_categories": [
+      "Hundar",
+      "Hundaólar, taumar og beisli",
+      "JULIUS Hundabeisli"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaólar, taumar og beisli>JULIUS Hundabeisli"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "accessories",
+    "canonical_label": "pet > accessories",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaólar, taumar og beisli",
+      "ISK",
+      "JULIUS Hundabeisli",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "K9 IDC Beisli Baby 1 Svart JULIUS Hundabeisli Julius K9 stærð Baby 1 er 29-36 cm og passar á hunda ca 1-3 kg Hundaólar, taumar og beisli ISK JULIUS Hundabeisli New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:H616229",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "H616229",
+    "product_name": "K9 IDC Beisli Mini-Mini Black",
+    "subtitle": "JULIUS Hundabeisli",
+    "description": "Julius K9 stærð Minimini er 40 -53cm og passar á hunda ca 4-7kg Fæst í Svart vn:H616229",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>JULIUS Hundabeisli",
+    "all_categories": [
+      "Hundar",
+      "Hundaólar, taumar og beisli",
+      "JULIUS Hundabeisli"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaólar, taumar og beisli>JULIUS Hundabeisli"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "accessories",
+    "canonical_label": "pet > accessories",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaólar, taumar og beisli",
+      "ISK",
+      "JULIUS Hundabeisli",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "K9 IDC Beisli Mini-Mini Black JULIUS Hundabeisli Julius K9 stærð Minimini er 40 -53cm og passar á hunda ca 4-7kg Fæst í Svart vn:H616229 Hundaólar, taumar og beisli ISK JULIUS Hundabeisli New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD041859",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD041859",
+    "product_name": "Leikfang m/reipi MICKEY",
+    "subtitle": "Mjúk leikföng",
+    "description": "Mikki mús með köðlum",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "Mjúk leikföng"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>Mjúk leikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "Mjúk leikföng",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Leikfang m/reipi MICKEY Mjúk leikföng Mikki mús með köðlum Hundaleikföng ISK Mjúk leikföng New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD042221",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD042221",
+    "product_name": "Leikfang m/hring MANDALORIAN",
+    "subtitle": "Mjúk leikföng",
+    "description": "Grogu með hring. Hentar vel fyrir tanntöku!",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "Mjúk leikföng"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>Mjúk leikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "Mjúk leikföng",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Leikfang m/hring MANDALORIAN Mjúk leikföng Grogu með hring. Hentar vel fyrir tanntöku! Hundaleikföng ISK Mjúk leikföng New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD042306",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD042306",
+    "product_name": "Leikfang nag STAR WARS",
+    "subtitle": "Mjúk leikföng",
+    "description": "Stormtrooper bangsi með broddum.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaleikföng>Mjúk leikföng",
+    "all_categories": [
+      "Hundar",
+      "Hundaleikföng",
+      "Mjúk leikföng"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaleikföng>Mjúk leikföng"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "toys",
+    "canonical_label": "pet > toys",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaleikföng",
+      "ISK",
+      "Mjúk leikföng",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Leikfang nag STAR WARS Mjúk leikföng Stormtrooper bangsi með broddum. Hundaleikföng ISK Mjúk leikföng New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD054118",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD054118",
+    "product_name": "Taumur S MARVEL",
+    "subtitle": "Nælonólar og taumar",
+    "description": "Flottur Marvel taumur Stærð S 1.2M langur. 15MM þykkur.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "all_categories": [
+      "Hundar",
+      "Hundaólar, taumar og beisli",
+      "Nælonólar og taumar"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "accessories",
+    "canonical_label": "pet > accessories",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaólar, taumar og beisli",
+      "ISK",
+      "New",
+      "Nælonólar og taumar",
+      "in stock"
+    ],
+    "searchable_text": "Taumur S MARVEL Nælonólar og taumar Flottur Marvel taumur Stærð S 1.2M langur. 15MM þykkur. Hundaólar, taumar og beisli ISK New Nælonólar og taumar in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD062991",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD062991",
+    "product_name": "Regnkápa XS STAR WARS STORM TROOPER",
+    "subtitle": "Hundaföt",
+    "description": "Flottur regnjakki fyrir hunda. Stærð X-Small Lengd 28cm (frá skottrót að hálsi) Ummál 42-50cm",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "all_categories": [
+      "Hundar",
+      "Hundaföt og þjálfunarvörur",
+      "Hundaföt"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaföt og þjálfunarvörur>Hundaföt"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "apparel",
+    "canonical_label": "pet > apparel",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaföt",
+      "Hundaföt og þjálfunarvörur",
+      "ISK",
+      "New",
+      "in stock"
+    ],
+    "searchable_text": "Regnkápa XS STAR WARS STORM TROOPER Hundaföt Flottur regnjakki fyrir hunda. Stærð X-Small Lengd 28cm (frá skottrót að hálsi) Ummál 42-50cm Hundaföt Hundaföt og þjálfunarvörur ISK New in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD064636",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD064636",
+    "product_name": "Hálsól S/M MARVEL",
+    "subtitle": "Nælonólar og taumar",
+    "description": "Skemmtileg marvel hálsól. Stærð S-M Lengd 30-45cm. Breidd 20mm.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "all_categories": [
+      "Hundar",
+      "Hundaólar, taumar og beisli",
+      "Nælonólar og taumar"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "accessories",
+    "canonical_label": "pet > accessories",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaólar, taumar og beisli",
+      "ISK",
+      "New",
+      "Nælonólar og taumar",
+      "in stock"
+    ],
+    "searchable_text": "Hálsól S/M MARVEL Nælonólar og taumar Skemmtileg marvel hálsól. Stærð S-M Lengd 30-45cm. Breidd 20mm. Hundaólar, taumar og beisli ISK New Nælonólar og taumar in stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD421992",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD421992",
+    "product_name": "Peysa XXS BATMAN",
+    "subtitle": "Hundaföt",
+    "description": "Snilldar Batman hettupeysa! Stærð XX-Small Lengd 22cm (frá skottrót að hálsi) Ummál 34-42cm",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "all_categories": [
+      "Hundar",
+      "Hundaföt og þjálfunarvörur",
+      "Hundaföt"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaföt og þjálfunarvörur>Hundaföt"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "apparel",
+    "canonical_label": "pet > apparel",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaföt",
+      "Hundaföt og þjálfunarvörur",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Peysa XXS BATMAN Hundaföt Snilldar Batman hettupeysa! Stærð XX-Small Lengd 22cm (frá skottrót að hálsi) Ummál 34-42cm Hundaföt Hundaföt og þjálfunarvörur ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD422074",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD422074",
+    "product_name": "Peysa XXS Brushed BATMAN",
+    "subtitle": "Hundaföt",
+    "description": "Snilldar Batman hettupeysa! Stærð XX-Small Lengd 22cm (frá skottrót að hálsi) Ummál 34-42cm",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "all_categories": [
+      "Hundar",
+      "Hundaföt og þjálfunarvörur",
+      "Hundaföt"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaföt og þjálfunarvörur>Hundaföt"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "apparel",
+    "canonical_label": "pet > apparel",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaföt",
+      "Hundaföt og þjálfunarvörur",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Peysa XXS Brushed BATMAN Hundaföt Snilldar Batman hettupeysa! Stærð XX-Small Lengd 22cm (frá skottrót að hálsi) Ummál 34-42cm Hundaföt Hundaföt og þjálfunarvörur ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD422098",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD422098",
+    "product_name": "Peysa XS Brushed BATMAN",
+    "subtitle": "Hundaföt",
+    "description": "Snilldar Batman hettupeysa! Stærð X-Small Lengd 28cm (frá skottrót að hálsi) Ummál 42-50cm",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "all_categories": [
+      "Hundar",
+      "Hundaföt og þjálfunarvörur",
+      "Hundaföt"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaföt og þjálfunarvörur>Hundaföt"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "apparel",
+    "canonical_label": "pet > apparel",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaföt",
+      "Hundaföt og þjálfunarvörur",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Peysa XS Brushed BATMAN Hundaföt Snilldar Batman hettupeysa! Stærð X-Small Lengd 28cm (frá skottrót að hálsi) Ummál 42-50cm Hundaföt Hundaföt og þjálfunarvörur ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD422111",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD422111",
+    "product_name": "Peysa S Brushed BATMAN",
+    "subtitle": "Hundaföt",
+    "description": "Snilldar Batman hettupeysa! Stærð Small Lengd 32cm (frá skottrót að hálsi) Ummál 50-58cm",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaföt og þjálfunarvörur>Hundaföt",
+    "all_categories": [
+      "Hundar",
+      "Hundaföt og þjálfunarvörur",
+      "Hundaföt"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaföt og þjálfunarvörur>Hundaföt"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "apparel",
+    "canonical_label": "pet > apparel",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaföt",
+      "Hundaföt og þjálfunarvörur",
+      "ISK",
+      "New",
+      "out of stock"
+    ],
+    "searchable_text": "Peysa S Brushed BATMAN Hundaföt Snilldar Batman hettupeysa! Stærð Small Lengd 32cm (frá skottrót að hálsi) Ummál 50-58cm Hundaföt Hundaföt og þjálfunarvörur ISK New out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD447572",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD447572",
+    "product_name": "Hálsól XXS/XS BATMAN",
+    "subtitle": "Nælonólar og taumar",
+    "description": "Töff Batman hálsól. Stærð XXS-XS Lengd 18-30cm. Breidd 15mm.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "all_categories": [
+      "Hundar",
+      "Hundaólar, taumar og beisli",
+      "Nælonólar og taumar"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "accessories",
+    "canonical_label": "pet > accessories",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaólar, taumar og beisli",
+      "ISK",
+      "New",
+      "Nælonólar og taumar",
+      "out of stock"
+    ],
+    "searchable_text": "Hálsól XXS/XS BATMAN Nælonólar og taumar Töff Batman hálsól. Stærð XXS-XS Lengd 18-30cm. Breidd 15mm. Hundaólar, taumar og beisli ISK New Nælonólar og taumar out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  },
+  {
+    "id": "gaeludyr:PETMARK_XML:CD447671",
+    "source_system": "PETMARK_XML",
+    "external_product_id": "CD447671",
+    "product_name": "Hálsól XS/S MINNIE",
+    "subtitle": "Nælonólar og taumar",
+    "description": "Krúttuð Mínu mús hálsól. Stærð XS-S Lengd 22-35cm. Breidd 15mm.",
+    "current_status": "Active",
+    "current_main_group": "Hundar",
+    "current_category": "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar",
+    "all_categories": [
+      "Hundar",
+      "Hundaólar, taumar og beisli",
+      "Nælonólar og taumar"
+    ],
+    "taxonomy_paths": [
+      "Hundar>Hundaólar, taumar og beisli>Nælonólar og taumar"
+    ],
+    "canonical_domain": "pet",
+    "canonical_category": "accessories",
+    "canonical_label": "pet > accessories",
+    "taxonomy_mapping_matched": true,
+    "collection_tags": [],
+    "materials": [],
+    "tags": [
+      "Hundaólar, taumar og beisli",
+      "ISK",
+      "New",
+      "Nælonólar og taumar",
+      "out of stock"
+    ],
+    "searchable_text": "Hálsól XS/S MINNIE Nælonólar og taumar Krúttuð Mínu mús hálsól. Stærð XS-S Lengd 22-35cm. Breidd 15mm. Hundaólar, taumar og beisli ISK New Nælonólar og taumar out of stock",
+    "attributes_present": [
+      "availability",
+      "categoryPath",
+      "condition",
+      "currency",
+      "description",
+      "imageUrl",
+      "price",
+      "productUrl"
+    ]
+  }
+]
