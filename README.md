@@ -26,14 +26,21 @@ Then visit `http://localhost:8000`.
 
 The repository includes sample data artifacts in [data/README.md](./data/README.md), so a fresh clone can load the clothing review queue and the external-store Model Playground without access to the original local import files.
 
-If you want Gemini-backed category review, add a `.env` file with:
+If you want Gemini-backed category review, create a local `.env` file from the example:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Then edit `.env` and add your own Gemini key:
 
 ```powershell
 GEMINI_API_KEY=your_key_here
 GEMINI_MODEL=gemini-3-flash-preview
+PORT=8000
 ```
 
-The backend endpoint accepts a product payload plus optional candidate categories at `POST /api/gemini-categorize`.
+The backend endpoint accepts a product payload plus optional candidate categories at `POST /api/gemini-categorize`. The local model and dashboard still work without `.env`; only Gemini review needs a key.
 
 ## Project direction
 
