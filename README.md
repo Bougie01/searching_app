@@ -24,6 +24,8 @@ node server.js
 
 Then visit `http://localhost:8000`.
 
+The repository includes sample data artifacts in [data/README.md](./data/README.md), so a fresh clone can load the clothing review queue and the external-store Model Playground without access to the original local import files.
+
 If you want Gemini-backed category review, add a `.env` file with:
 
 ```powershell
