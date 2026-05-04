@@ -1,0 +1,47 @@
+[
+  {
+    "id": "apparel-outerwear",
+    "name": "Weatherproof Outerwear",
+    "categoryLabel": "apparel > outerwear",
+    "description": "Protective jackets, parkas, shells, rainwear, and insulated layers made for cold, wet, or windy outdoor conditions.",
+    "include": ["waterproof jackets", "parkas", "raincoats", "shell layers", "insulated coats"],
+    "exclude": ["base layers", "shirts", "pants", "small accessories"],
+    "exampleTerms": ["jacket", "parka", "shell", "rain", "waterproof", "windproof", "insulated", "coat"]
+  },
+  {
+    "id": "apparel-accessories",
+    "name": "Outdoor Accessories",
+    "categoryLabel": "apparel > accessories",
+    "description": "Wearable and carryable add-ons such as hats, gloves, scarves, socks, bags, and small weather-support items.",
+    "include": ["beanies", "caps", "gloves", "mittens", "scarves", "bags"],
+    "exclude": ["jackets", "pants", "full outfits", "pet accessories"],
+    "exampleTerms": ["hat", "cap", "beanie", "glove", "mitten", "scarf", "socks", "bag"]
+  },
+  {
+    "id": "pet-cat-food",
+    "name": "Cat Food",
+    "categoryLabel": "pet > cat-food",
+    "description": "Dry or wet food formulated for cats, including cans, pouches, kibble, complete meals, and fish or poultry recipes.",
+    "include": ["wet cat food", "dry cat food", "kitten food", "cat meals", "cat kibble"],
+    "exclude": ["dog food", "cat toys", "cat litter", "cat grooming products"],
+    "exampleTerms": ["cat", "kitten", "kettir", "katta", "kattafodur", "salmon", "trout", "chicken", "kibble"]
+  },
+  {
+    "id": "pet-dog-food",
+    "name": "Dog Food",
+    "categoryLabel": "pet > dog-food",
+    "description": "Food and complete meals for dogs, including dry kibble, sensitive formulas, wet meals, and breed or age-specific nutrition.",
+    "include": ["dry dog food", "wet dog food", "puppy food", "sensitive dog formulas", "complete dog meals"],
+    "exclude": ["cat food", "dog toys", "dog harnesses", "dog grooming products"],
+    "exampleTerms": ["dog", "puppy", "hundar", "hunda", "hundafodur", "kibble", "grain-free", "sensitive", "lamb"]
+  },
+  {
+    "id": "pet-accessories",
+    "name": "Pet Accessories",
+    "categoryLabel": "pet > accessories",
+    "description": "Non-food pet gear such as collars, leashes, harnesses, carriers, bowls, and practical support items for animals.",
+    "include": ["collars", "leashes", "harnesses", "bowls", "carriers"],
+    "exclude": ["pet food", "pet treats", "grooming shampoo", "aquarium equipment"],
+    "exampleTerms": ["collar", "leash", "harness", "beisli", "taumar", "olar", "bowl", "carrier"]
+  }
+]

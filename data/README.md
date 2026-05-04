@@ -7,6 +7,7 @@ This folder contains enough sample data for a fresh clone to run the dashboard l
 - `catalog.json` is the clothing catalog used by the main review queue.
 - `category_review_artifacts.json` contains model-backed suggestions for the clothing catalog.
 - `model_category_predictions.json` contains external-store predictions shown in the Model Playground.
+- `category_profiles.json` contains reusable semantic category descriptions for matching products by description meaning, not just raw category labels.
 - `taxonomy_mapping.json` maps raw store categories into shared labels like `pet > dog-food` and `apparel > jackets`.
 
 ## Pipeline files

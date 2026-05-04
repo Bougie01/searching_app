@@ -42,6 +42,8 @@ py pipeline/train_category_model.py --input data/prepared_mixed_products.json --
 py pipeline/apply_category_model.py --input data/prepared_external_products.json
 ```
 
+This writes explainable prediction artifacts: the final category percentage, top candidate categories, nearest neighbors, and the feature/similarity components used by the local model.
+
 5. Review results in the dashboard
 
 ```powershell
@@ -49,6 +51,8 @@ node server.js
 ```
 
 Then open `http://localhost:8000`.
+
+The dashboard also loads `data/category_profiles.json`. These profiles are reusable semantic descriptions such as "Cat Food" or "Weatherproof Outerwear" and help connect products through description terms. Gemini can review a small filtered pet-store sample in the UI to suggest new profiles, but the saved profile matching runs locally.
 
 ## Files
 
@@ -60,8 +64,10 @@ Then open `http://localhost:8000`.
   Merges multiple prepared datasets into one mixed training set and optionally writes a summary of label coverage.
 - `taxonomy_mapping.py`
   Maps raw store categories and category paths into a shared canonical taxonomy.
+- `../data/category_profiles.json`
+  Stores semantic category descriptions, inclusion/exclusion guidance, and example terms used by the dashboard to match products by description meaning.
 - `category_model.py`
-  Shared hybrid classifier logic that blends sparse text features, structured attributes, and prototype similarity.
+  Shared explainable hybrid classifier logic that blends sparse text features, structured attributes, prototype similarity, and nearest-neighbor votes.
 - `train_category_model.py`
   Trains the reusable category model, writes evaluation metrics, and creates dashboard review artifacts.
 - `apply_category_model.py`

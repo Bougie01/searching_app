@@ -9,7 +9,8 @@ const state = {
   playgroundCategories: ["All"],
   playgroundQuery: "",
   playgroundFilter: "all",
-  playgroundCategory: "All"
+  playgroundCategory: "All",
+  categoryProfiles: []
 };
 
 const heroSkuCount = document.getElementById("heroSkuCount");
@@ -40,6 +41,11 @@ const playgroundClearFilters = document.getElementById("playgroundClearFilters")
 const playgroundSource = document.getElementById("playgroundSource");
 const playgroundGrid = document.getElementById("playgroundGrid");
 const playgroundTemplate = document.getElementById("playgroundCardTemplate");
+const profileStatus = document.getElementById("profileStatus");
+const profileGrid = document.getElementById("profileGrid");
+const profileTemplate = document.getElementById("profileCardTemplate");
+const discoverPetProfilesButton = document.getElementById("discoverPetProfilesButton");
+const profileDiscoveryResults = document.getElementById("profileDiscoveryResults");
 
 function buildChip(label, className = "tag") {
   const chip = document.createElement("span");
@@ -69,6 +75,345 @@ function formatCategoryLabel(label) {
     .replace(/-/g, " ")
     .toLocaleLowerCase("is-IS")
     .replace(/(^|\s)(\p{L})/gu, (match, prefix, char) => `${prefix}${char.toLocaleUpperCase("is-IS")}`);
+}
+
+function formatEvidenceFeature(feature) {
+  const text = String(feature || "");
+  const [prefix, ...rest] = text.split(":");
+  const value = rest.join(":") || prefix;
+  return `${prefix}: ${value.replace(/-/g, " ")}`;
+}
+
+function renderModelExplanation(container, explanation) {
+  container.innerHTML = "";
+
+  const title = document.createElement("span");
+  title.className = "comparison-label";
+  title.textContent = "Local model explanation";
+  container.appendChild(title);
+
+  if (!explanation) {
+    const empty = document.createElement("p");
+    empty.className = "model-explanation-text";
+    empty.textContent = "Rerun apply_category_model.py to include detailed local model explanations for this artifact.";
+    container.appendChild(empty);
+    return;
+  }
+
+  const summary = document.createElement("p");
+  summary.className = "model-explanation-text";
+  summary.textContent = explanation.formula || "The local model blends feature matches, category similarity, and nearest-neighbor votes.";
+  container.appendChild(summary);
+
+  const components = document.createElement("div");
+  components.className = "model-explanation-chips";
+  (explanation.componentScores || []).slice(0, 3).forEach((item) => {
+    components.appendChild(
+      buildChip(
+        `${formatCategoryLabel(item.category)}: ${Math.round((item.finalProbability || 0) * 100)}%`,
+        "similar-chip"
+      )
+    );
+  });
+  container.appendChild(components);
+
+  const evidence = document.createElement("div");
+  evidence.className = "model-explanation-chips";
+  (explanation.featureEvidence || []).slice(0, 4).forEach((item) => {
+    evidence.appendChild(buildChip(formatEvidenceFeature(item.feature), "tag"));
+  });
+
+  if (evidence.children.length > 0) {
+    container.appendChild(evidence);
+  }
+}
+
+function renderProfileMatches(container, matches = []) {
+  container.innerHTML = "";
+  if (!matches.length) {
+    return;
+  }
+
+  const label = document.createElement("span");
+  label.className = "comparison-label";
+  label.textContent = "Description profile matches";
+  container.appendChild(label);
+
+  const chips = document.createElement("div");
+  chips.className = "model-explanation-chips";
+  matches.slice(0, 3).forEach((match) => {
+    chips.appendChild(buildChip(`${match.name} ${Math.round(match.score * 100)}%`, "similar-chip"));
+  });
+  container.appendChild(chips);
+}
+
+function productMatchesProfile(record, profile) {
+  const profileLabel = String(profile.categoryLabel || "").toLowerCase();
+  const profileName = String(profile.name || "").toLowerCase();
+  const values = [
+    record.currentCategory,
+    record.suggestedCategory,
+    record.canonicalLabel,
+    record.externalCategoryPath,
+    ...(record.allCategories || [])
+  ]
+    .filter(Boolean)
+    .map((value) => String(value).toLowerCase());
+
+  return values.some((value) => value === profileLabel || value.includes(profileName) || profileLabel.includes(value));
+}
+
+function collectProfileSample(profile) {
+  const reviewRecords = state.records
+    .filter((record) => productMatchesProfile(record, profile) || (record.profileMatches || []).some((match) => match.id === profile.id))
+    .slice(0, 6)
+    .map((record) => ({
+      name: record.name,
+      description: record.description,
+      currentCategory: record.currentCategory,
+      suggestedCategory: record.suggestedCategory,
+      tags: record.tags || []
+    }));
+  const playgroundRecords = state.playgroundRecords
+    .filter((record) => productMatchesProfile(record, profile) || (record.profileMatches || []).some((match) => match.id === profile.id))
+    .slice(0, 6)
+    .map((record) => ({
+      productName: record.productName,
+      description: record.description,
+      currentCategory: record.currentCategory,
+      canonicalLabel: record.canonicalLabel,
+      suggestedCategory: record.suggestedCategory,
+      tags: record.tags || []
+    }));
+
+  return [...reviewRecords, ...playgroundRecords].slice(0, 10);
+}
+
+function collectPetStoreDescriptionSample(limit = 12) {
+  const seenCategories = new Set();
+  const primary = [];
+  const fallback = [];
+
+  state.playgroundRecords.forEach((record) => {
+    const text = [
+      record.productName,
+      record.description,
+      record.currentCategory,
+      record.canonicalLabel,
+      record.suggestedCategory,
+      ...(record.tags || [])
+    ].filter(Boolean).join(" ");
+    const isPetRecord =
+      String(record.canonicalLabel || "").toLowerCase().startsWith("pet >") ||
+      String(record.canonicalDomain || "").toLowerCase() === "pet" ||
+      /hund|katt|fugl|fisk|pet|dog|cat|bird|aquarium|fodur|fóður/i.test(text);
+
+    if (!isPetRecord || !record.description) {
+      return;
+    }
+
+    const sample = {
+      productName: record.productName,
+      description: record.description,
+      currentCategory: record.currentCategory,
+      canonicalLabel: record.canonicalLabel,
+      suggestedCategory: record.suggestedCategory,
+      tags: record.tags || []
+    };
+
+    const categoryKey = record.canonicalLabel || record.suggestedCategory || record.currentCategory || "unknown";
+    if (!seenCategories.has(categoryKey)) {
+      seenCategories.add(categoryKey);
+      primary.push(sample);
+    } else {
+      fallback.push(sample);
+    }
+  });
+
+  return [...primary, ...fallback].slice(0, limit);
+}
+
+function renderDiscoveredProfiles(profiles = []) {
+  profileDiscoveryResults.innerHTML = "";
+  profileDiscoveryResults.hidden = false;
+
+  if (!profiles.length) {
+    profileDiscoveryResults.innerHTML = `
+      <article class="profile-card">
+        <h3 class="profile-name">No profiles returned</h3>
+        <p class="profile-description">Gemini did not find reusable profiles from this sample.</p>
+      </article>
+    `;
+    return;
+  }
+
+  profiles.forEach((profile) => {
+    const card = document.createElement("article");
+    card.className = "profile-card discovered-profile-card";
+
+    const label = document.createElement("span");
+    label.className = "comparison-label";
+    label.textContent = profile.categoryLabel || "Discovered profile";
+    card.appendChild(label);
+
+    const name = document.createElement("h3");
+    name.className = "profile-name";
+    name.textContent = profile.name || "Unnamed profile";
+    card.appendChild(name);
+
+    const description = document.createElement("p");
+    description.className = "profile-description";
+    description.textContent = profile.description || "No description returned.";
+    card.appendChild(description);
+
+    const terms = document.createElement("div");
+    terms.className = "profile-terms";
+    [...(profile.include || []), ...(profile.exampleTerms || [])].slice(0, 10).forEach((term) => {
+      terms.appendChild(buildChip(term, "tag"));
+    });
+    card.appendChild(terms);
+
+    profileDiscoveryResults.appendChild(card);
+  });
+}
+
+async function requestPetProfileDiscovery() {
+  const products = collectPetStoreDescriptionSample(12);
+  discoverPetProfilesButton.disabled = true;
+  discoverPetProfilesButton.textContent = "Analyzing Sample...";
+  profileDiscoveryResults.hidden = false;
+  profileDiscoveryResults.innerHTML = `
+    <article class="profile-card">
+      <h3 class="profile-name">Gemini is reading the pet-store sample</h3>
+      <p class="profile-description">Using ${products.length} filtered product descriptions to suggest reusable semantic categories.</p>
+    </article>
+  `;
+
+  try {
+    if (products.length < 3) {
+      throw new Error("Not enough pet-store descriptions are loaded in the playground sample yet.");
+    }
+
+    const response = await fetch("/api/gemini-category-profile", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        mode: "discover",
+        categoryName: "Pet store semantic category discovery",
+        products
+      })
+    });
+    const payload = await response.json();
+    if (!response.ok) {
+      throw new Error(payload.error || "Gemini profile discovery failed");
+    }
+
+    renderDiscoveredProfiles(payload.profiles || []);
+    discoverPetProfilesButton.textContent = "Analyze Again";
+  } catch (error) {
+    profileDiscoveryResults.innerHTML = `
+      <article class="profile-card">
+        <h3 class="profile-name">Gemini discovery unavailable</h3>
+        <p class="profile-description">${error.message || "Check GEMINI_API_KEY and GEMINI_MODEL in .env, then restart the server."}</p>
+      </article>
+    `;
+    discoverPetProfilesButton.textContent = "Try Again";
+  } finally {
+    discoverPetProfilesButton.disabled = false;
+  }
+}
+
+async function requestGeminiProfilePreview(profile, controls) {
+  const products = collectProfileSample(profile);
+  controls.button.disabled = true;
+  controls.button.textContent = "Summarizing...";
+  controls.panel.hidden = false;
+  controls.name.textContent = "Gemini is summarizing this profile.";
+  controls.description.textContent = products.length
+    ? "Using a small sample of products that already match this profile."
+    : "No product sample was found for this profile yet.";
+  controls.terms.innerHTML = "";
+
+  try {
+    if (products.length === 0) {
+      throw new Error("No matching product examples were found for this profile.");
+    }
+
+    const response = await fetch("/api/gemini-category-profile", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        categoryName: profile.name,
+        categoryLabel: profile.categoryLabel,
+        products
+      })
+    });
+    const payload = await response.json();
+    if (!response.ok) {
+      throw new Error(payload.error || "Gemini profile summary failed");
+    }
+
+    const preview = payload.profile || {};
+    controls.name.textContent = preview.name || profile.name;
+    controls.description.textContent = preview.description || "Gemini did not return a description.";
+    controls.terms.innerHTML = "";
+    [...(preview.include || []), ...(preview.exampleTerms || [])].slice(0, 8).forEach((term) => {
+      controls.terms.appendChild(buildChip(term, "tag"));
+    });
+    controls.button.textContent = "Preview again";
+  } catch (error) {
+    controls.name.textContent = "Gemini profile preview unavailable";
+    controls.description.textContent = error.message || "Check GEMINI_API_KEY and GEMINI_MODEL in .env, then restart the server.";
+    controls.button.textContent = "Try Preview Again";
+  } finally {
+    controls.button.disabled = false;
+  }
+}
+
+function renderCategoryProfiles() {
+  profileGrid.innerHTML = "";
+  if (!state.categoryProfiles.length) {
+    profileGrid.innerHTML = `
+      <article class="profile-card">
+        <h3 class="profile-name">No category profiles yet</h3>
+        <p class="profile-description">Add profiles to data/category_profiles.json to connect products through reusable descriptions.</p>
+      </article>
+    `;
+    return;
+  }
+
+  state.categoryProfiles.forEach((profile) => {
+    const fragment = profileTemplate.content.cloneNode(true);
+    fragment.querySelector(".profile-label").textContent = profile.categoryLabel || "Semantic profile";
+    fragment.querySelector(".profile-name").textContent = profile.name;
+    fragment.querySelector(".profile-description").textContent = profile.description;
+
+    const terms = fragment.querySelector(".profile-terms");
+    [...(profile.include || []), ...(profile.exampleTerms || [])].slice(0, 10).forEach((term) => {
+      terms.appendChild(buildChip(term, "tag"));
+    });
+
+    const button = fragment.querySelector(".gemini-profile-button");
+    const panel = fragment.querySelector(".profile-preview");
+    const previewName = fragment.querySelector(".profile-preview-name");
+    const previewDescription = fragment.querySelector(".profile-preview-description");
+    const previewTerms = fragment.querySelector(".profile-preview-terms");
+    button.addEventListener("click", () =>
+      requestGeminiProfilePreview(profile, {
+        button,
+        panel,
+        name: previewName,
+        description: previewDescription,
+        terms: previewTerms
+      })
+    );
+
+    profileGrid.appendChild(fragment);
+  });
 }
 
 async function requestGeminiReview(record, controls) {
@@ -275,6 +620,9 @@ function renderReviewCards() {
         similar.appendChild(buildChip(`${item.name} (${Math.round(item.similarity * 100)}%)`, "similar-chip"));
       });
 
+      renderProfileMatches(fragment.querySelector(".profile-matches"), record.profileMatches);
+      renderModelExplanation(fragment.querySelector(".model-explanation"), record.explanation);
+
       const geminiButton = fragment.querySelector(".gemini-review-button");
       const geminiPanel = fragment.querySelector(".gemini-review-panel");
       const geminiSuggestion = fragment.querySelector(".gemini-suggestion");
@@ -407,6 +755,9 @@ function renderPlaygroundCards() {
         similarWrap.appendChild(buildChip(`${item.name} (${Math.round(item.similarity * 100)}%)`, "tag"));
       });
 
+      renderProfileMatches(fragment.querySelector(".profile-matches"), record.profileMatches);
+      renderModelExplanation(fragment.querySelector(".model-explanation"), record.explanation);
+
       const geminiButton = fragment.querySelector(".gemini-review-button");
       const geminiPanel = fragment.querySelector(".gemini-review-panel");
       const geminiSuggestion = fragment.querySelector(".gemini-suggestion");
@@ -500,6 +851,31 @@ async function loadModelEvaluation() {
   }
 }
 
+async function loadCategoryProfiles() {
+  profileStatus.textContent = "Loading category profiles...";
+
+  try {
+    const response = await fetch("/api/category-profiles");
+    if (!response.ok) {
+      throw new Error(`Failed to load category profiles: ${response.status}`);
+    }
+
+    const payload = await response.json();
+    state.categoryProfiles = payload.profiles || [];
+    profileStatus.textContent = `${state.categoryProfiles.length} semantic profiles loaded. Gemini previews are optional and only summarize small samples.`;
+    renderCategoryProfiles();
+  } catch (error) {
+    profileStatus.textContent = "Category profiles unavailable";
+    profileGrid.innerHTML = `
+      <article class="profile-card">
+        <h3 class="profile-name">Could not load profiles</h3>
+        <p class="profile-description">Check data/category_profiles.json and restart the local server.</p>
+      </article>
+    `;
+    console.error(error);
+  }
+}
+
 searchForm.addEventListener("submit", (event) => {
   event.preventDefault();
   state.query = searchInput.value.trim().toLowerCase();
@@ -539,5 +915,8 @@ playgroundClearFilters.addEventListener("click", () => {
   renderPlaygroundCards();
 });
 
+discoverPetProfilesButton.addEventListener("click", requestPetProfileDiscovery);
+
 loadReviewData();
 loadModelEvaluation();
+loadCategoryProfiles();

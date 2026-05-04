@@ -54,6 +54,7 @@ def evaluate_with_folds(rows, fold_count, alpha, embedding_dimensions, seed, lab
                 "suggestedCategory": prediction["suggestedCategory"],
                 "confidence": prediction["confidence"],
                 "similarProducts": prediction["similarProducts"],
+                "explanation": prediction["explanation"],
                 "baselineSource": "hybrid-model-crossval",
             }
 

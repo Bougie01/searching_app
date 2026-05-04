@@ -201,6 +201,35 @@
         </div>
       </section>
 
+      <section class="catalog-section" id="profiles">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Semantic Profiles</p>
+            <h2>Connect products through description meaning.</h2>
+          </div>
+          <p class="section-copy">
+            Category profiles describe what a group means, then the local app matches products to those
+            descriptions using reusable terms. Gemini can review a small filtered pet-store sample to suggest
+            new description-based profiles, but saved profile matching works locally without API calls.
+          </p>
+        </div>
+        <div class="profile-discovery-panel">
+          <div>
+            <span class="comparison-label">Pet Store Discovery</span>
+            <p>
+              Filter a small set of pet-store descriptions and ask Gemini to suggest reusable semantic
+              profiles from the sample as a whole.
+            </p>
+          </div>
+          <button id="discoverPetProfilesButton" class="gemini-profile-button" type="button">
+            Analyze Pet Store Sample
+          </button>
+        </div>
+        <div class="profile-discovery-results" id="profileDiscoveryResults" hidden></div>
+        <div class="playground-source" id="profileStatus">Loading category profiles...</div>
+        <div class="profile-grid" id="profileGrid" aria-live="polite"></div>
+      </section>
+
       <section class="search-lab" id="pipeline">
         <div class="section-heading compact">
           <div>
@@ -310,6 +339,8 @@
         <div class="review-flags"></div>
         <div class="review-tags"></div>
         <div class="review-similar"></div>
+        <div class="profile-matches"></div>
+        <div class="model-explanation"></div>
         <button class="gemini-review-button" type="button">Review with Gemini</button>
         <div class="gemini-review-panel" hidden>
           <span class="comparison-label">Gemini Reviewer</span>
@@ -342,11 +373,33 @@
       <div class="playground-status"></div>
       <div class="playground-top-candidates"></div>
       <div class="playground-similar"></div>
+      <div class="profile-matches"></div>
+      <div class="model-explanation"></div>
       <button class="gemini-review-button" type="button">Review with Gemini</button>
       <div class="gemini-review-panel" hidden>
         <span class="comparison-label">Gemini Reviewer</span>
         <strong class="gemini-suggestion"></strong>
         <p class="gemini-reasoning"></p>
+      </div>
+    </article>
+  </template>
+
+  <template id="profileCardTemplate">
+    <article class="profile-card">
+      <div class="profile-card-header">
+        <div>
+          <span class="comparison-label profile-label"></span>
+          <h3 class="profile-name"></h3>
+        </div>
+        <button class="gemini-profile-button" type="button">Preview Gemini Summary</button>
+      </div>
+      <p class="profile-description"></p>
+      <div class="profile-terms"></div>
+      <div class="profile-preview" hidden>
+        <span class="comparison-label">Gemini Preview</span>
+        <strong class="profile-preview-name"></strong>
+        <p class="profile-preview-description"></p>
+        <div class="profile-preview-terms"></div>
       </div>
     </article>
   </template>

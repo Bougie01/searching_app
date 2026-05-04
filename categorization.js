@@ -131,6 +131,7 @@ export function buildReviewRecordWithArtifact(product, products, availableCatego
     materials: product.materials,
     flags,
     similarProducts,
+    explanation: artifact?.explanation || null,
     baselineSource: artifact?.baselineSource || "heuristic",
     translations: product.translations
   };

@@ -129,6 +129,56 @@ def softmax(values):
     return [value / total for value in exponents]
 
 
+def feature_probability(model, category, feature):
+    alpha = model["alpha"]
+    vocabulary_size = max(1, int(model["feature_vocabulary_size"]))
+    class_total = max(0, int(model["class_feature_totals"].get(category, 0)))
+    feature_counts = model["class_feature_counts"].get(category, {})
+    numerator = float(feature_counts.get(feature, 0)) + alpha
+    denominator = class_total + alpha * vocabulary_size
+    return numerator / denominator
+
+
+def explain_feature_evidence(model, features, predicted_category, runner_up_category, limit=8):
+    evidence = []
+    if not runner_up_category:
+        return evidence
+
+    for feature, count in features.items():
+        predicted_probability = feature_probability(model, predicted_category, feature)
+        runner_up_probability = feature_probability(model, runner_up_category, feature)
+        lift = math.log(predicted_probability / runner_up_probability) if runner_up_probability else 0.0
+        if lift <= 0:
+            continue
+
+        evidence.append(
+            {
+                "feature": feature,
+                "weight": round(float(count), 4),
+                "liftVsRunnerUp": round(float(lift), 4),
+                "impact": round(float(count * lift), 4),
+            }
+        )
+
+    return sorted(evidence, key=lambda item: item["impact"], reverse=True)[:limit]
+
+
+def build_component_scores(categories, naive_bayes_probs, centroid_probs, neighbor_probs, final_probabilities, limit=5):
+    ranked = sorted(final_probabilities.items(), key=lambda item: item[1], reverse=True)[:limit]
+    category_indexes = {category: index for index, category in enumerate(categories)}
+
+    return [
+        {
+            "category": category,
+            "finalProbability": round(float(probability), 4),
+            "featureProbability": round(float(naive_bayes_probs[category_indexes[category]]), 4),
+            "centroidProbability": round(float(centroid_probs[category_indexes[category]]), 4),
+            "neighborProbability": round(float(neighbor_probs[category_indexes[category]]), 4),
+        }
+        for category, probability in ranked
+    ]
+
+
 def train_model(rows, alpha=0.8, embedding_dimensions=DEFAULT_EMBEDDING_DIMENSIONS, label_field="current_category"):
     categories = sorted({get_label_value(row, label_field) for row in rows if get_label_value(row, label_field)})
     class_doc_counts = Counter()
@@ -261,6 +311,7 @@ def predict_row(model, row, neighbor_limit=3, exclude_training_id=None):
 
     ranked = sorted(final_probabilities.items(), key=lambda item: item[1], reverse=True)
     predicted_category, confidence = ranked[0]
+    runner_up_category = ranked[1][0] if len(ranked) > 1 else None
 
     return {
         "suggestedCategory": predicted_category,
@@ -281,4 +332,18 @@ def predict_row(model, row, neighbor_limit=3, exclude_training_id=None):
             }
             for category, probability in ranked[:5]
         ],
+        "explanation": {
+            "model": "hybrid-naive-bayes-centroid-neighbors",
+            "formula": "0.55 feature_probability + 0.25 category_centroid_similarity + 0.20 nearest_neighbor_vote",
+            "comparedAgainst": categories,
+            "componentScores": build_component_scores(
+                categories,
+                naive_bayes_probs,
+                centroid_probs,
+                neighbor_probs,
+                final_probabilities,
+            ),
+            "featureEvidence": explain_feature_evidence(model, features, predicted_category, runner_up_category),
+            "runnerUpCategory": runner_up_category,
+        },
     }

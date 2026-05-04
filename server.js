@@ -29,6 +29,7 @@ let categoryReviewPromise;
 let baselineArtifactsPromise;
 let modelEvaluationPromise;
 let taxonomyMappingPromise;
+let categoryProfilesPromise;
 
 function sendJson(response, statusCode, payload) {
   response.writeHead(statusCode, {
@@ -107,6 +108,55 @@ function collectTextParts(product = {}) {
   ].filter(Boolean);
 }
 
+function tokenizeSemanticText(value) {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .split(/[^a-z0-9]+/i)
+    .filter((token) => token.length > 2);
+}
+
+function buildProfileText(profile) {
+  return [
+    profile.name,
+    profile.categoryLabel,
+    profile.description,
+    ...(profile.include || []),
+    ...(profile.exclude || []).map((item) => `not ${item}`),
+    ...(profile.exampleTerms || [])
+  ].join(" ");
+}
+
+function scoreProfileMatch(text, profile) {
+  const productTokens = new Set(tokenizeSemanticText(text));
+  const profileTokens = new Set(tokenizeSemanticText(buildProfileText(profile)));
+  const termTokens = new Set((profile.exampleTerms || []).flatMap(tokenizeSemanticText));
+
+  if (productTokens.size === 0 || profileTokens.size === 0) {
+    return 0;
+  }
+
+  const overlap = [...productTokens].filter((token) => profileTokens.has(token)).length;
+  const termOverlap = [...productTokens].filter((token) => termTokens.has(token)).length;
+  const coverage = overlap / Math.max(1, profileTokens.size);
+  const focus = termOverlap / Math.max(1, termTokens.size);
+  return Math.min(1, coverage * 1.8 + focus * 0.65);
+}
+
+function findProfileMatches(text, profiles, limit = 3) {
+  return profiles
+    .map((profile) => ({
+      id: profile.id,
+      name: profile.name,
+      categoryLabel: profile.categoryLabel,
+      score: Number(scoreProfileMatch(text, profile).toFixed(3))
+    }))
+    .filter((match) => match.score > 0)
+    .sort((left, right) => right.score - left.score)
+    .slice(0, limit);
+}
+
 async function readJsonBody(request) {
   const chunks = [];
   for await (const chunk of request) {
@@ -158,10 +208,38 @@ async function loadTaxonomyMapping() {
   return taxonomyMappingPromise;
 }
 
+async function loadCategoryProfiles() {
+  if (!categoryProfilesPromise) {
+    const profilePath = path.join(__dirname, "data", "category_profiles.json");
+    categoryProfilesPromise = (async () => {
+      if (!existsSync(profilePath)) {
+        return [];
+      }
+
+      const contents = await readFile(profilePath, "utf8");
+      return JSON.parse(contents.replace(/^\uFEFF/, ""));
+    })();
+  }
+
+  return categoryProfilesPromise;
+}
+
 async function loadCategoryReview() {
   if (!categoryReviewPromise) {
-    categoryReviewPromise = Promise.all([loadCatalog(), loadBaselineArtifacts()]).then(([products, artifacts]) =>
-      buildCategoryReview(products, artifacts)
+    categoryReviewPromise = Promise.all([loadCatalog(), loadBaselineArtifacts(), loadCategoryProfiles()]).then(
+      ([products, artifacts, profiles]) => {
+        const review = buildCategoryReview(products, artifacts);
+        return {
+          ...review,
+          records: review.records.map((record) => ({
+            ...record,
+            profileMatches: findProfileMatches(
+              `${record.name} ${record.description} ${record.currentCategory} ${record.suggestedCategory} ${(record.tags || []).join(" ")} ${(record.materials || []).join(" ")}`,
+              profiles
+            )
+          }))
+        };
+      }
     );
   }
 
@@ -201,7 +279,7 @@ async function loadPreparedEvaluationRows() {
   return [...rowsById.values()];
 }
 
-function buildModelEvaluationFromPredictions(predictions, preparedRows = []) {
+function buildModelEvaluationFromPredictions(predictions, preparedRows = [], profiles = []) {
   const preparedById = Object.fromEntries(preparedRows.map((row) => [row.id, row]));
   const records = predictions.map((prediction) => {
     const prepared = preparedById[prediction.id] || {};
@@ -213,10 +291,23 @@ function buildModelEvaluationFromPredictions(predictions, preparedRows = []) {
       suggestedCategory: prediction.suggested_category || "Unknown",
       confidence: prediction.confidence || 0,
       topCategories: prediction.top_categories || [],
+      explanation: prediction.explanation || prepared.explanation || null,
       externalCategoryPath: prepared.taxonomy_paths?.[0] || "",
       canonicalDomain: prepared.canonical_domain || "",
       description: prepared.description || "",
       tags: prepared.tags || [],
+      profileMatches: findProfileMatches(
+        [
+          prediction.product_name,
+          prediction.current_category,
+          prediction.canonical_label,
+          prediction.suggested_category,
+          prepared.searchable_text,
+          prepared.description,
+          ...(prepared.tags || [])
+        ].filter(Boolean).join(" "),
+        profiles
+      ),
       searchText: [
         prediction.product_name,
         prediction.current_category,
@@ -259,8 +350,8 @@ async function loadModelEvaluation() {
 
       const predictions = await loadJsonIfExists(predictionPath);
       if (predictions) {
-        const preparedRows = await loadPreparedEvaluationRows();
-        return buildModelEvaluationFromPredictions(predictions, preparedRows);
+        const [preparedRows, profiles] = await Promise.all([loadPreparedEvaluationRows(), loadCategoryProfiles()]);
+        return buildModelEvaluationFromPredictions(predictions, preparedRows, profiles);
       }
 
       return {
@@ -349,6 +440,98 @@ async function requestGeminiCategorization(payload) {
   };
 }
 
+async function requestGeminiCategoryProfile(payload) {
+  const mode = payload.mode === "discover" ? "discover" : "profile";
+  const categoryName = String(payload.categoryName || payload.categoryLabel || "Pet store description sample").trim();
+  const products = Array.isArray(payload.products) ? payload.products.slice(0, 12) : [];
+  const examples = products.map((product, index) =>
+    [
+      `Example ${index + 1}:`,
+      `Name: ${product.productName || product.name || ""}`,
+      `Description: ${String(product.description || "").slice(0, 600)}`,
+      `Current category: ${product.currentCategory || ""}`,
+      `Suggested category: ${product.suggestedCategory || product.canonicalLabel || ""}`,
+      `Tags: ${Array.isArray(product.tags) ? product.tags.join(", ") : ""}`
+    ].join("\n")
+  );
+
+  const prompt = mode === "discover"
+    ? [
+        "You are reviewing a small, filtered sample from a pet store catalog.",
+        "Use the product descriptions to propose a few reusable semantic category profiles.",
+        "Do not categorize each product one-by-one. Find patterns that can connect future products through description meaning.",
+        "Return strict JSON with key profiles. profiles must be an array of 3 to 6 objects.",
+        "Each profile object must include: name, categoryLabel, description, include, exclude, exampleTerms.",
+        "description should be one concise sentence. include, exclude, and exampleTerms should be arrays of short strings.",
+        "",
+        `Sample theme: ${categoryName}`,
+        "",
+        examples.join("\n\n")
+      ].join("\n")
+    : [
+        "You are summarizing a small product group into a reusable semantic category profile.",
+        "Do not categorize every product. Create one reusable profile that can later be matched locally against descriptions.",
+        "Return strict JSON with keys: name, categoryLabel, description, include, exclude, exampleTerms.",
+        "description should be one concise sentence. include, exclude, and exampleTerms should be arrays of short strings.",
+        "",
+        `Target category: ${categoryName}`,
+        "",
+        examples.join("\n\n")
+      ].join("\n");
+
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${geminiApiKey}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      contents: [
+        {
+          role: "user",
+          parts: [{ text: prompt }]
+        }
+      ],
+      generationConfig: {
+        temperature: 0.25,
+        responseMimeType: "application/json"
+      }
+    })
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`Gemini profile request failed: ${response.status} ${errorText}`);
+  }
+
+  const json = await response.json();
+  const text = json.candidates?.[0]?.content?.parts?.map((part) => part.text || "").join("") || "";
+  const parsed = JSON.parse(sanitizeJsonResponse(text));
+  if (mode === "discover") {
+    const profiles = Array.isArray(parsed.profiles) ? parsed.profiles : [];
+    return {
+      profiles: profiles.map((profile) => ({
+        id: String(profile.name || profile.categoryLabel || "profile").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+        name: profile.name || "Discovered profile",
+        categoryLabel: profile.categoryLabel || profile.name || "pet > discovered",
+        description: profile.description || "",
+        include: Array.isArray(profile.include) ? profile.include : [],
+        exclude: Array.isArray(profile.exclude) ? profile.exclude : [],
+        exampleTerms: Array.isArray(profile.exampleTerms) ? profile.exampleTerms : []
+      }))
+    };
+  }
+
+  return {
+    id: String(parsed.name || categoryName).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+    name: parsed.name || categoryName,
+    categoryLabel: parsed.categoryLabel || payload.categoryLabel || categoryName,
+    description: parsed.description || "",
+    include: Array.isArray(parsed.include) ? parsed.include : [],
+    exclude: Array.isArray(parsed.exclude) ? parsed.exclude : [],
+    exampleTerms: Array.isArray(parsed.exampleTerms) ? parsed.exampleTerms : []
+  };
+}
+
 function serveFile(filePath, response) {
   const extension = path.extname(filePath).toLowerCase();
   const contentType = contentTypes[extension] || "application/octet-stream";
@@ -394,6 +577,22 @@ const server = createServer(async (request, response) => {
     return;
   }
 
+  if (request.method === "GET" && requestUrl.pathname === "/api/category-profiles") {
+    try {
+      const profiles = await loadCategoryProfiles();
+      sendJson(response, 200, {
+        profiles,
+        count: profiles.length,
+        geminiConfigured: isGeminiConfigured()
+      });
+    } catch (error) {
+      sendJson(response, 500, {
+        error: error.message || "Failed to load category profiles"
+      });
+    }
+    return;
+  }
+
   if (request.method === "POST" && requestUrl.pathname === "/api/gemini-categorize") {
     if (!isGeminiConfigured()) {
       sendJson(response, 503, {
@@ -421,6 +620,39 @@ const server = createServer(async (request, response) => {
     } catch (error) {
       sendJson(response, 500, {
         error: error.message || "Failed to categorize with Gemini"
+      });
+    }
+    return;
+  }
+
+  if (request.method === "POST" && requestUrl.pathname === "/api/gemini-category-profile") {
+    if (!isGeminiConfigured()) {
+      sendJson(response, 503, {
+        error: "Gemini is not configured",
+        geminiConfigured: false
+      });
+      return;
+    }
+
+    try {
+      const payload = await readJsonBody(request);
+      if (!Array.isArray(payload.products) || payload.products.length === 0) {
+        sendJson(response, 400, {
+          error: "Request must include a small products array to summarize"
+        });
+        return;
+      }
+
+      const profile = await requestGeminiCategoryProfile(payload);
+      sendJson(response, 200, {
+        geminiConfigured: true,
+        geminiModel,
+        ...profile,
+        profile
+      });
+    } catch (error) {
+      sendJson(response, 500, {
+        error: error.message || "Failed to summarize category profile with Gemini"
       });
     }
     return;

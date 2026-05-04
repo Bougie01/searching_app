@@ -10,9 +10,11 @@ A category suggestion dashboard for reviewing product categorization, similarity
 - Similar-product suggestions to support human review
 - Local API endpoint at `/api/category-suggestions`
 - Optional Gemini reviewer endpoint at `/api/gemini-categorize`
+- Optional Gemini category-profile summary endpoint at `/api/gemini-category-profile`
 - Python pipeline scaffolding in [pipeline/README.md](./pipeline/README.md)
 - A reusable train/apply category model pipeline for running on future product sets
 - A taxonomy mapping layer for normalizing different store taxonomies into shared labels
+- Semantic category profiles in `data/category_profiles.json` for matching products by description meaning
 
 ## Run locally
 
@@ -40,7 +42,7 @@ GEMINI_MODEL=gemini-3-flash-preview
 PORT=8000
 ```
 
-The backend endpoint accepts a product payload plus optional candidate categories at `POST /api/gemini-categorize`. The local model and dashboard still work without `.env`; only Gemini review needs a key.
+The backend accepts one-product review payloads at `POST /api/gemini-categorize` and small sample profile summaries at `POST /api/gemini-category-profile`. The profile endpoint can also review a filtered pet-store sample and suggest a few reusable semantic profiles. The local model, semantic profiles, and dashboard still work without `.env`; only Gemini previews need a key.
 
 ## Project direction
 
@@ -50,6 +52,7 @@ This repository now targets the "Product category suggestions" project:
 2. Suggest categories automatically
 3. Flag unusual or misclassified products
 4. Prepare for HPC-scale embedding, clustering, and classification runs
+5. Connect products through reusable semantic category profiles, not only raw category names
 
 ## Next implementation steps
 

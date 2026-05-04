@@ -42,12 +42,14 @@ def main():
                 "suggested_category": prediction["suggestedCategory"],
                 "confidence": prediction["confidence"],
                 "top_categories": prediction["rankedCategories"],
+                "explanation": prediction["explanation"],
             }
         )
         artifacts[row["id"]] = {
             "suggestedCategory": prediction["suggestedCategory"],
             "confidence": prediction["confidence"],
             "similarProducts": prediction["similarProducts"],
+            "explanation": prediction["explanation"],
             "baselineSource": "hybrid-model",
         }
 
