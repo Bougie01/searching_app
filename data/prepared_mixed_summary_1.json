@@ -1,0 +1,37 @@
+{
+  "rowCount": 200,
+  "datasetCounts": {
+    "prepared-products": 100,
+    "prepared-external-products-1": 100
+  },
+  "canonicalLabelCounts": {
+    "apparel > outerwear": 20,
+    "apparel > bottoms": 4,
+    "apparel > gifts": 7,
+    "apparel > uncategorized": 9,
+    "apparel > accessories": 1,
+    "apparel > tops": 52,
+    "apparel > sale": 1,
+    "apparel > general-apparel": 3,
+    "apparel > kids-apparel": 2,
+    "apparel > seasonal": 1,
+    "pet > dog-food": 16,
+    "pet > apparel": 3,
+    "pet > toys": 15,
+    "pet > accessories": 11,
+    "pet > habitats": 1,
+    "pet > food": 5,
+    "pet > aquariums": 5,
+    "pet > cat-food": 18,
+    "pet > aquarium-lighting": 4,
+    "pet > health-and-care": 5,
+    "pet > bird-food": 3,
+    "external > fuglar>góðgæti-og-stangir": 1,
+    "pet > hygiene": 1,
+    "external > fuglar>dúfur-og-hænur": 1,
+    "external > fuglar>hreinlæti-og-heilsa": 2,
+    "pet > small-pet-food": 7,
+    "pet > aquarium-equipment": 2
+  },
+  "duplicateIdsRenamed": []
+}
