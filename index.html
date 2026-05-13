@@ -209,8 +209,9 @@
           </div>
           <p class="section-copy">
             Category profiles describe what a group means, then the local app matches products to those
-            descriptions using reusable terms. Gemini can review a small filtered pet-store sample to suggest
-            new description-based profiles, but saved profile matching works locally without API calls.
+            descriptions using reusable terms. Gemini can review a small filtered pet-store sample using only
+            Icelandic descriptions to suggest new description-based profiles, while saved profile matching
+            still works locally without API calls.
           </p>
         </div>
         <div class="profile-discovery-panel">
@@ -218,11 +219,11 @@
             <span class="comparison-label">Pet Store Discovery</span>
             <p>
               Filter a small set of pet-store descriptions and ask Gemini to suggest reusable semantic
-              profiles from the sample as a whole.
+              profiles from the sample as a whole, using only products that have Icelandic descriptions.
             </p>
           </div>
           <button id="discoverPetProfilesButton" class="gemini-profile-button" type="button">
-            Analyze Pet Store Sample
+            Analyze Icelandic Pet Sample
           </button>
         </div>
         <div class="profile-discovery-results" id="profileDiscoveryResults" hidden></div>
@@ -341,7 +342,10 @@
         <div class="review-similar"></div>
         <div class="profile-matches"></div>
         <div class="model-explanation"></div>
-        <button class="gemini-review-button" type="button">Review with Gemini</button>
+        <div class="gemini-review-actions">
+          <button class="gemini-review-button" type="button">Review with Gemini</button>
+          <button class="gemini-icelandic-button" type="button">Review IS Description</button>
+        </div>
         <div class="gemini-review-panel" hidden>
           <span class="comparison-label">Gemini Reviewer</span>
           <strong class="gemini-suggestion"></strong>
@@ -375,7 +379,10 @@
       <div class="playground-similar"></div>
       <div class="profile-matches"></div>
       <div class="model-explanation"></div>
-      <button class="gemini-review-button" type="button">Review with Gemini</button>
+      <div class="gemini-review-actions">
+        <button class="gemini-review-button" type="button">Review with Gemini</button>
+        <button class="gemini-icelandic-button" type="button">Review IS Description</button>
+      </div>
       <div class="gemini-review-panel" hidden>
         <span class="comparison-label">Gemini Reviewer</span>
         <strong class="gemini-suggestion"></strong>

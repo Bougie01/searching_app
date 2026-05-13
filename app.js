@@ -84,6 +84,64 @@ function formatEvidenceFeature(feature) {
   return `${prefix}: ${value.replace(/-/g, " ")}`;
 }
 
+function normalizeForLanguageCheck(value) {
+  return String(value || "")
+    .toLocaleLowerCase("is-IS")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function looksIcelandicText(value) {
+  const text = String(value || "").trim();
+  if (!text) {
+    return false;
+  }
+
+  if (/[ðþæöáíúéóý]/iu.test(text)) {
+    return true;
+  }
+
+  const normalized = normalizeForLanguageCheck(` ${text} `);
+  const signals = [
+    " og ",
+    " með ",
+    " fyrir ",
+    " innihald",
+    " hunda",
+    " hundur",
+    " ketti",
+    " kettir",
+    " katta",
+    " fugla",
+    " fisk",
+    " leidbeining",
+    " raki",
+    " naering",
+    " samsetning",
+    " vatni"
+  ];
+
+  return signals.some((signal) => normalized.includes(signal));
+}
+
+function extractIcelandicFields(record) {
+  const translationIs = record.translations?.is || {};
+  const icelandicName = [
+    translationIs.name,
+    record.productName,
+    record.name
+  ].find(looksIcelandicText) || "";
+  const icelandicDescription = [
+    translationIs.description,
+    record.description
+  ].find(looksIcelandicText) || "";
+
+  return {
+    name: icelandicName || record.productName || record.name || "",
+    description: icelandicDescription
+  };
+}
+
 function renderModelExplanation(container, explanation) {
   container.innerHTML = "";
 
@@ -167,24 +225,32 @@ function collectProfileSample(profile) {
   const reviewRecords = state.records
     .filter((record) => productMatchesProfile(record, profile) || (record.profileMatches || []).some((match) => match.id === profile.id))
     .slice(0, 6)
-    .map((record) => ({
-      name: record.name,
-      description: record.description,
-      currentCategory: record.currentCategory,
-      suggestedCategory: record.suggestedCategory,
-      tags: record.tags || []
-    }));
+    .map((record) => {
+      const icelandic = extractIcelandicFields(record);
+      return {
+        name: icelandic.name || record.name,
+        description: icelandic.description,
+        currentCategory: record.currentCategory,
+        suggestedCategory: record.suggestedCategory,
+        tags: record.tags || []
+      };
+    })
+    .filter((record) => record.description);
   const playgroundRecords = state.playgroundRecords
     .filter((record) => productMatchesProfile(record, profile) || (record.profileMatches || []).some((match) => match.id === profile.id))
     .slice(0, 6)
-    .map((record) => ({
-      productName: record.productName,
-      description: record.description,
-      currentCategory: record.currentCategory,
-      canonicalLabel: record.canonicalLabel,
-      suggestedCategory: record.suggestedCategory,
-      tags: record.tags || []
-    }));
+    .map((record) => {
+      const icelandic = extractIcelandicFields(record);
+      return {
+        productName: icelandic.name || record.productName,
+        description: icelandic.description,
+        currentCategory: record.currentCategory,
+        canonicalLabel: record.canonicalLabel,
+        suggestedCategory: record.suggestedCategory,
+        tags: record.tags || []
+      };
+    })
+    .filter((record) => record.description);
 
   return [...reviewRecords, ...playgroundRecords].slice(0, 10);
 }
@@ -208,13 +274,14 @@ function collectPetStoreDescriptionSample(limit = 12) {
       String(record.canonicalDomain || "").toLowerCase() === "pet" ||
       /hund|katt|fugl|fisk|pet|dog|cat|bird|aquarium|fodur|fóður/i.test(text);
 
-    if (!isPetRecord || !record.description) {
+    const icelandic = extractIcelandicFields(record);
+    if (!isPetRecord || !icelandic.description) {
       return;
     }
 
     const sample = {
-      productName: record.productName,
-      description: record.description,
+      productName: icelandic.name || record.productName,
+      description: icelandic.description,
       currentCategory: record.currentCategory,
       canonicalLabel: record.canonicalLabel,
       suggestedCategory: record.suggestedCategory,
@@ -285,13 +352,13 @@ async function requestPetProfileDiscovery() {
   profileDiscoveryResults.innerHTML = `
     <article class="profile-card">
       <h3 class="profile-name">Gemini is reading the pet-store sample</h3>
-      <p class="profile-description">Using ${products.length} filtered product descriptions to suggest reusable semantic categories.</p>
+      <p class="profile-description">Using ${products.length} filtered Icelandic product descriptions to suggest reusable semantic categories.</p>
     </article>
   `;
 
   try {
     if (products.length < 3) {
-      throw new Error("Not enough pet-store descriptions are loaded in the playground sample yet.");
+      throw new Error("Not enough pet-store products with Icelandic descriptions are loaded in the playground sample yet.");
     }
 
     const response = await fetch("/api/gemini-category-profile", {
@@ -302,7 +369,8 @@ async function requestPetProfileDiscovery() {
       body: JSON.stringify({
         mode: "discover",
         categoryName: "Pet store semantic category discovery",
-        products
+        products,
+        outputLanguage: "is"
       })
     });
     const payload = await response.json();
@@ -338,7 +406,7 @@ async function requestGeminiProfilePreview(profile, controls) {
 
   try {
     if (products.length === 0) {
-      throw new Error("No matching product examples were found for this profile.");
+      throw new Error("No matching products with Icelandic descriptions were found for this profile.");
     }
 
     const response = await fetch("/api/gemini-category-profile", {
@@ -349,7 +417,8 @@ async function requestGeminiProfilePreview(profile, controls) {
       body: JSON.stringify({
         categoryName: profile.name,
         categoryLabel: profile.categoryLabel,
-        products
+        products,
+        outputLanguage: "is"
       })
     });
     const payload = await response.json();
@@ -357,7 +426,7 @@ async function requestGeminiProfilePreview(profile, controls) {
       throw new Error(payload.error || "Gemini profile summary failed");
     }
 
-    const preview = payload.profile || {};
+    const preview = payload.profile || payload || {};
     controls.name.textContent = preview.name || profile.name;
     controls.description.textContent = preview.description || "Gemini did not return a description.";
     controls.terms.innerHTML = "";
@@ -416,7 +485,9 @@ function renderCategoryProfiles() {
   });
 }
 
-async function requestGeminiReview(record, controls) {
+async function requestGeminiReview(record, controls, options = {}) {
+  const icelandicOnly = Boolean(options.icelandicOnly);
+  const icelandic = extractIcelandicFields(record);
   const candidateSet = new Set([
     record.canonicalLabel,
     record.currentCategory,
@@ -428,10 +499,27 @@ async function requestGeminiReview(record, controls) {
   controls.button.disabled = true;
   controls.button.textContent = "Reviewing...";
   controls.panel.hidden = false;
-  controls.suggestion.textContent = "Gemini is reviewing this product.";
-  controls.reasoning.textContent = "Comparing the local model suggestion against the taxonomy candidates.";
+  controls.suggestion.textContent = icelandicOnly
+    ? "Gemini is reviewing the Icelandic description."
+    : "Gemini is reviewing this product.";
+  controls.reasoning.textContent = icelandicOnly
+    ? "Comparing the local model suggestion using only the Icelandic description and taxonomy candidates."
+    : "Comparing the local model suggestion against the taxonomy candidates.";
 
   try {
+    if (icelandicOnly && !icelandic.description) {
+      throw new Error("This product does not have an Icelandic description, so it is skipped for Icelandic-only Gemini testing.");
+    }
+
+    const productName = icelandicOnly ? "" : (record.productName || record.name);
+    const description = icelandicOnly ? icelandic.description : record.description;
+    const currentCategory = icelandicOnly ? "" : record.currentCategory;
+    const canonicalLabel = icelandicOnly ? "" : record.canonicalLabel;
+    const externalCategoryPath = icelandicOnly ? "" : record.externalCategoryPath;
+    const tags = icelandicOnly ? [] : [...(record.tags || []), ...(record.materials || [])];
+    const localSuggestion = icelandicOnly ? "" : record.suggestedCategory;
+    const topCategories = icelandicOnly ? [] : (record.topCategories || []);
+
     const response = await fetch("/api/gemini-categorize", {
       method: "POST",
       headers: {
@@ -439,16 +527,18 @@ async function requestGeminiReview(record, controls) {
       },
       body: JSON.stringify({
         product: {
-          productName: record.productName || record.name,
-          description: record.description,
-          currentCategory: record.currentCategory,
-          canonicalLabel: record.canonicalLabel,
-          externalCategoryPath: record.externalCategoryPath,
-          tags: [...(record.tags || []), ...(record.materials || [])]
+          productName,
+          description,
+          currentCategory,
+          canonicalLabel,
+          externalCategoryPath,
+          tags
         },
         candidates: [...candidateSet],
-        localSuggestion: record.suggestedCategory,
-        topCategories: record.topCategories || []
+        localSuggestion,
+        topCategories,
+        outputLanguage: icelandicOnly ? "is" : "en",
+        inputMode: icelandicOnly ? "description_only" : "full_context"
       })
     });
 
@@ -464,11 +554,11 @@ async function requestGeminiReview(record, controls) {
       : ` (${Math.round(normalizedConfidence * 100)}% confidence)`;
     controls.suggestion.textContent = `${formatCategoryLabel(payload.suggestedCategory)}${confidenceText}`;
     controls.reasoning.textContent = payload.reasoning || "Gemini did not provide reasoning.";
-    controls.button.textContent = "Review again with Gemini";
+    controls.button.textContent = icelandicOnly ? "Review IS Description Again" : "Review again with Gemini";
   } catch (error) {
     controls.suggestion.textContent = "Gemini review unavailable";
     controls.reasoning.textContent = error.message || "Check GEMINI_API_KEY and GEMINI_MODEL in .env, then restart the server.";
-    controls.button.textContent = "Try Gemini again";
+    controls.button.textContent = icelandicOnly ? "Try IS Review Again" : "Try Gemini again";
   } finally {
     controls.button.disabled = false;
   }
@@ -624,6 +714,7 @@ function renderReviewCards() {
       renderModelExplanation(fragment.querySelector(".model-explanation"), record.explanation);
 
       const geminiButton = fragment.querySelector(".gemini-review-button");
+      const geminiIcelandicButton = fragment.querySelector(".gemini-icelandic-button");
       const geminiPanel = fragment.querySelector(".gemini-review-panel");
       const geminiSuggestion = fragment.querySelector(".gemini-suggestion");
       const geminiReasoning = fragment.querySelector(".gemini-reasoning");
@@ -633,6 +724,16 @@ function renderReviewCards() {
           panel: geminiPanel,
           suggestion: geminiSuggestion,
           reasoning: geminiReasoning
+        })
+      );
+      geminiIcelandicButton.addEventListener("click", () =>
+        requestGeminiReview(record, {
+          button: geminiIcelandicButton,
+          panel: geminiPanel,
+          suggestion: geminiSuggestion,
+          reasoning: geminiReasoning
+        }, {
+          icelandicOnly: true
         })
       );
 
@@ -759,6 +860,7 @@ function renderPlaygroundCards() {
       renderModelExplanation(fragment.querySelector(".model-explanation"), record.explanation);
 
       const geminiButton = fragment.querySelector(".gemini-review-button");
+      const geminiIcelandicButton = fragment.querySelector(".gemini-icelandic-button");
       const geminiPanel = fragment.querySelector(".gemini-review-panel");
       const geminiSuggestion = fragment.querySelector(".gemini-suggestion");
       const geminiReasoning = fragment.querySelector(".gemini-reasoning");
@@ -768,6 +870,16 @@ function renderPlaygroundCards() {
           panel: geminiPanel,
           suggestion: geminiSuggestion,
           reasoning: geminiReasoning
+        })
+      );
+      geminiIcelandicButton.addEventListener("click", () =>
+        requestGeminiReview(record, {
+          button: geminiIcelandicButton,
+          panel: geminiPanel,
+          suggestion: geminiSuggestion,
+          reasoning: geminiReasoning
+        }, {
+          icelandicOnly: true
         })
       );
 

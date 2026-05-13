@@ -382,6 +382,9 @@ function extractCanonicalLabels(mapping) {
 
 async function requestGeminiCategorization(payload) {
   const product = payload.product || {};
+  const outputLanguage = String(payload.outputLanguage || "").trim().toLowerCase();
+  const requireIcelandic = outputLanguage === "is" || outputLanguage === "icelandic";
+  const descriptionOnly = String(payload.inputMode || "").trim().toLowerCase() === "description_only";
   const taxonomy = await loadTaxonomyMapping();
   const candidateCategories = Array.isArray(payload.candidates) && payload.candidates.length > 0
     ? [...new Set(payload.candidates.map((value) => String(value).trim()).filter(Boolean))]
@@ -389,21 +392,52 @@ async function requestGeminiCategorization(payload) {
   const topCandidates = Array.isArray(payload.topCategories)
     ? payload.topCategories.map((item) => `${item.category}: ${item.probability}`).join(", ")
     : "";
-  const prompt = [
-    "You are helping categorize retail products into a canonical taxonomy.",
-    "Choose the single best category from the provided candidate list.",
-    "Return strict JSON with keys: suggestedCategory, confidence, reasoning.",
-    "",
-    `Candidates: ${candidateCategories.join(" | ")}`,
-    `Product name: ${product.productName || ""}`,
-    `Description: ${product.description || ""}`,
-    `Current category: ${product.currentCategory || ""}`,
-    `Mapped label: ${product.canonicalLabel || ""}`,
-    `External category path: ${product.externalCategoryPath || ""}`,
-    `Tags: ${Array.isArray(product.tags) ? product.tags.join(", ") : ""}`,
-    `Local model suggestion: ${payload.localSuggestion || ""}`,
-    `Local top categories: ${topCandidates}`
-  ].join("\n");
+  const prompt = requireIcelandic
+    ? [
+        "Þú ert að hjálpa við að flokka vörur í staðlað flokkunarkerfi.",
+        "Veldu einn besta flokkinn úr listanum hér fyrir neðan.",
+        "Skilaðu ströngu JSON með lyklunum: suggestedCategory, confidence, reasoning.",
+        ...(descriptionOnly
+          ? [
+              "Notaðu eingöngu textann í Description reitnum til að mynda niðurstöðu.",
+              "Hunsaðu öll önnur textavísbendingar, heiti, merki og fyrri tillögur."
+            ]
+          : []),
+        "reasoning verður að vera eingöngu á íslensku.",
+        "Ekki svara á ensku.",
+        "Ekki þýða suggestedCategory; haltu honum eins og hann er í framboðslistanum.",
+        "",
+        `Candidates: ${candidateCategories.join(" | ")}`,
+        `Product name: ${product.productName || ""}`,
+        `Description: ${product.description || ""}`,
+        `Current category: ${product.currentCategory || ""}`,
+        `Mapped label: ${product.canonicalLabel || ""}`,
+        `External category path: ${product.externalCategoryPath || ""}`,
+        `Tags: ${Array.isArray(product.tags) ? product.tags.join(", ") : ""}`,
+        `Local model suggestion: ${payload.localSuggestion || ""}`,
+        `Local top categories: ${topCandidates}`
+      ].join("\n")
+    : [
+        "You are helping categorize retail products into a canonical taxonomy.",
+        "Choose the single best category from the provided candidate list.",
+        "Return strict JSON with keys: suggestedCategory, confidence, reasoning.",
+        ...(descriptionOnly
+          ? [
+              "Use only the text in the Description field to make your decision.",
+              "Ignore all other text hints, names, tags, and previous suggestions."
+            ]
+          : []),
+        "",
+        `Candidates: ${candidateCategories.join(" | ")}`,
+        `Product name: ${product.productName || ""}`,
+        `Description: ${product.description || ""}`,
+        `Current category: ${product.currentCategory || ""}`,
+        `Mapped label: ${product.canonicalLabel || ""}`,
+        `External category path: ${product.externalCategoryPath || ""}`,
+        `Tags: ${Array.isArray(product.tags) ? product.tags.join(", ") : ""}`,
+        `Local model suggestion: ${payload.localSuggestion || ""}`,
+        `Local top categories: ${topCandidates}`
+      ].join("\n");
 
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${geminiApiKey}`, {
     method: "POST",
@@ -418,7 +452,7 @@ async function requestGeminiCategorization(payload) {
         }
       ],
       generationConfig: {
-        temperature: 0.2,
+        temperature: requireIcelandic ? 0.05 : 0.2,
         responseMimeType: "application/json"
       }
     })
@@ -442,6 +476,8 @@ async function requestGeminiCategorization(payload) {
 
 async function requestGeminiCategoryProfile(payload) {
   const mode = payload.mode === "discover" ? "discover" : "profile";
+  const outputLanguage = String(payload.outputLanguage || "").trim().toLowerCase();
+  const requireIcelandic = outputLanguage === "is" || outputLanguage === "icelandic";
   const categoryName = String(payload.categoryName || payload.categoryLabel || "Pet store description sample").trim();
   const products = Array.isArray(payload.products) ? payload.products.slice(0, 12) : [];
   const examples = products.map((product, index) =>
@@ -456,28 +492,58 @@ async function requestGeminiCategoryProfile(payload) {
   );
 
   const prompt = mode === "discover"
-    ? [
-        "You are reviewing a small, filtered sample from a pet store catalog.",
-        "Use the product descriptions to propose a few reusable semantic category profiles.",
-        "Do not categorize each product one-by-one. Find patterns that can connect future products through description meaning.",
-        "Return strict JSON with key profiles. profiles must be an array of 3 to 6 objects.",
-        "Each profile object must include: name, categoryLabel, description, include, exclude, exampleTerms.",
-        "description should be one concise sentence. include, exclude, and exampleTerms should be arrays of short strings.",
-        "",
-        `Sample theme: ${categoryName}`,
-        "",
-        examples.join("\n\n")
-      ].join("\n")
-    : [
-        "You are summarizing a small product group into a reusable semantic category profile.",
-        "Do not categorize every product. Create one reusable profile that can later be matched locally against descriptions.",
-        "Return strict JSON with keys: name, categoryLabel, description, include, exclude, exampleTerms.",
-        "description should be one concise sentence. include, exclude, and exampleTerms should be arrays of short strings.",
-        "",
-        `Target category: ${categoryName}`,
-        "",
-        examples.join("\n\n")
-      ].join("\n");
+    ? (requireIcelandic
+        ? [
+            "Þú ert að fara yfir lítið, síað úrtak úr gæludýraverslun.",
+            "Vörulýsingarnar eru á íslensku og þú átt að svara eingöngu á íslensku.",
+            "Notaðu vörulýsingarnar til að stinga upp á nokkrum endurnýtanlegum merkingarfræðilegum lýsingaflokkum.",
+            "Ekki flokka hverja vöru sérstaklega. Finndu mynstur sem geta tengt framtíðarvörur saman út frá lýsingunum.",
+            "Skilaðu ströngu JSON með lyklinum profiles. profiles verður að vera fylki með 3 til 6 hlutum.",
+            "Hver hlutur þarf að hafa lyklana: name, categoryLabel, description, include, exclude, exampleTerms.",
+            "Reitirnir name, description, include, exclude og exampleTerms verða að vera á íslensku.",
+            "Ekki þýða categoryLabel; haltu honum hnitmiðuðum og samkvæmum.",
+            "description á að vera ein stutt setning. include, exclude og exampleTerms eiga að vera stutt strengjafylki.",
+            "",
+            `Sample theme: ${categoryName}`,
+            "",
+            examples.join("\n\n")
+          ].join("\n")
+        : [
+            "You are reviewing a small, filtered sample from a pet store catalog.",
+            "Use the product descriptions to propose a few reusable semantic category profiles.",
+            "Do not categorize each product one-by-one. Find patterns that can connect future products through description meaning.",
+            "Return strict JSON with key profiles. profiles must be an array of 3 to 6 objects.",
+            "Each profile object must include: name, categoryLabel, description, include, exclude, exampleTerms.",
+            "description should be one concise sentence. include, exclude, and exampleTerms should be arrays of short strings.",
+            "",
+            `Sample theme: ${categoryName}`,
+            "",
+            examples.join("\n\n")
+          ].join("\n"))
+    : (requireIcelandic
+        ? [
+            "Þú ert að draga saman lítinn vöruflokk í endurnýtanlegan merkingarfræðilegan lýsingarflokk.",
+            "Vörulýsingarnar eru á íslensku og þú átt að svara eingöngu á íslensku.",
+            "Ekki flokka hverja vöru. Búðu til einn endurnýtanlegan prófíl sem hægt er að bera saman við lýsingar síðar.",
+            "Skilaðu ströngu JSON með lyklunum: name, categoryLabel, description, include, exclude, exampleTerms.",
+            "Reitirnir name, description, include, exclude og exampleTerms verða að vera á íslensku.",
+            "Ekki þýða categoryLabel; haltu honum samkvæmum.",
+            "description á að vera ein stutt setning. include, exclude og exampleTerms eiga að vera stutt strengjafylki.",
+            "",
+            `Target category: ${categoryName}`,
+            "",
+            examples.join("\n\n")
+          ].join("\n")
+        : [
+            "You are summarizing a small product group into a reusable semantic category profile.",
+            "Do not categorize every product. Create one reusable profile that can later be matched locally against descriptions.",
+            "Return strict JSON with keys: name, categoryLabel, description, include, exclude, exampleTerms.",
+            "description should be one concise sentence. include, exclude, and exampleTerms should be arrays of short strings.",
+            "",
+            `Target category: ${categoryName}`,
+            "",
+            examples.join("\n\n")
+          ].join("\n"));
 
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${geminiApiKey}`, {
     method: "POST",
@@ -492,7 +558,7 @@ async function requestGeminiCategoryProfile(payload) {
         }
       ],
       generationConfig: {
-        temperature: 0.25,
+        temperature: requireIcelandic ? 0.05 : 0.25,
         responseMimeType: "application/json"
       }
     })
@@ -643,12 +709,11 @@ const server = createServer(async (request, response) => {
         return;
       }
 
-      const profile = await requestGeminiCategoryProfile(payload);
+      const result = await requestGeminiCategoryProfile(payload);
       sendJson(response, 200, {
         geminiConfigured: true,
         geminiModel,
-        ...profile,
-        profile
+        ...result
       });
     } catch (error) {
       sendJson(response, 500, {

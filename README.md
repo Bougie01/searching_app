@@ -42,7 +42,7 @@ GEMINI_MODEL=gemini-3-flash-preview
 PORT=8000
 ```
 
-The backend accepts one-product review payloads at `POST /api/gemini-categorize` and small sample profile summaries at `POST /api/gemini-category-profile`. The profile endpoint can also review a filtered pet-store sample and suggest a few reusable semantic profiles. The local model, semantic profiles, and dashboard still work without `.env`; only Gemini previews need a key.
+The backend accepts one-product review payloads at `POST /api/gemini-categorize` and small sample profile summaries at `POST /api/gemini-category-profile`. The profile endpoint can also review a filtered pet-store sample using only Icelandic descriptions and suggest a few reusable semantic profiles. The local model, semantic profiles, and dashboard still work without `.env`; only Gemini previews need a key.
 
 ## Project direction
 

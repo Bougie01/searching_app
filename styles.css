@@ -692,8 +692,15 @@ body::before {
   cursor: pointer;
 }
 
-.gemini-review-button {
+.gemini-review-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 16px;
+}
+
+.gemini-review-button,
+.gemini-icelandic-button {
   min-height: 42px;
   padding: 0 14px;
   border: 0;
@@ -705,7 +712,12 @@ body::before {
   cursor: pointer;
 }
 
-.gemini-review-button:disabled {
+.gemini-icelandic-button {
+  background: linear-gradient(135deg, #2f5f5a, #183f43);
+}
+
+.gemini-review-button:disabled,
+.gemini-icelandic-button:disabled {
   cursor: wait;
   opacity: 0.72;
 }
